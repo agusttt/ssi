@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Slider</title>
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/aos.css">   
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/sliderlefrigh.css">            
+    <style>
+        .container-two {
+            padding: 160px 160px;
+            width: 100%;
+            height: 100vh; /* Sesuaikan tinggi container sesuai kebutuhan */
+        }
+        .wslider-two {
+            width: 259px !important;
+            height: 219px;
+            background: #ddd;
+            /* position: relative; */
+            width: 100%;
+            height: 219px!important;
+            position: relative;
+            overflow: hidden;
+        }
+
+
+        .wslider {
+            width: 259px !important;
+            height: 259px;
+            background: #ddd;
+            /* position: relative; */
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+
+        .slidesv-two {
+            position: relative;
+            width: 259px;
+            height: 259px!important;
+            max-height: 259px !important;
+            /* position: absolute; */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            transition: transform 1s ease-in-out; /* Smooth sliding transition */
+            z-index: 2;
+            top: 0px;
+            left: 0px;
+        }
+
+
+        .slidesv {
+            position: relative;
+            width: 259px;
+            min-height: 219px;
+            max-height: auto !important;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            transition: transform 1s ease-in-out; /* Smooth sliding transition */
+        }
+
+        .slidevsatu-two {
+            flex: 0 0 100%;
+            width: 100%;
+            height: 100vh; /* Sesuaikan tinggi slide sesuai kebutuhan */
+            background-size: cover;
+            background-position: center;
+            transition: opacity 0.5s ease-in-out;
+            opacity: 1;
+            z-index: 2;
+            min-width: 259px; /* Each slidevsatu takes full width */
+            height: 100%;
+            background-size: 100%!important;
+            background-position: center;
+            background-repeat: no-repeat;            
+
+        }
+        .slidevsatu-two.active-two {
+            opacity: 1;
+            z-index: 3;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+  <div class="container" style="padding-top: 120px;">
+    <div class="card-project-case">
+        <div class="wslider-two">
+            <div class="slidesv-two">
+              <div class="slidevsatu-two active-two" style="background-image: url('assets/images/cr-3-image-high-1.jpg');"></div>
+              <div class="slidevsatu-two" style="background-image: url('assets/images/cr-3-image-high-1 -1.jpg');"></div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const slidesContainerTwo = document.querySelector(".slidesv-two");
+    const slidesverTwo = document.querySelectorAll(".slidevsatu-two");
+    const slideHeight = slidesverTwo[0].offsetHeight; // Get the height of a slide
+    let currentSlideTwo = 0;
+    let isTransitioningTwo = false; // Flag to prevent overlapping transitions
+
+    // Clone the first and last slides for infinite scrolling
+    const firstCloneTwo = slidesverTwo[0].cloneNode(true);
+    const lastCloneTwo = slidesverTwo[slidesverTwo.length - 1].cloneNode(true);
+    slidesContainerTwo.appendChild(firstCloneTwo);
+    slidesContainerTwo.insertBefore(lastCloneTwo, slidesverTwo[0]);
+
+    // Update the height of the container to accommodate the cloned slides
+    slidesContainerTwo.style.height = `${(slidesverTwo.length + 2) * 100}vh`;
+
+    // Function to move to the next slide
+    function nextSlideTwo() {
+        if (isTransitioningTwo) return; // Prevent overlapping transitions
+        isTransitioningTwo = true;
+
+        // Remove active class from the current slide
+        slidesContainerTwo.querySelector('.slidevsatu-two.active-two').classList.remove('active-two');
+
+        currentSlideTwo++;
+        updateSliderTwo();
+    }
+
+    // Function to update the slider position
+    function updateSliderTwo() {
+        const offset = -currentSlideTwo * slideHeight;
+        slidesContainerTwo.style.transition = "transform 0.5s ease-in-out";
+        slidesContainerTwo.style.transform = `translateY(${offset}px)`;
+
+        // Handle wrapping back to the beginning
+        if (currentSlideTwo === slidesverTwo.length + 1) {
+            setTimeout(() => {
+                slidesContainerTwo.style.transition = "none";
+                slidesContainerTwo.style.transform = `translateY(${-slideHeight}px)`;
+                currentSlideTwo = 1;
+            }, 500); // Wait for the transition to complete
+        }
+
+        // Handle wrapping from the beginning to the end
+        if (currentSlideTwo === 0) {
+            setTimeout(() => {
+                slidesContainerTwo.style.transition = "none";
+                slidesContainerTwo.style.transform = `translateY(${-(slidesverTwo.length) * slideHeight}px)`;
+                currentSlideTwo = slidesverTwo.length;
+            }, 500); // Wait for the transition to complete
+        }
+
+        // Add active class to the new current slide
+        slidesContainerTwo.children[currentSlideTwo].classList.add('active-two');
+
+        setTimeout(() => {
+            isTransitioningTwo = false;
+        }, 500);
+    }
+
+    // Auto-looping
+    setInterval(nextSlideTwo, 3000);
+});
+</script>
+</html>

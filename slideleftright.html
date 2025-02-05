@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Logo Animate</title>
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/aos.css">   
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/sliderlefrigh.css">        
+</head>
+<body>
+  <div class="container">
+      <div class="wslider">
+          <div class="slidesv">
+            <div class="slidevsatu active" style="background-image: url('assets/images/cr-3-image-high-1.jpg');"></div>
+            <div class="slidevsatu" style="background-image: url('assets/images/cr-3-image-high-1 -1.jpg');"></div>
+          </div>
+      </div>
+  </div>
+</body>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const slidesContainer = document.querySelector(".slidesv");
+    const slidesver = document.querySelectorAll(".slidevsatu");
+    const slideWidth = slidesver[0].offsetWidth; // Get the width of a slide
+    let currentSlide = 0;
+    let isTransitioning = false; // Flag to prevent overlapping transitions
+
+    // Clone the first and last slides for infinite scrolling
+    const firstClone = slidesver[0].cloneNode(true);
+    const lastClone = slidesver[slidesver.length - 1].cloneNode(true);
+    slidesContainer.appendChild(firstClone);
+    slidesContainer.insertBefore(lastClone, slidesver[0]);
+
+    // Update the width of the container to accommodate the cloned slides
+    slidesContainer.style.width = `${(slidesver.length + 2) * 100}%`;
+
+    // Function to move to the next slide
+    function nextSlidev() {
+        if (isTransitioning) return; // Prevent overlapping transitions
+        isTransitioning = true;
+
+        // Remove active class from the current slide
+        slidesContainer.querySelector('.slidevsatu.active').classList.remove('active');
+
+        currentSlide++;
+        updateSlider();
+    }
+
+    // Function to update the slider position
+    function updateSlider() {
+        const offset = -currentSlide * slideWidth;
+        slidesContainer.style.transition = "transform 0.5s ease-in-out";
+        slidesContainer.style.transform = `translateX(${offset}px)`;
+
+        // Handle wrapping back to the beginning
+        if (currentSlide === slidesver.length + 1) {
+            setTimeout(() => {
+                slidesContainer.style.transition = "none";
+                slidesContainer.style.transform = `translateX(${-slideWidth}px)`;
+                currentSlide = 1;
+            }, 500); // Wait for the transition to complete
+        }
+
+        // Handle wrapping from the beginning to the end
+        if (currentSlide === 0) {
+            setTimeout(() => {
+                slidesContainer.style.transition = "none";
+                slidesContainer.style.transform = `translateX(${-(slidesver.length) * slideWidth}px)`;
+                currentSlide = slidesver.length;
+            }, 500); // Wait for the transition to complete
+        }
+
+        // Add active class to the new current slide
+        slidesContainer.children[currentSlide].classList.add('active');
+
+        setTimeout(() => {
+            isTransitioning = false;
+        }, 500);
+    }
+
+    // Auto-looping
+    setInterval(nextSlidev, 2000);
+});
+</script>
+</html>

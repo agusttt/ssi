@@ -1,0 +1,44 @@
+.wslider {
+width: 100%;
+height: 100vh;
+background: #ddd;
+}
+
+.slides {
+position: relative;
+width: 259px;
+min-height: 219px;
+max-height: 219px !important;
+overflow: hidden !important;
+overflow: hidden;
+}
+
+.slidesv {
+	position: relative;
+	width: 100%;
+	min-height: 219px;
+	max-height: 219px !important;
+	overflow: hidden !important;
+	overflow: hidden;
+}
+	
+
+.slide {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+opacity: 0;
+transition: opacity 2s ease-in-out, transform 10s ease-in-out;
+transform: scale(1);
+z-index: 1;
+}
+
+.slide.active {
+opacity: 1;
+transform: scale(1.1);
+z-index: 3;
+}

@@ -1,0 +1,190 @@
+	.wslider {
+	width: 100%;
+	height: auto;
+	min-height: 219px;
+	max-height: 219px !important;	
+	background: #ddd;
+	}
+	
+	.slides {
+	position: relative;
+	width: 100%;
+	min-height: 219px;
+	max-height: 219px !important;
+	overflow: hidden !important;
+	overflow: hidden;
+	}
+	
+	.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0;
+	transition: opacity 2s ease-in-out, transform 10s ease-in-out;
+	transform: scale(1);
+	z-index: 1;
+	}
+	
+	.slide.active {
+	opacity: 1;
+	transform: scale(1.1);
+	z-index: 3;
+	}
+
+	/* SLIDE FADE KEDUA */
+	.slidedua {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		opacity: 0;
+		transition: opacity 2.5s ease-in-out, transform 11s ease-in-out;
+		transform: scale(1);
+		z-index: 1;
+	}
+		
+	.slidedua.active {
+		opacity: 1;
+		transform: scale(1.1);
+		z-index: 3;
+	}
+
+	.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider {
+		width: 100%;
+		height: auto;
+		max-height: 241px !important;
+		overflow: hidden!important;
+		background: #ddd;
+	}
+
+	.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider .slides{
+		position: relative;
+		width: 259px;
+		min-height: 241px;
+		max-height: 241px !important;
+	}
+/* SLIDE FADE KEDUA */
+
+/* SLIDE FADE KETIGA */
+.slidetiga {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0;
+	transition: opacity 2s ease-in-out, transform 9s ease-in-out;
+	transform: scale(1);
+	z-index: 1;
+}
+	
+.slidetiga.active {
+	opacity: 1;
+	transform: scale(1.1);
+	z-index: 3;
+}
+
+.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider {
+	width: 100%;
+	height: auto;
+	max-height: 241px !important;
+	overflow: hidden!important;
+	background: #ddd;
+}
+
+.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider .slides{
+	position: relative;
+	width: 100%;
+	min-height: 241px;
+	max-height: 241px !important;
+}
+/* SLIDE FADE KETIGA */
+
+/* SLIDE FADE KEEMPAT */
+.slideempat {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0;
+	transition: opacity 2s ease-in-out, transform 9s ease-in-out;
+	transform: scale(1);
+	z-index: 1;
+}
+	
+.slideempat.active {
+	opacity: 1;
+	transform: scale(1.1);
+	z-index: 3;
+}
+
+.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider {
+	width: 100%;
+	height: auto;
+	max-height: 241px !important;
+	overflow: hidden!important;
+	background: #ddd;
+}
+
+.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider .slides{
+	position: relative;
+	width: 100%;
+	min-height: 241px;
+	max-height: 241px !important;
+}
+
+/* SLIDE FADE KEEMPAT */
+
+
+/* SLIDER VERTICAL START */
+.row-grid .column-gallery:nth-child(3) .card-project-case:nth-child(2) .wslider {
+	width: 100%;
+	height: 283px;
+	max-height: 283px !important;
+	overflow: hidden !important;
+	background: #ddd;
+	position: relative;
+}
+.row-grid .column-gallery:nth-child(3) .card-project-case:nth-child(2) .wslider .slides {
+	position: relative;
+	width: 100%;
+	min-height: 241px;
+	max-height: 241px !important;
+  }
+
+  .slidesv {
+	position: relative;
+	width: 259px;
+	min-height: 219px;
+	max-height: auto !important;
+	width: 100%!important;
+	height: 100%;
+	display: flex;
+	transition: transform 1s ease-in-out; /* Smooth sliding transition */
+	}
+	
+	.slidevsatu {
+		min-width: 100%; /* Each slidevsatu takes full width */
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+	
+	.slidevsatu.active {
+	opacity: 1;
+	/* transform: scale(1.1); */
+	z-index: 3;
+	}
+/* SLIDER VERTICAL END */
