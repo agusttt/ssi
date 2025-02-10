@@ -111,7 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
     const slidesContainer = document.querySelector(".slidesv");
     const slidesver = document.querySelectorAll(".slidevsatu");
     const slideWidth = slidesver[0].offsetWidth; // Get the width of a slide
@@ -173,6 +172,74 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Auto-looping
     setInterval(nextSlidev, 4500);
+
+
+
+
+    // SLIDE BOTTOM TO UP START ONE
+    const slidesContainerTwo = document.querySelector(".slidesv-two");
+    const slidesverTwo = document.querySelectorAll(".slidevsatu-two");
+    const slideHeight = slidesverTwo[0].offsetHeight; // Get the height of a slide
+    let currentSlideTwo = 0;
+    let isTransitioningTwo = false; // Flag to prevent overlapping transitions
+
+    // Clone the first and last slides for infinite scrolling
+    const firstCloneTwo = slidesverTwo[0].cloneNode(true);
+    const lastCloneTwo = slidesverTwo[slidesverTwo.length - 1].cloneNode(true);
+    slidesContainerTwo.appendChild(firstCloneTwo);
+    slidesContainerTwo.insertBefore(lastCloneTwo, slidesverTwo[0]);
+
+    // Update the height of the container to accommodate the cloned slides
+    slidesContainerTwo.style.height = `${(slidesverTwo.length + 2) * 100}vh`;
+
+    // Function to move to the next slide
+    function nextSlideTwo() {
+        if (isTransitioningTwo) return; // Prevent overlapping transitions
+        isTransitioningTwo = true;
+
+        // Remove active class from the current slide
+        slidesContainerTwo.querySelector('.slidevsatu-two.active-two').classList.remove('active-two');
+
+        currentSlideTwo++;
+        updateSliderTwo();
+    }
+
+    // Function to update the slider position
+    function updateSliderTwo() {
+        const offset = -currentSlideTwo * slideHeight;
+        slidesContainerTwo.style.transition = "transform 0.5s ease-in-out";
+        slidesContainerTwo.style.transform = `translateY(${offset}px)`;
+
+        // Handle wrapping back to the beginning
+        if (currentSlideTwo === slidesverTwo.length + 1) {
+            setTimeout(() => {
+                slidesContainerTwo.style.transition = "none";
+                slidesContainerTwo.style.transform = `translateY(${-slideHeight}px)`;
+                currentSlideTwo = 1;
+            }, 500); // Wait for the transition to complete
+        }
+
+        // Handle wrapping from the beginning to the end
+        if (currentSlideTwo === 0) {
+            setTimeout(() => {
+                slidesContainerTwo.style.transition = "none";
+                slidesContainerTwo.style.transform = `translateY(${-(slidesverTwo.length) * slideHeight}px)`;
+                currentSlideTwo = slidesverTwo.length;
+            }, 500); // Wait for the transition to complete
+        }
+
+        // Add active class to the new current slide
+        slidesContainerTwo.children[currentSlideTwo].classList.add('active-two');
+
+        setTimeout(() => {
+            isTransitioningTwo = false;
+        }, 500);
+    }
+
+    // Auto-looping
+    setInterval(nextSlideTwo, 4900);
+
+    // SLIDE BOTTOM TO UP END ONE
 
 
   });

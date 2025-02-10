@@ -18,7 +18,7 @@
 }
 .slidesv-tdown {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   transition: transform 0.5s ease-in-out;
   position: absolute;
   width: 100%;
@@ -54,18 +54,18 @@ document.addEventListener("DOMContentLoaded", function () {
   slidesContainer.appendChild(firstClone);
   slidesContainer.insertBefore(lastClone, slides[0]);
 
-  slidesContainer.style.transform = translateY(-${slideHeight}px);
+  slidesContainer.style.transform = `translateY(-${slideHeight}px)`;
   currentSlide = 1;
 
   function nextSlide() {
     currentSlide++;
     slidesContainer.style.transition = "transform 0.5s ease-in-out";
-    slidesContainer.style.transform = translateY(-${currentSlide * slideHeight}px);
+    slidesContainer.style.transform = `translateY(-${currentSlide * slideHeight}px)`;
     
     if (currentSlide >= slides.length) {
       setTimeout(() => {
         slidesContainer.style.transition = "none";
-        slidesContainer.style.transform = translateY(-${slideHeight}px);
+        slidesContainer.style.transform = `translateY(-${slideHeight}px)`;
         currentSlide = 1;
       }, 500);
     }

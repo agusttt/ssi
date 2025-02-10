@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>..:: Master File ::..</title>
+<meta name="description" content="Description page here"/>
+<meta name="keywords" content="Frontend, Website, HTML, CSS"/>
+<meta name="author" content="Developer"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<link rel="shortcut icon" href="assets/images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="https://typestaging.my.id/masterfile/assets/css/main.css" media="all"/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="assets/css/IE8styles.css"/>
+<![endif]-->
+
+<!-- CSS SLICK-->
+<link rel="stylesheet" type="text/css" href="https://typestaging.my.id/masterfile/assets/css/slick.css"/>
+
+<script type="text/javascript" src="https://typestaging.my.id/masterfile/assets/js/jquery-2.1.0.min.js"></script>
+
+<!-- JS SLICK-->
+<script type="text/javascript" src="https://typestaging.my.id/masterfile/assets/js/slick.min.js"></script>
+
+<style>
+.slick-prev, .slick-next {
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1000; /* Pastikan tombol berada di atas slider */
+    display: block !important; /* Paksa tombol agar terlihat */
+}
+
+.slick-prev { left: 0; }  /* Tombol "Prev" di atas slider */
+.slick-next { right: 0; } /* Tombol "Next" di bawah slider */
+
+.slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+</style>
+</head>
+<body>
+
+<div id="headerweb">
+</div><!-- endheaderweb -->
+
+<div id="bodyweb">
+	<div class="wrapper" style="max-width: 500px; position: relative;background: #dedede;">
+		<div class="your-class">
+			<div style="width: 256px;height: 256px;background: #cdcdcd;">your content 1</div>
+			<div style="width: 256px;height: 256px;background: #bcbcbc;">your content 2</div>
+			<div style="width: 256px;height: 256px;background: #ababab;">your content 3</div>
+		</div>	
+	</div>
+</div><!-- endbodyweb -->
+
+<div id="footerweb">
+</div><!-- footerweb -->
+
+<script>
+	// documentasi bisa dilihat di http://kenwheeler.github.io/slick/ 	
+	$(document).ready(function(){
+		$(".your-class").slick({
+			dots: true,
+			arrows: true, 
+			vertical: true,
+			verticalSwiping: true,
+			prevArrow: '<button class="slick-prev">Prev</button>',
+			nextArrow: '<button class="slick-next">Next</button>',			
+		});
+	});
+</script>
+
+</body>
+</html>

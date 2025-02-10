@@ -188,3 +188,92 @@
 	z-index: 3;
 	}
 /* SLIDER VERTICAL END */
+
+
+
+
+
+/* MEDIA 1920 START */
+@media only screen and (min-width: 1920px) and (max-width: 1920px) {
+
+	.row-grid .column-gallery:nth-child(3) .card-project-case:nth-child(2) .wslider {
+		width: 100%;
+		height: 412px;
+		max-height: 412px !important;
+		overflow: hidden !important;
+		background: #cf0000 !important;
+		position: relative;
+	}
+
+	.row-grid .column-gallery .card-project-case {
+		position: relative
+	}
+	.column-odd {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		-ms-justify-content: space-between;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		flex-direction: row;
+		gap: 5px 0px;
+	  }
+	.row-grid .column-gallery:nth-child(3) .card-project-case:nth-child(2) .wslider .slidevsatu {
+		width: 369px;
+		min-height: 412px;
+	}
+
+	.wslider {
+		min-height: 300px;
+		max-height: 300px !important;
+	}
+	.slides {
+		min-height: 300px;
+		max-height: 300px !important;
+	  }
+	.row-grid .column-gallery:nth-child(1) .wslider{
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+		max-height: 300px !important;
+	}
+	.row-grid .column-gallery:nth-child(1) {
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+		max-height: 300px !important;
+	}
+
+	.row-grid .column-gallery:nth-child(1) .slides {
+		position: relative;
+		width: 100%;
+		min-height: 300px;
+		max-height: 300px !important;
+	}
+
+	.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider {
+		width: 100%;
+		height: auto;
+		min-height: 351px;
+    	max-height: 351px !important;
+	  }
+	.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider .slides {
+		position: relative;
+		width: 100%;
+		min-height: 351px;
+    	max-height: 351px !important;
+	  }
+
+	  .row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider {
+		min-height: 351px;
+		max-height: 351px !important;
+	  }
+
+	  .row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider .slides {
+		min-height: 351px;
+		max-height: 351px !important;
+	  }
+
+
+}
+/* MEDIA 1920 END */
