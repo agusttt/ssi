@@ -201,7 +201,7 @@
 		height: 412px;
 		max-height: 412px !important;
 		overflow: hidden !important;
-		background: #cf0000 !important;
+		background: #dedede !important;
 		position: relative;
 	}
 
@@ -274,6 +274,80 @@
 		max-height: 351px !important;
 	  }
 
-
 }
 /* MEDIA 1920 END */
+
+
+/* MEDIA 1536-1582 START */
+@media only screen and (min-width: 1536px) and (max-width: 1582px) and (orientation: landscape) {
+	.slides {
+		position: relative;
+		width: 100%;
+		min-height: 256.5px;
+		max-height: 256.5px !important;
+	}
+	.wslider{
+		min-height: 256.5px;
+		max-height: 256.5px !important;
+		overflow: hidden !important;
+	}
+
+	.row-grid .column-gallery:nth-child(3) .card-project-case:nth-child(2) .wslider {
+		width: 100%;
+		height: 309px;
+		max-height: 309px !important;
+		overflow: hidden !important;
+		background: #dedede !important;
+		position: relative;
+	}
+
+	.row-grid .column-gallery:nth-child(3) .card-project-case:nth-child(2) .wslider .slidevsatu {
+		height: 309px;
+		max-height: 309px !important;
+		overflow: hidden !important;		
+	}
+
+	.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(1) {
+		min-height: 314px;
+		max-height: 314px !important;
+		overflow: hidden !important;
+	}
+	.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(1) .wslider-two {
+		width: 100%;
+		min-height: 314px;
+		max-height: 314px !important;
+	}
+
+	.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(1) .wslider-two .slidevsatu-two {
+		min-height: 314px;
+		max-height: 314px !important;
+	}
+	.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider{
+		max-height: 274px !important;
+		overflow: hidden !important;
+	}
+	.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider .slides{
+		max-height: 274px !important;
+		overflow: hidden !important;
+	}
+
+	.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider .slides {
+		position: relative;
+		width: 100%;
+		min-height: 274px;
+	}
+
+	.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider {
+		width: 100%;
+		height: auto;
+		min-height: 267px;
+		max-height: 267px !important;
+	}
+
+	.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider .slides {
+		min-height: 267px;
+		max-height: 267px !important;		
+	}
+
+}
+/* MEDIA 1536-1582 END */
