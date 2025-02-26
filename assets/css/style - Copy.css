@@ -2454,13 +2454,13 @@ main .span-high{
    .logo {
 	position: relative;
 	display: block;
-	width: 268px;
+	width: 296px;
 	height: 43px;
 	margin: 0 auto;
-	-ms-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg");
-	-moz-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg");
-	-webkit-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg");
-	mask-image: -webkit-image-set(url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg") 1x, url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg") 2x);
+	-ms-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC.png");
+	-moz-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC.png");
+	-webkit-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC.png");
+	mask-image: -webkit-image-set(url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC.png") 1x, url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC.png") 2x);
 	text-indent: -9999em;
 	overflow: hidden;
 	_zoom: 1;
@@ -2473,10 +2473,10 @@ main .span-high{
 
   .logo:after {
 	position: absolute;
-	left: -31px;
+	left: -24px;
 	top: 0;
 	content: "";
-	width: 268px;
+	width: 296px;
 	height: 42px;
 	background: url("../images/logo/mi-shine-please-dont-use-this-image-in-your-own-site.png") no-repeat 0 0;
 	z-index: 3;
@@ -2486,120 +2486,15 @@ main .span-high{
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 268px;
+	width: 296px;
 	height: 45px;
 	content: " ";
-	background: url("../images/logo/bg-logo.svg") top center;
+	background: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC.svg") top center;
 	background-repeat: no-repeat;
 	z-index: 1;
 	background-size: 100%;
-  }
-
-
-  .logo-shape{
-	width: 100.5px;
-	height: 194px;
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	-ms-mask-image: url("../images/logo/LOGO-SHAPE.svg");
-	-moz-mask-image: url("../images/logo/LOGO-SHAPE.svg");
-	-webkit-mask-image: url("../images/logo/LOGO-SHAPE.svg");
-	mask-image: -webkit-image-set(url("../images/logo/LOGO-SHAPE.svg") 1x, url("../images/logo/LOGO-SHAPE.svg") 2x);
-	text-indent: -9999em;
-	overflow: hidden;
-	_zoom: 1;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-clip: content-box;
-	z-index: 3;
-	top: 32px;
   }
   
-  .logo-shape:before {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 1104px;
-	height: 164px;
-	content: " ";
-	background: url("../images/logo/bg-logo.svg") top center;
-	background-repeat: no-repeat;
-	z-index: 1;
-	background-size: 100%;
-  }
-	.logo-circle-top{
-		z-index: 6;
-	}
-
-
-
-
-  .logo-circle{
-	width: 30px;
-	height: 30px;
-	border-radius: 16px;
-	overflow: hidden;
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-clip: content-box;
-	z-index: 1;
-	top: 86px;
-	left: 1px;
-	background: linear-gradient(to bottom,  rgba(227,142,84,1) 0%,rgba(227,142,84,1) 23%,rgba(175,76,42,1) 50%,rgba(122,49,13,1) 70%,rgba(92,35,7,1) 87%,rgba(72,27,3,1) 100%);
-  }
-
-  .logo-circle:after{
-	position: absolute;
-	left: -31px;
-	top: 0;
-	content: "";
-	width: 30px;
-	height: 38px;
-	background: linear-gradient(45deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.8) 74%,rgba(255,255,255,1) 100%);
-	z-index: 7;
-  }
-
-
-  .logo-shape:after {
-	position: absolute;
-	left: -31px;
-	top: -10px;
-	content: "";
-	width: 180.5px;
-	height: 194px;
-	background: url("../images/logo/shine-vertical.png") no-repeat 0 0;
-	z-index: 3;
-  }
-
-  .logo:after {
-	position: absolute;
-	left: -31px;
-	top: 0;
-	content: "";
-	width: 268px;
-	height: 42px;
-	background: url("../images/logo/mi-shine-please-dont-use-this-image-in-your-own-site.png") no-repeat 0 0;
-	z-index: 3;
-  }
-
-  .logo:before {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 268px;
-	height: 45px;
-	content: " ";
-	background: url("../images/logo/bg-logo.svg") top center;
-	background-repeat: no-repeat;
-	z-index: 1;
-	background-size: 100%;
-  }
-
-
 .playing{
 	cursor: pointer;
 	display: none;
@@ -2608,14 +2503,7 @@ main .span-high{
 .mute{
 	cursor: pointer;
 }
-.circle-shine:after{
-	opacity: 1;
-	transition: opacity 0.46s;
-	-webkit-animation: logo 2.4s linear infinite;
-	animation: logo 2.4s linear infinite;
-	-ms-zoom-animation: logo 2.4s linear infinite;
-	-moz-animation: logo 2.4s linear infinite;
-}
+
 	.auto-shining:after {
 		opacity: 1;
 		transition: opacity 0.36s;
@@ -2624,17 +2512,6 @@ main .span-high{
 		-ms-zoom-animation: logo 2.4s linear infinite;
 		-moz-animation: logo 2.4s linear infinite;
 	}
-
-	.auto-shine:after {
-		opacity: 1;
-		transition: opacity 0.36s;
-		-webkit-animation: logo-new 2.4s linear infinite;
-		animation: logo-new 2.4s linear infinite;
-		-ms-zoom-animation: logo-new 2.4s linear infinite;
-		-moz-animation: logo-new 2.4s linear infinite;
-	}
-
-
   /* .auto-shining:hover:after {
 	opacity: 0;
 	animation-count: 1;
@@ -2681,24 +2558,6 @@ main .span-high{
   }
 
 
-  @-webkit-keyframes circle-shine {
-	0% {
-	  -webkit-transform: translate3d(0, 0, 0);
-	}
-	50%, 100% {
-	  -webkit-transform: translate3d(298px, 0, 0);
-	}
-  }
-  @keyframes circle-shine {
-	0% {
-	  transform: translate3d(0, 0, 0);
-	}
-	50%, 100% {
-	  transform: translate3d(298px, 0, 0);
-	}
-  }  
-
-
   .loading-page {
 	position: fixed;
 	margin-left: auto;
@@ -2726,9 +2585,6 @@ main .span-high{
 	stroke-width: 3px;
 	stroke-dasharray: 4500;
 	animation: draw 8s ease;
-	position: absolute;
-	left: 0px;
-	visibility: hidden;
   }
 
   #myGradient {
@@ -6791,7 +6647,7 @@ transition-duration: 0.5s;
 	}
 
 	.logo-brand {
-		width: 220px;
+		width: 228px;
 	}
 	.navbar-flex {
 		padding-left: 0px;

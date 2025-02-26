@@ -190,7 +190,348 @@
 /* SLIDER VERTICAL END */
 
 
+/* CSS SLIDE COL 5 ROW 1 START  */
 
+.hcvron {
+    width: 100%;
+    height: auto;
+	min-height: 269px;
+	max-height: 269px !important;
+}
+
+.slidecvron {
+    position: relative;
+    width: 100%;
+	min-height: 269px;
+	max-height: 269px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidehcvron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidehcvron.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+
+/* CSS SLIDE COL 5 ROW 1 END */
+
+
+/* CSS SLIDE COL 4 ROW 2 START  */
+
+.hcfrtw {
+    width: 100%;
+    height: auto;
+	min-height: 146px;
+	max-height: 146px !important;
+}
+
+.slidecfrtw {
+    position: relative;
+    width: 100%;
+	min-height: 146px;
+	max-height: 146px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidehcfrtw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidehcfrtw.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+
+/* CSS SLIDE COL 4 ROW 2 END */
+
+
+/* CSS SLIDE COL 4 ROW 3 START  */
+
+.hcfrth {
+    width: 100%;
+    height: auto;
+	min-height: 152px;
+	max-height: 152px !important;
+}
+
+.slidecfrth {
+    position: relative;
+    width: 100%;
+	min-height: 152px;
+	max-height: 152px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidehcfrth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidehcfrth.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+
+/* CSS SLIDE COL 4 ROW 3 END */
+
+
+/* CSS SLIDE COL 3 ROW 1 START  */
+
+.hciron {
+    width: 100%;
+    height: auto;
+	min-height: 269px;
+	max-height: 269px !important;
+    background: #ddd;
+}
+
+.slideciron {
+    position: relative;
+    width: 100%;
+	min-height: 269px;
+	max-height: 269px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidehciron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidehciron.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+
+/* CSS SLIDE COL 3 ROW 1 END */
+
+
+/* CSS SLIDE COL 3 ROW 2 START  */
+
+.hcirtw {
+    width: 100%;
+    height: auto;
+	min-height: 240px;
+	max-height: 240px !important;
+}
+
+.slidecirtw {
+    position: relative;
+    width: 100%;
+	min-height: 240px;
+	max-height: 240px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidehcirtw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidehcirtw.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+
+/* CSS SLIDE COL 3 ROW 2 END */
+
+
+/* CSS SLIDE COL 2 ROW 1 START  */
+
+.hctron {
+    width: 100%;
+    height: auto;
+	min-height: 269px;
+	max-height: 269px !important;
+    background: #ddd;
+}
+
+.slidectron {
+    position: relative;
+    width: 100%;
+	min-height: 269px;
+	max-height: 269px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidehctron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidehctron.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+
+
+/* CSS SLIDE COL 2 ROW 1 END */
+
+
+
+/* CSS SLIDE COL 1 ROW 2 START  */
+
+.hcortw {
+    width: 100%;
+    height: auto;
+	min-height: 146px;
+	max-height: 146px !important;
+    background: #ddd;
+}
+
+.slidecortw {
+    position: relative;
+    width: 100%;
+	min-height: 146px;
+	max-height: 146px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidehcortw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidehcortw.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+
+
+/* CSS SLIDE COL 1 ROW 2 END */
+
+
+/* CSS SLIDE COL 1 ROW 3 START  */
+
+.hcorth {
+    width: 100%;
+    height: auto;
+	min-height: 152px;
+	max-height: 152px !important;
+    background: #ddd;
+}
+
+.slidecorth {
+    position: relative;
+    width: 100%;
+	min-height: 152px;
+	max-height: 152px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidehcorth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidehcorth.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+
+
+/* CSS SLIDE COL 1 ROW 3 END */
 
 
 /* MEDIA 1920 START */
@@ -273,7 +614,76 @@
 		min-height: 351px;
 		max-height: 351px !important;
 	  }
+	  .hcortw {
+		min-height: 238px;
+		max-height: 238px !important;
+	}
+	.slidecortw {
+		min-height: 238px;
+		max-height: 238px !important;
+	}
 
+	.hctron {
+		min-height: 424px;
+		max-height: 424px !important;
+	}
+	
+	.slidectron {
+		min-height: 424px;
+		max-height: 424px !important;
+	}
+
+
+	.hciron {
+		min-height: 363px;
+		max-height: 363px !important;
+	}
+	
+	.slideciron {
+		min-height: 363px;
+		max-height: 363px !important;
+	}
+
+	.hcirtw {
+		width: 100%;
+		height: auto;
+		min-height: 412px;
+		max-height: 412px !important;
+	}
+	.slidecirtw {
+		min-height: 412px;
+		max-height: 412px !important;
+		overflow: hidden !important;
+	}
+
+	.hcfrtw {
+		min-height: 238px;
+		max-height: 238px !important;		
+	}
+
+	.slidecfrtw {
+		min-height: 238px;
+		max-height: 238px !important;
+	}
+
+	.slidecfrth {
+		min-height: 230.5px;
+		max-height: 230.5px !important;
+	}
+
+	.hcfrth {
+		min-height: 230.5px;
+		max-height: 230.5px !important;
+	}
+	.hcvron{
+		min-height: 424px;
+		max-height: 424px !important;
+	}
+
+	.slidecvron {
+		min-height: 424px;
+		max-height: 424px !important;		
+	}
 }
 /* MEDIA 1920 END */
 
@@ -283,12 +693,12 @@
 	.slides {
 		position: relative;
 		width: 100%;
-		min-height: 256.5px;
-		max-height: 256.5px !important;
+		min-height: 246.5px;
+		max-height: 246.5px !important;
 	}
 	.wslider{
-		min-height: 256.5px;
-		max-height: 256.5px !important;
+		min-height: 246.5px;
+		max-height: 246.5px !important;
 		overflow: hidden !important;
 	}
 
@@ -349,5 +759,159 @@
 		max-height: 267px !important;		
 	}
 
+	.hcortw, .slidecortw {
+		width: 100%;
+		height: auto;
+		min-height: 164.5px;
+		max-height: 164.5px !important;
+		background: #ddd;
+	  }
+
+	  .hctron, .slidectron {
+		width: 100%;
+		height: auto;
+		min-height: 314px;
+		max-height: 314px !important;
+	}
+
+	.hcirtw, .slidecirtw {
+		width: 100%;
+		height: auto;
+		min-height: 309px;
+		max-height: 309px !important;
+	}
+	.hciron, .slideciron {
+		width: 100%;
+		height: auto;
+		min-height: 272px;
+		max-height: 272px !important;
+	}
+	.hcfrtw, .slidecfrtw{
+		width: 100%;
+		height: auto;
+		min-height: 164.5px;
+		max-height: 164.5px !important;
+	}
+
+	.hcfrth, .slidecfrth{
+		width: 100%;
+		height: auto;
+		min-height: 164.5px;
+		max-height: 164.5px !important;
+	}
+	.hcvron, .slidecvron{
+		width: 100%;
+		height: auto;
+		min-height: 314px;
+		max-height: 314px !important;
+	}
 }
 /* MEDIA 1536-1582 END */
+
+
+/* MEDIA 1280 START */
+@media only screen and (min-width: 1280px) and (max-device-width: 1280px) and (orientation: landscape) {
+
+.hcirtw{
+	min-height: 236px !important;
+	max-height: 236px !important;	
+}
+.slidecirtw {
+	min-height: 236px !important;
+	max-height: 236px !important;
+}
+
+.hciron{
+	min-height: 218px;
+	max-height: 218px !important;	
+}
+.slideciron {
+	min-height: 218px;
+	max-height: 218px !important;
+}
+.hcortw{
+	min-height: 134px;
+	max-height: 134px !important;	
+}
+.slidecortw {
+	min-height: 134px;
+	max-height: 134px !important;
+	overflow: hidden !important;
+}
+
+.hcfrtw {
+	width: 100%;
+	height: auto;
+	min-height: 134px;
+	max-height: 134px !important;
+}
+.slidecfrtw {
+	position: relative;
+	width: 100%;
+	min-height: 134px;
+	max-height: 134px !important;
+	overflow: hidden !important;
+}
+
+.hcorth,.slidecort {
+	width: 100%;
+	height: auto;
+	min-height: 134px;
+	max-height: 134px !important;
+}
+
+.hctron, .slidectron {
+	min-height: 249px;
+	max-height: 249px !important;
+	overflow: hidden !important;
+}
+
+.hcfrth, .slidecfrth{
+	min-height: 134px;
+	max-height: 134px !important;
+}
+
+.hcvron, .slidecvron{
+	min-height: 249px;
+	max-height: 249px !important;
+}
+.wslider {
+	width: 100%;
+	height: auto;
+	min-height: 179px;
+	max-height: 179px !important;
+}
+
+.slides{
+	min-height: 179px;
+	max-height: 179px !important;
+}
+.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider {
+	width: 100%;
+	height: auto;
+	min-height: 205px;
+	max-height: 205px !important;
+}
+
+.row-grid .column-gallery:nth-child(5) .card-project-case:nth-child(2) .wslider .slides {
+	min-height: 205px;
+	max-height: 205px !important;
+}
+.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider {
+	width: 100%;
+	height: auto;
+	min-height: 205px;
+	max-height: 205px !important;
+	overflow: hidden !important;
+	background: #ddd;
+}
+.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(2) .wslider .slides {
+	position: relative;
+	width: 100%;
+	min-height: 205px;
+	max-height: 205px !important;
+  }
+
+}
+
+/* MEDIA 1280 END */
