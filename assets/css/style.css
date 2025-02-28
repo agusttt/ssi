@@ -5433,6 +5433,66 @@ transition-duration: 0.5s;
 	padding-top: 36px;
 }
 
+#strucutraal-design{
+	position: absolute;
+	background: transparent none;
+	/* background: #cf0000; */
+	height: 12px;
+	width: 100%;
+	z-index: 1;
+	top: -32px;
+}
+
+#strucutraal-assestment-retrofitting{
+	position: absolute;
+	background: transparent none;
+	/* background: #cf0000; */
+	height: 12px;
+	width: 100%;
+	z-index: 1;
+	top: -86px;
+}
+
+#value-engineering{
+	position: absolute;
+	background: transparent none;
+	/* background: #cf0000; */
+	height: 12px;
+	width: 100%;
+	z-index: 1;
+	top: -86px;
+}
+
+#structural-bim-detailing{
+	position: absolute;
+	background: transparent none;
+	/* background: #cf0000; */
+	height: 12px;
+	width: 100%;
+	z-index: 1;
+	top: -86px;	
+}
+
+#site-supervision{
+	position: absolute;
+	background: transparent none;
+	/* background: #cf0000; */
+	height: 12px;
+	width: 100%;
+	z-index: 1;
+	top: -94px;	
+}
+
+#concrete-technology-consulting{
+	position: absolute;
+	background: transparent none;
+	/* background: #cf0000; */
+	height: 12px;
+	width: 100%;
+	z-index: 1;
+	top: -94px;		
+}
+
 .form-contact-us .wrp-submit-cv{
 	padding-top: 14px;
 }
@@ -5943,6 +6003,35 @@ transition-duration: 0.5s;
 	transition: all 0.4s;
 }
 
+
+/* SCROLLBARED */
+.scrollbar {
+	display: none;
+	position: fixed;
+	left: 360px;
+	top: calc(23.24% - 10vh);
+	height: 350px;
+	width: 2px;
+	border-radius: 2px;
+	background: rgb(169, 66, 66);
+  }
+  .scrollbar .scrollball {
+	display: none;
+	width: 10px;
+	height: 40.5px;
+	border-radius: 5px;
+	left: -4px;
+	position: absolute;
+	background: black;
+  }
+  .scrollbar .scrollball span {
+	position: absolute;
+	left: 15px;
+	top: -4px;
+  }
+  
+
+  
 .desc-ssi-choosed{
 	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
 	letter-spacing: 0.14px;
@@ -6583,6 +6672,17 @@ transition-duration: 0.5s;
 			padding-top: 24px;
 		}
 	  }
+
+	  #strucutraal-assestment-retrofitting {
+		position: absolute;
+		background: transparent none;
+		/* background: #cf0000; */
+		height: 12px;
+		width: 100%;
+		z-index: 1;
+		top: -196px;
+	  }
+
 	.row-grid .column-gallery:nth-child(3) .card-project-case:nth-child(2) {
 		min-height: 412px;
 		max-height: 412px !important;
@@ -6629,7 +6729,17 @@ transition-duration: 0.5s;
 	.title-section-home h2{
 		font: normal 600 clamp(1.79rem, 1.79rem + 0vw, 1.79rem) var(--font-spectral);
 		color: var(--gray-950);
-		margin-bottom: 40px;
+		margin-bottom: 44px;
+	}
+	.content-biography p {
+		font: normal 400 clamp(0.9775rem, 0.8014rem + 0.178vw, 1.015rem) var(--font-arial);
+		line-height: 22.24px;
+		margin-bottom: 15px;
+	}
+	.button-dialog-socmed-outline a {
+		text-decoration: none !important;
+		outline: none;
+		width: 186.5px;
 	}
 	#modalseePeople2 .modal-dialog-people {
 		max-width: 914px;
@@ -6661,13 +6771,20 @@ transition-duration: 0.5s;
 		flex: 0 0 72%;
 		-ms-flex: 0 0 72%;
 	}
+	.people-name-home h2 {
+		font: normal 600 clamp(1.125rem, 0.5297rem + 0.7442vw, 1.165rem) var(--font-arial);
+		margin-bottom: 6.64px;
+		letter-spacing: 0.05px;
+		text-align: left;
+	}
 	.desc-people-home {
 		display: -webkit-box;
-		-webkit-line-clamp: 14;
+		-webkit-line-clamp: 16;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		height: 246px;
+		height: 304px;
+		padding-bottom: 6px;
 		font: normal 400 clamp(0.9775rem, 0.8014rem + 0.178vw, 1.015rem) var(--font-arial);
 	}
 
@@ -6767,7 +6884,7 @@ transition-duration: 0.5s;
 	  }
 
 	  .section-home-clients {
-		padding: 56px 0px 62px 0px;
+		padding: 66px 0px 62px 0px;
 	  }
 
 	  .footer-row-one {
@@ -7000,7 +7117,9 @@ transition-duration: 0.5s;
 
 /* MEDIA 480 START */
 @media screen and (max-width : 480px) {
-
+	.centered-container {
+		max-width: 100%;
+	}
 	.logo-brand {
 		width: 98px;
 		order: 1;
@@ -7461,6 +7580,25 @@ transition-duration: 0.5s;
 	display: none;
 }
 
+.section-home-services {
+	width: 100%;
+	min-height: 424px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 56px 0px 64px 0px;
+  }
+
+/* SECTION HERO IMAGES MOBILE START */
+.section-hero-mobile{
+	width: 100%;
+	min-height: 480px;
+	background: var(--white-one);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+/* SECTION HERO IMAGES MOBILE END */
+
 /* ACCORDION SERVICES HOME START */
 #accordionSubcatalog {
 	padding: 0px 0px 0px 0px;
@@ -7468,9 +7606,389 @@ transition-duration: 0.5s;
 .wrp-according-catalog {
 	width: 100%;
 	height: auto;
-	margin-top: -56px;
+	margin-top: 15px;
+}
+.row-grid{
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
+.row-grid-5.row,
+.row-grid-5.container,
+.row-grid-5.container-fluid,
+.row-grid-5.customized-container {
+  margin-left: -2.5px;
+  margin-right: -2.5px
+}
+
+.row-grid-5>[class^="col-"] {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.home-project-portraite{
+	background: var(--gray-200);
+	width: 100%;
+	min-height: 221px;
+	max-height: 221px !important;
+	overflow: hidden !important;
+	position: relative;
+}
+
+.home-project-landscape {
+    background: var(--gray-200);
+    width: 100%;
+    min-height: 176px;
+    max-height: 176px !important;
+    overflow: hidden !important;
+    position: relative;
+}
+
+
+/* CSS SLIDE COL 1 ROW 1 START */
+
+.mconron {
+    width: 100%;
+    height: auto;
+    min-height: 221px;
+    max-height: 221px !important;
+    background: #ddd;
+}
+
+.slideconron{
+    position: relative;
+    width: 100%;
+    min-height: 221px;
+    max-height: 221px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidemconron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidemconron.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+/* CSS SLIDE COL 1 ROW 1 END  */
+
+
+/* CSS SLIDE COL 2 ROW 1 START */
+
+.mctwron {
+    width: 100%;
+    height: auto;
+    min-height: 221px;
+    max-height: 221px !important;
+    background: #ddd;
+}
+
+.slidectwron{
+    position: relative;
+    width: 100%;
+    min-height: 221px;
+    max-height: 221px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidemctwron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out, transform 9.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidemctwron.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+/* CSS SLIDE COL 2 ROW 1 END  */
+
+/* CSS SLIDE COL 1 ROW 2 START */
+
+.mconrtw {
+    width: 100%;
+    height: auto;
+    min-height: 176px;
+    max-height: 176px !important;
+    background: #ddd;
+}
+
+.slideconrtw{
+    position: relative;
+    width: 100%;
+    min-height: 176px;
+    max-height: 176px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidemconrtw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out, transform 9.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidemconrtw.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+/* CSS SLIDE COL 1 ROW 2 END  */
+
+
+
+/* CSS SLIDE COL 1 ROW 3 START */
+.home-project-portraite-38{
+	width: 100%;
+    min-height: 190px;
+    max-height: 190px !important;
+}
+.mconrth {
+    width: 100%;
+    height: auto;
+    min-height: 190px;
+    max-height: 190px !important;
+    background: #ddd;
+}
+
+.slideconrth{
+    position: relative;
+    width: 100%;
+    min-height: 190px;
+    max-height: 190px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidemconrth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidemconrth.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+/* CSS SLIDE COL 1 ROW 3 END  */
+
+
+/* CSS SLIDE COL 2 ROW 3 START */
+.home-project-landscape-62{
+	width: 100%;
+    min-height: 190px;
+    max-height: 190px !important;
+}
+.mctwrth {
+    width: 100%;
+    height: auto;
+    min-height: 190px;
+    max-height: 190px !important;
+    background: #ddd;
+}
+
+.slidectwrth{
+    position: relative;
+    width: 100%;
+    min-height: 190px;
+    max-height: 190px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidemctwrth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidemctwrth.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+/* CSS SLIDE COL 2 ROW 3 END  */
+
+
+/* CSS SLIDE COL 1 ROW 4 START */
+.home-project-equilateral{
+	width: 100%;
+    min-height: 190px;
+    max-height: 190px !important;
+}
+.mconrfr {
+    width: 100%;
+    height: auto;
+    min-height: 190px;
+    max-height: 190px !important;
+    background: #ddd;
+}
+
+.slideconrfr{
+    position: relative;
+    width: 100%;
+    min-height: 194px;
+    max-height: 194px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidemconrfr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidemconrfr.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+/* CSS SLIDE COL 1 ROW 4 END  */
+
+/* CSS SLIDE COL 2 ROW 4 START */
+.home-project-equilateral{
+	width: 100%;
+    min-height: 190px;
+    max-height: 190px !important;
+}
+.mctwrfr {
+    width: 100%;
+    height: auto;
+    min-height: 190px;
+    max-height: 190px !important;
+    background: #ddd;
+}
+
+.slidectwrfr{
+    position: relative;
+    width: 100%;
+    min-height: 194px;
+    max-height: 194px !important;
+    overflow: hidden !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.slidemctwrfr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 8.64s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.slidemctwrfr.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 3; 
+}
+/* CSS SLIDE COL 2 ROW 4 END  */
+
+
+.portraite-column-projects-home{
+	background: var(--gray-100);
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+	padding: 2px;
+}
+
+.landscape-column-projects-home{
+	background: var(--gray-100);
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	padding: 2px;
+}
+
+.portraite-column-projects-home-38{
+	background: var(--gray-100);
+	-ms-flex: 0 0 38%;
+	flex: 0 0 38%;
+	max-width: 38%;
+	padding: 2px;	
+}
+
+.portraite-column-projects-home-62{
+	background: var(--gray-100);
+	-ms-flex: 0 0 62%;
+	flex: 0 0 62%;
+	max-width: 62%;
+	padding: 2px;	
+}
+
+.title-section-home h2 {
+	font: normal 600 clamp(1.2575rem, -0.082rem + 1.6744vw, 1.3475rem) var(--font-spectral);
+}
 .wrp-according-catalog .accordion-button {
 	text-decoration: none;
 	outline: none;
@@ -7757,8 +8275,7 @@ transition-duration: 0.5s;
 }
 
 .button-dialog-socmed-outline a {
-	width: 100%;
-	display: flex;
+	cursor: pointer;
 }
 
 .side-right-people {
@@ -7836,6 +8353,45 @@ transition-duration: 0.5s;
 	.right-col-footer {
 		width: 100%;
 	}		
+
+	.left-col-footer .w-100:nth-child(2) .contain-contacts {
+		width: 100%;
+		padding: 4px 0px 6.6px 0px;
+	}
+
+	.left-col-footer .w-100:last-child .contain-contacts {
+		padding: 10px 0px 14px 0px;
+	}
+	.right-col-footer {
+		min-height: 190px;
+	}
+	.right-col-footer ul {
+		margin-top: 3px;
+		margin-bottom: 0px;
+	}
+	.right-col-footer ul li a {
+		padding: 8px 0px;
+	}
+	.right-col-footer .row:first-child {
+		height: 124.5px !important;
+	}
+
+	.footer-row-one {
+		padding: 24px 0px 25px 0px;
+	}
+
+	.footer {
+		width: 100%;
+		height: auto;
+		min-height: 124px;
+		padding: 18px 0px 0px 0px;
+		background: #385623 url(../images/footer-background-texture.jpg) top right no-repeat;
+		background-position-x: right;
+		background-size: auto;
+		background-size: 74.76%;
+		background-position-x: 124%;
+	  }
+
 	/* FOOTER 480 END */
 
 }

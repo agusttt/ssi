@@ -440,8 +440,191 @@ document.addEventListener("DOMContentLoaded", function () {
      // Auto-looping
      setInterval(nextShcorth, 8000); // Change slide every 5 seconds
  
-     // SLIDER JS SLIDE COL 1 ROW 3 END END  
+     // SLIDER JS SLIDE COL 1 ROW 3 END  
 
 
+     // MOBILE SLIDER JS SLIDE COL COL 1 ROW 1 START    
+     const slidemconron = document.querySelectorAll(".slidemconron");
+     let currentSmconron = 0;
+   
+     function showSmconron(index) {
+         slidemconron.forEach((slidemconron, i) => {
+         slidemconron.classList.remove("active");
+         if (i === index) {
+         slidemconron.classList.add("active");
+         }
+       });
+     }
+   
+     function nextSmconron() {
+       currentSmconron = (currentSmconron + 1) % slidemconron.length;
+       showSmconron(currentSmconron);
+     }
+   
+     // Initial slide
+     showSmconron(currentSmconron);
+   
+     // Auto-looping
+     setInterval(nextSmconron, 4000); // Change slide every 5 seconds
+ 
+     // MOBILE SLIDER JS SLIDE COL 1 ROW 1 END 
+
+     // MOBILE SLIDER JS SLIDE COL COL 2 ROW 1 START    
+     const slidemctwron = document.querySelectorAll(".slidemctwron");
+     let currentSmctwron = 0;
+   
+     function showSmctwron(index) {
+         slidemctwron.forEach((slidemctwron, i) => {
+         slidemctwron.classList.remove("active");
+         if (i === index) {
+         slidemctwron.classList.add("active");
+         }
+       });
+     }
+   
+     function nextSmctwron() {
+       currentSmctwron = (currentSmctwron + 1) % slidemctwron.length;
+       showSmctwron(currentSmctwron);
+     }
+   
+     // Initial slide
+     showSmctwron(currentSmctwron);
+   
+     // Auto-looping
+     setInterval(nextSmctwron, 6000); // Change slide every 5 seconds
+ 
+     // MOBILE SLIDER JS SLIDE COL 2 ROW 1 END 
+
+     // MOBILE SLIDER JS SLIDE COL COL 1 ROW 2 START    
+     const slidemconrtw = document.querySelectorAll(".slidemconrtw");
+     let currentSmconrtw = 0;
+   
+     function showSmconrtw(index) {
+         slidemconrtw.forEach((slidemconrtw, i) => {
+         slidemconrtw.classList.remove("active");
+         if (i === index) {
+         slidemconrtw.classList.add("active");
+         }
+       });
+     }
+   
+     function nextSmconrtw() {
+       currentSmconrtw = (currentSmconrtw + 1) % slidemconrtw.length;
+       showSmconrtw(currentSmconrtw);
+     }
+   
+     // Initial slide
+     showSmconrtw(currentSmconrtw);
+   
+     // Auto-looping
+     setInterval(nextSmconrtw, 8500); // Change slide every 8.5 seconds
+ 
+     // MOBILE SLIDER JS SLIDE COL 1 ROW 2 END 
+
+     // MOBILE SLIDER JS SLIDE COL COL 1 ROW 3 START    
+     const slidemconrth = document.querySelectorAll(".slidemconrth");
+     let currentSmconrth = 0;
+   
+     function showSmconrth(index) {
+         slidemconrth.forEach((slidemconrth, i) => {
+         slidemconrth.classList.remove("active");
+         if (i === index) {
+         slidemconrth.classList.add("active");
+         }
+       });
+     }
+   
+     function nextSmconrth() {
+       currentSmconrth = (currentSmconrth + 1) % slidemconrth.length;
+       showSmconrth(currentSmconrth);
+     }
+   
+     // Initial slide
+     showSmconrth(currentSmconrth);
+   
+     // Auto-looping
+     setInterval(nextSmconrth, 5000); // Change slide every 8.5 seconds
+ 
+     // MOBILE SLIDER JS SLIDE COL 1 ROW 3 END 
+
+     // MOBILE SLIDER JS SLIDE COL COL 2 ROW 3 START    
+     const slidemctwrth = document.querySelectorAll(".slidemctwrth");
+     let currentSmctwrth = 0;
+   
+     function showSmctwrth(index) {
+         slidemctwrth.forEach((slidemctwrth, i) => {
+         slidemctwrth.classList.remove("active");
+         if (i === index) {
+         slidemctwrth.classList.add("active");
+         }
+       });
+     }
+   
+     function nextSmctwrth() {
+       currentSmctwrth = (currentSmctwrth + 1) % slidemctwrth.length;
+       showSmctwrth(currentSmctwrth);
+     }
+   
+     // Initial slide
+     showSmctwrth(currentSmctwrth);
+   
+     // Auto-looping
+     setInterval(nextSmctwrth, 7000); // Change slide every 8.5 seconds
+ 
+     // MOBILE SLIDER JS SLIDE COL 2 ROW 3 END 
+
+
+     // MOBILE SLIDER JS SLIDE COL COL 1 ROW 4 START    
+     const slidemconrfr = document.querySelectorAll(".slidemconrfr");
+     let currentSmconrfr = 0;
+   
+     function showSmconrfr(index) {
+         slidemconrfr.forEach((slidemconrfr, i) => {
+         slidemconrfr.classList.remove("active");
+         if (i === index) {
+         slidemconrfr.classList.add("active");
+         }
+       });
+     }
+   
+     function nextSmconrfr() {
+       currentSmconrfr = (currentSmconrfr + 1) % slidemconrfr.length;
+       showSmconrfr(currentSmconrfr);
+     }
+   
+     // Initial slide
+     showSmconrfr(currentSmconrfr);
+   
+     // Auto-looping
+     setInterval(nextSmconrfr, 5200); // Change slide every 8.5 seconds
+ 
+     // MOBILE SLIDER JS SLIDE COL 1 ROW 4 END 
+
+
+     // MOBILE SLIDER JS SLIDE COL COL 2 ROW 4 START    
+     const slidemctwrfr = document.querySelectorAll(".slidemctwrfr");
+     let currentSmctwrfr = 0;
+   
+     function showSmctwrfr(index) {
+         slidemctwrfr.forEach((slidemctwrfr, i) => {
+         slidemctwrfr.classList.remove("active");
+         if (i === index) {
+         slidemctwrfr.classList.add("active");
+         }
+       });
+     }
+   
+     function nextSmctwrfr() {
+       currentSmctwrfr = (currentSmctwrfr + 1) % slidemctwrfr.length;
+       showSmctwrfr(currentSmctwrfr);
+     }
+   
+     // Initial slide
+     showSmctwrfr(currentSmctwrfr);
+   
+     // Auto-looping
+     setInterval(nextSmctwrfr, 8800); // Change slide every 8.5 seconds
+ 
+     // MOBILE SLIDER JS SLIDE COL 2 ROW 4 END 
 
   });
