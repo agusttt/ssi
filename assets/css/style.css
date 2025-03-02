@@ -7128,10 +7128,16 @@ transition-duration: 0.5s;
 		width: 100%;
 		padding: 8.5px 0px;
 	}
-
-	.wrp-card-services:hover > ul > .services-items:hover .card-services-desc, .wrp-card-services:hover > ul > .services-items:hover .card-services-images figure{
-		margin-top: 6px;		
+	.card-services-images figure{
+		/* margin-top: 6px;	 */
 	}
+	.wrp-card-services:hover > ul > .services-items:hover .card-services-desc, .wrp-card-services:hover > ul > .services-items:hover .card-services-images figure{
+		/* margin-top: 6px;		 */
+	}
+	.services-items {
+		padding: 44px 42px 15px 42px;
+	}
+
 	.services-items:hover {
 		z-index: 3;
 		transform: translateY(-0px);
@@ -7140,16 +7146,21 @@ transition-duration: 0.5s;
 		transition: .46s ease-in-out;
 		-webkit-transition: .46s ease-in-out;
 		-moz-transition: .46s ease-in-out;
-		padding: 30px 30px 20px 30px;
+		padding:  44px 42px 15px 42px;
 	}
 	.services-items a{
-		min-height: 578px;
+		min-height: 594px;
 	}
 	.card-services-images figure {
 		min-height: 389px;
 		max-height: 389px;
 		margin-top: 6px;
+		overflow: hidden;
 	}
+	.card-services-images img {
+		max-width: 105%;
+	}
+
 
 	.section-home-services {
 		padding: 56px 0px 60px 0px;
@@ -7222,7 +7233,45 @@ transition-duration: 0.5s;
 
 /* MEDIA 1536-1582 START */
 @media only screen and (min-width: 1536px) and (max-width: 1582px) and (orientation: landscape) {
+	.text-parent {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+	.services-items a {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
 
+	.text-seemore h4 {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+	.content-biography p {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+	.right-col-footer ul li a {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+
+	.left-col-footer {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+	.maps-contact-desc {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+
+	.summary-form {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+	.title-people h3 {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+	.description-detail-projects {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+	.number-projects h3 {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
+	.content-biography {
+		font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	}
 	.row-grid .column-gallery:nth-child(1) .card-project-case:nth-child(1), .row-grid .column-gallery:nth-child(4) .card-project-case:nth-child(1) {
 		min-height: 246.5px;
         max-height: 246.5px!important;
@@ -7307,7 +7356,51 @@ transition-duration: 0.5s;
 	.logo-brand {
 		width: 232px;
 	}
-
+	.navbar-align-right ul li a{
+		font:normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.navbar-align-right ul li.dropdown-hover ul li a {
+		font:normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.text-parent {
+		font:normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.navbar-align-right ul li:hover .text-parent {
+		font:normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.text-seemore h4 {
+		font:normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.card-services-images figure {
+		max-height: 309px;
+	}
+	.right-col-footer ul li a {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.item-copyright-music {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.left-col-footer {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);		
+	}
+	.conatains-link a {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.dynamic-content {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.item-list-choosed {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);		
+	}
+	.item-list-choosed ul li p {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.left-table-of-content ul li a {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
+	.maps-contact-desc {
+		font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial);
+	}
 	/* HERO IMAGES 1280 START */
 	.row-grid .column-gallery:nth-child(2) .card-project-case:nth-child(1) {
 		min-height: 249px;
