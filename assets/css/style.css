@@ -5168,6 +5168,103 @@ transition-duration: 0.5s;
 
 /* PROJECT LIST END */
 
+/* DINAMIC LIST PROJECTS */
+
+.thumb-of-projects{
+	width: 100%;
+	background: var(--gray-200);
+	overflow: hidden;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+
+}
+
+.thumb-of-projects a{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	min-height: 244px;
+	height: auto;
+	max-height: 257px;	
+	position: relative;
+	height: auto;
+	overflow: hidden;
+}
+
+.card-projects-thumb::before {
+	position: absolute;
+	margin: 0 auto;
+	content: " ";
+	width: 102%;
+	min-height: 98px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 1;
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 9%, rgba(0, 0, 0, 0.04) 22%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.17) 47%, rgba(0, 0, 0, 0.24) 60%, rgba(0, 0, 0, 0.32) 74%, rgba(0, 0, 0, 0.56) 100%);
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 9%, rgba(0, 0, 0, 0.04) 22%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.17) 47%, rgba(0, 0, 0, 0.24) 60%, rgba(0, 0, 0, 0.32) 74%, rgba(0, 0, 0, 0.56) 100%);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 9%, rgba(0, 0, 0, 0.04) 22%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.17) 47%, rgba(0, 0, 0, 0.24) 60%, rgba(0, 0, 0, 0.32) 74%, rgba(0, 0, 0, 0.56) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#8f000000', GradientType=0);
+  }
+
+.thumb-of-projects a img {
+	transform: scale(1, 1);
+	transition-property: all;
+	transition-duration: 0.5s;	
+}
+.thumb-of-projects:hover a img {
+	transform: scale(1.1, 1.1);
+}
+.thumb-of-projects:hover a:hover .caption-title-projects h2 {
+	background: #541E04;
+	background: linear-gradient(to top, #541E04 0%, #84340C 16%, #943A0C 40%, #DF7C43 57%, #E0834B 100%);
+	background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.card-projects-thumb{
+	width: 100%;
+	min-height: 244px;
+
+}
+.card-projects-thumb img{
+	max-width: 100%;
+}
+
+/* .card-project-one a .card-projects-thumb img {
+	transform: scale(1, 1);
+	transition-property: all;
+	transition-duration: 0.5s;	
+} */
+
+.thumb-of-projects a:hover .card-projects-thumb img{
+	transform: scale(1.1, 1.1);
+}
+.caption-title-projects{
+	width: 100%;
+	position: absolute;
+	padding: 14px 15px;
+}
+
+.caption-title-projects h2{
+	color: var(--gray-100);
+	/* font: normal 400 clamp(0.8525rem, 0.5176rem + 0.4186vw, 0.875rem) var(--font-arial); */
+	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	letter-spacing: 0.20px;
+	line-height: 16.64px;
+	text-transform: none;
+	margin-bottom: 1.5px;
+}
+/* DINAMIC LIST PROJECTS */
 /* ABOUT US START */
 .section-about{
 	width: 100%;
@@ -5516,6 +5613,21 @@ transition-duration: 0.5s;
 .gutter--3>[class^="col-"] {
   padding-left: 3px!important;
   padding-right: 3px!important;
+}
+
+
+.gutter--p25.row,
+.gutter--p25.container,
+.gutter--p25.container-fluid,
+.gutter--p25.customized-container,
+.gutter--p25.container.centered-container {
+  margin-left: -2.5px!important;
+  margin-right: -2.5px!important;
+}
+
+.gutter--p25>[class^="col-"] {
+  padding-left: 2.5px!important;
+  padding-right: 2.5px!important;
 }
 
 
