@@ -293,11 +293,11 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="card-project-detail">
-                                    <div class="pslider">
-                                        <div class="slidesp">
-                                          <div class="slidep active" style="background-image: url('assets/images/slide-projects-detail-b-residence-grogol-1.jpg');background-repeat: no-repeat;"></div>
-                                          <div class="slidep" style="background-image: url('assets/images/slide-projects-detail-b-residence-grogol-2.jpg');background-repeat: no-repeat;"></div>
-                                          <div class="slidep" style="background-image: url('assets/images/slide-projects-detail-b-residence-grogol-3.jpg');background-repeat: no-repeat;"></div>
+                                    <div class="psliderone">
+                                        <div class="slidespone">
+                                          <div class="slidepone active" style="background-image: url('assets/images/slide-projects-detail-b-residence-grogol-1.jpg');background-repeat: no-repeat;"></div>
+                                          <div class="slidepone" style="background-image: url('assets/images/slide-projects-detail-b-residence-grogol-2.jpg');background-repeat: no-repeat;"></div>
+                                          <div class="slidepone" style="background-image: url('assets/images/slide-projects-detail-b-residence-grogol-3.jpg');background-repeat: no-repeat;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -313,12 +313,12 @@
                         <div class="row">
                             <div class="col-lg-2 col-md-2 col-sm-4 col-12">
                                 <div class="wrp-related-projects">
-                                    <a href="#">
+                                    <a href="gandaria-city.html">
                                         <div class="card-related-projects">
-                                            <img src="assets/images/related-projects-thumbnail-Soho-Paradiso-Bali.jpg" alt="Isi dengan title related projectsnya ya yor">
+                                            <img src="assets/images/related-projects-thumbnail-gandaria-superblock.jpg" alt="Gandariacity super block project">
                                         </div>
                                         <div class="title-related-projects">
-                                            <h2>Soho Paradiso</h2>
+                                            <h2>Gandaria</h2>
                                         </div>
                                     </a>
                                 </div>
@@ -334,7 +334,7 @@
                                         </div>
                                     </a>
                                 </div>
-                            </div>
+                            </div>       
                             <div class="col-lg-2 col-md-2 col-sm-4 col-12">
                                 <div class="wrp-related-projects">
                                     <a href="#">
@@ -346,19 +346,19 @@
                                         </div>
                                     </a>
                                 </div>
-                            </div>
+                            </div>                                                 
                             <div class="col-lg-2 col-md-2 col-sm-4 col-12">
                                 <div class="wrp-related-projects">
                                     <a href="#">
                                         <div class="card-related-projects">
-                                            <img src="assets/images/related-projects-thumbnail-gandaria-superblock.jpg" alt="Gandariacity super block project">
+                                            <img src="assets/images/related-projects-thumbnail-Soho-Paradiso-Bali.jpg" alt="Isi dengan title related projectsnya ya yor">
                                         </div>
                                         <div class="title-related-projects">
-                                            <h2>Gandaria Superblock</h2>
+                                            <h2>Soho Paradiso</h2>
                                         </div>
                                     </a>
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
                     </div>
                 </section>
@@ -450,7 +450,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
@@ -796,32 +795,31 @@
     });    
 
 
-    // SLIDER PROJECTS START    
-    const slideproject = document.querySelectorAll(".slidep");
-    let currentSlidep = 0;
+    // SLIDER PROJECTS ONE START    
+    const slideprojectone = document.querySelectorAll(".slidepone");
+    let currentSlidepone = 0;
   
-    function showSlide(index) {
-        slideproject.forEach((slidep, i) => {
-        slidep.classList.remove("active");
+    function showSlidepone(index) {
+        slideprojectone.forEach((slidepone, i) => {
+        slidepone.classList.remove("active");
         if (i === index) {
-          slidep.classList.add("active");
+          slidepone.classList.add("active");
         }
       });
     }
   
-    function nextSlidep() {
-      currentSlidep = (currentSlidep + 1) % slideproject.length;
-      showSlide(currentSlidep);
+    function nextSlidepone() {
+      currentSlidepone = (currentSlidepone + 1) % slideprojectone.length;
+      showSlidepone(currentSlidepone);
     }
   
     // Initial slide
-    showSlide(currentSlidep);
+    showSlidepone(currentSlidepone);
   
     // Auto-looping
-    setInterval(nextSlidep, 5500); // Change slide every 5 seconds
+    setInterval(nextSlidepone, 5500); // Change slide every 5 seconds
 
-    // SLIDER PROJECTS END  
-    AOS.init();
+    // SLIDER PROJECTS ONE END
 
     </script>
 </body>
