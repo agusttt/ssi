@@ -182,6 +182,7 @@
                     </div>
                 </div>
                 <!-- NAVBAR MOBILE END -->
+
                 <header class="header">
                     <navbar class="navbar navbar-desc">
                         <div class="container-fluid container-large">
@@ -326,6 +327,14 @@
                         </div>
                     </navbar>
                 </header>
+                
+                <section class="embeded-music">
+                    <audio id="music" class="myaudio" loop>
+                        <source src="assets/audio/Music for SSI Website.mp3" type="audio/mpeg" />
+                        <p>If you can read this, your browser does not support the audio element.</p>
+                     </audio>
+                </section>
+
                 <section class="section-cover-page">
                     <div class="container centered-container">
                         <div class="row">
@@ -970,6 +979,54 @@
         }, 500);
     });
     AOS.init();
+
+
+    function PlayMusic() {
+
+    var play=document.getElementById("music");
+    play.play();
+    }
+
+    $(document).ready(function(){
+    setTimeout(togglePlay,1000);
+    });
+
+    $(window).scroll(function() {
+    var myAudio = document.getElementById("music");
+    var scroll = $(window).scrollTop();
+    if (scroll >= 300) {
+        $(".wrp-arrow").addClass("swipe-up-nav");
+    } else {
+        $(".wrp-arrow").removeClass("swipe-up-nav");
+    }
+    });
+    // SCROLLING DOWN END
+
+    var music = document.getElementById("music");
+    var isPlaying = false;
+
+    function togglePlay() {
+    if (isPlaying) {
+    music.pause();
+        $('.playing').hide();
+        $('.mute').show();
+    } else {
+    music.play();
+        $('.playing').show();
+        $('.mute').hide();
+    }
+    };
+    music.onplaying = function() {
+    isPlaying = true;
+    };
+    music.onpause = function() {
+    isPlaying = false;
+    };
+
+    var button = document.getElementById("toggle");
+
+    // SCROLLING DOWN START
+
     </script>
 </body>
 </html>
