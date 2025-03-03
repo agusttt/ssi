@@ -5270,7 +5270,7 @@ transition-duration: 0.5s;
 	width: 100%;
 }
 .summary-about{
-	max-width: 82%;
+	max-width: 96%;
 }
 .slick.aboutmarquee{
 	text-decoration:none;
@@ -5708,6 +5708,7 @@ transition-duration: 0.5s;
 	-moz-justify-content: center;
 	-webkit-justify-content: center;
 	padding-top: 36px;
+	
 }
 
 #strucutraal-design{
@@ -5777,8 +5778,8 @@ transition-duration: 0.5s;
 .btn-md-submit {
 	display: block;
 	-webkit-appearance: none;
-	background: #82847e !important;
-	border-color: #82847e !important;
+	background:#385623 !important;
+	border-color: #385623 !important;
 	color: #fff !important;
 	font-size: 15.5px;
 	padding: 14.5px 24px;
@@ -7824,7 +7825,13 @@ transition-duration: 0.5s;
 	.section-desk-nav.active #dropdownLangdesk {
 		color: var(--black-100);
 	}
-
+	.thumb-of-projects a {
+		min-height: 156px;
+	}
+	.card-projects-thumb {
+		width: 100%;
+		min-height: 156px;
+	}
 	.header {
 		overflow: hidden
 	}

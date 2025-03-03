@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    // SLIDER SATU START    
+    // SLIDER A SATU START    
     const slidesone = document.querySelectorAll(".slide");
     let currentSlide = 0;
   
@@ -24,12 +24,12 @@ document.addEventListener("DOMContentLoaded", function () {
     showSlide(currentSlide);
   
     // Auto-looping
-    setInterval(nextSlide, 7500); // Change slide every 5 seconds
+    setInterval(nextSlide, 7000); // Change slide every 5 seconds
 
-    // SLIDER SATU END  
+    // SLIDER A SATU END  
 
 
-    // SLIDER TWO START    
+    // SLIDER TWO START  B DUA  
     const slidetwo = document.querySelectorAll(".slidedua");
     let currentSlidedua = 0;
     
@@ -51,12 +51,12 @@ document.addEventListener("DOMContentLoaded", function () {
     showSlidetwo(currentSlidedua);
     
     // Auto-looping
-    setInterval(nextSlidedua, 9000); // Change slide every 0.5 seconds
+    setInterval(nextSlidedua, 9100); // Change slide every 0.5 seconds
   
-      // SLIDER TWO END  
+      // SLIDER TWO END  B DUA
 
 
-    // SLIDER THREE START    
+    // SLIDER THREE START    D SATU
     const slidethree = document.querySelectorAll(".slidetiga");
     let currentSlidetiga = 0;
     
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
     showSlidethree(currentSlidetiga);
     
     // Auto-looping
-    setInterval(nextSlidetiga, 9000); // Change slide every 0.5 seconds
+    setInterval(nextSlidetiga, 12600); // Change slide every 0.5 seconds
   
     // SLIDER THREE END  
 
@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // SLIDE BOTTOM TO UP END ONE
 
 
-     // SLIDER JS SLIDE COL 5 ROW 1 END START    
+     // SLIDER JS SLIDE COL 5 ROW 1 END START   E SATU
      const slidehomecvron = document.querySelectorAll(".slidehcvron");
      let currentShcvron = 0;
    
@@ -248,12 +248,12 @@ document.addEventListener("DOMContentLoaded", function () {
      showShcvron(currentShcvron);
    
      // Auto-looping
-     setInterval(nextShcvron, 4000); // Change slide every 5 seconds
+     setInterval(nextShcvron, 13000); // Change slide every 5 seconds
  
      // SLIDER JS SLIDE COL 5 ROW 1 END 
 
 
-     // SLIDER JS SLIDE COL 4 ROW 2 END START    
+     // SLIDER JS SLIDE COL 4 ROW 2 END START    D DUA
      const slidehomecfrtw = document.querySelectorAll(".slidehcfrtw");
      let currentShcfrtw = 0;
    
@@ -275,11 +275,11 @@ document.addEventListener("DOMContentLoaded", function () {
      showShcfrtw(currentShcfrtw);
    
      // Auto-looping
-     setInterval(nextShcfrtw, 5600); // Change slide every 5 seconds
+     setInterval(nextShcfrtw, 5850); // Change slide every 5 seconds
  
-     // SLIDER JS SLIDE COL 4 ROW 2 END 
+     // SLIDER JS SLIDE COL 4 ROW 2 END   D DUA
 
-     // SLIDER JS SLIDE COL 4 ROW 3 END START    
+     // SLIDER JS SLIDE COL 4 ROW 3 END START   D TIGA 
      const slidehomecfrth = document.querySelectorAll(".slidehcfrth");
      let currentShcfrth = 0;
    
@@ -301,13 +301,13 @@ document.addEventListener("DOMContentLoaded", function () {
      showShcfrth(currentShcfrth);
    
      // Auto-looping
-     setInterval(nextShcfrth, 7000); // Change slide every 5 seconds
+     setInterval(nextShcfrth, 9300); // Change slide every 5 seconds
  
-     // SLIDER JS SLIDE COL 4 ROW 3 END 
+     // SLIDER JS SLIDE COL 4 ROW 3 END  D TIGA
 
 
 
-     // SLIDER JS SLIDE COL 3 ROW 1 END START    
+     // SLIDER JS SLIDE COL 3 ROW 1 END START   C SATU 
      const slidehomeciron = document.querySelectorAll(".slidehciron");
      let currentShciron = 0;
    
@@ -331,9 +331,9 @@ document.addEventListener("DOMContentLoaded", function () {
      // Auto-looping
      setInterval(nextShciron, 10000); // Change slide every 5 seconds
  
-     // SLIDER JS SLIDE COL 3 ROW 1 END 
+     // SLIDER JS SLIDE COL 3 ROW 1 END  C SATU
 
-     // SLIDER JS SLIDE COL 3 ROW 2 END START    
+     // SLIDER JS SLIDE COL 3 ROW 2 END START    C DUA
      const slidehomecirtw = document.querySelectorAll(".slidehcirtw");
      let currentShcirtw = 0;
    
@@ -355,13 +355,13 @@ document.addEventListener("DOMContentLoaded", function () {
      showShcirtw(currentShcirtw);
    
      // Auto-looping
-     setInterval(nextShcirtw, 8500); // Change slide every 5 seconds
+     setInterval(nextShcirtw, 11500); // Change slide every 5 seconds
  
-     // SLIDER JS SLIDE COL 3 ROW 2 END 
+     // SLIDER JS SLIDE COL 3 ROW 2 END  C DUA
 
 
 
-     // SLIDER JS SLIDE COL 2 ROW 1 END START    
+     // SLIDER JS SLIDE COL 2 ROW 1 END START   B SATU 
      const slidehomectron = document.querySelectorAll(".slidehctron");
      let currentShctron = 0;
    
@@ -385,10 +385,10 @@ document.addEventListener("DOMContentLoaded", function () {
      // Auto-looping
      setInterval(nextShctron, 6000); // Change slide every 5 seconds
  
-     // SLIDER JS SLIDE COL 2 ROW 1 END 
+     // SLIDER JS SLIDE COL 2 ROW 1 END  B SATU
 
 
-     // SLIDER JS SLIDE COL 1 ROW 2 END START    
+     // SLIDER JS SLIDE COL 1 ROW 2 END START A DUA    
      const slidehomecortw = document.querySelectorAll(".slidehcortw");
      let currentShcortw = 0;
    
@@ -412,11 +412,11 @@ document.addEventListener("DOMContentLoaded", function () {
      // Auto-looping
      setInterval(nextShcortw, 4500); // Change slide every 5 seconds
  
-     // SLIDER JS SLIDE COL 1 ROW 2 END 
+     // SLIDER JS SLIDE COL 1 ROW 2 END A DUA
 
 
 
-     // SLIDER JS SLIDE COL 1 ROW 3 END START    
+     // SLIDER JS SLIDE COL 1 ROW 3 END START  A TIGA  
      const slidehomecorth = document.querySelectorAll(".slidehcorth");
      let currentShcorth = 0;
    
@@ -440,7 +440,7 @@ document.addEventListener("DOMContentLoaded", function () {
      // Auto-looping
      setInterval(nextShcorth, 8000); // Change slide every 5 seconds
  
-     // SLIDER JS SLIDE COL 1 ROW 3 END  
+     // SLIDER JS SLIDE COL 1 ROW 3 END  A TIGA
 
 
      // MOBILE SLIDER JS SLIDE COL COL 1 ROW 1 START    

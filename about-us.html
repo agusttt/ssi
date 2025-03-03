@@ -62,7 +62,7 @@
                         <div class="container-mobile">
                             <div class="wrp-mobile-item">
                                 <div class="accordion accordionMenu" id="accordionMenu">
-                                    <a class="menu-head-accordions has-submenu-child" data-bs-toggle="collapse"
+                                    <a href="our-services.html" class="menu-head-accordions has-submenu-child" data-bs-toggle="collapse"
                                         data-bs-target="#collapseMenu1" aria-expanded="true" aria-controls="collapseMenu1">
                                         Our Services
                                     </a>
@@ -149,7 +149,7 @@
                                                 </div>
                                             </a>
                                             <ul class="dropdown-menu animate slideIn first-level">
-                                                <li><a href="#">Structural Design</a></li>
+                                                <li><a href="our-services.html">Structural Design</a></li>
                                                 <li><a href="#">Structural Assessment & Retrofitting Design</a></li>
                                                 <li><a href="#">Value Engineering</a></li>
                                                 <li><a href="#">Structural BIM & Detailing</a></li>
@@ -209,8 +209,8 @@
                                         <!-- <li class="nav-item dropdown dropdown-hover"><a class="nav-link menu-item" href="career.html">Careers</a></li> -->
                                         <li class="nav-item dropdown dropdown-hover"><a class="nav-link menu-item" href="contact.html">Contact Us</a></li>
                                     </ul>
-                                    <div class="music-icon">
-                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    <div onClick="togglePlay()" id="toggle" class="music-icon played">
+                                        <svg class="playing" ="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                         viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
                                             <path d="M28.2,20.3c0-2-1.6-3.7-3.7-3.7c-2,0-3.7,1.6-3.7,3.7l0,30.1c-1.6-0.8-3.4-1.2-5.3-1.2C8.7,49.1,3,54.8,3,61.8
                                             s5.7,12.6,12.6,12.6c6.8,0,12.4-5.5,12.6-12.3C28.2,62,28.2,20.3,28.2,20.3z M15.6,67.1c-2.9,0-5.3-2.4-5.3-5.3
@@ -221,6 +221,23 @@
                                             <path d="M24.5,24c-1.5,0-3-1-3.5-2.5c-0.6-1.9,0.4-4,2.3-4.6l44.7-15c2-0.7,4,0.4,4.6,2.3c0.6,1.9-0.4,4-2.3,4.6l-44.7,15
                                             C25.3,23.9,24.9,24,24.5,24z"/>
                                             <rect x="23.4" y="27.9" transform="matrix(0.9404 -0.34 0.34 0.9404 -7.8515 17.7119)" width="46.4" height="6.7"/>
+                                        </svg>
+                                        <svg class="mute" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
+                                            <path d="M70.8,67L18.2,11.9c-1.3-1.4-3.5-1.4-4.9-0.1c-1.4,1.3-1.4,3.6-0.1,4.9l52.6,55.1c0.7,0.7,1.6,1.1,2.5,1.1
+                                            c0.9,0,1.7-0.3,2.4-1C72.1,70.6,72.2,68.4,70.8,67z"/>
+                                            <path class="st0" d="M15.7,56.5c-2.9,0-5.3,2.4-5.3,5.3c0,2.9,2.4,5.3,5.3,5.3c2.9,0,5.3-2.4,5.3-5.3C21,58.9,18.5,56.5,15.7,56.5z"
+                                            />
+                                            <path d="M72.8,4.1c-0.6-1.9-2.6-3-4.6-2.3l-43,14.5l5.9,5.9L70.5,8.7C72.3,8.1,73.3,6,72.8,4.1z"/>
+                                            <path class="st0" d="M0,132.4c0.2,0,0.3,0,0.5-0.1l-5.7-6.3c-0.1,0.3-0.1,0.7-0.1,1C-5.3,130-2.9,132.4,0,132.4z"/>
+                                            <path d="M57.3,65.8c-0.2,0-0.3,0.1-0.5,0.1c-2.9,0-5.3-2.4-5.3-5.3c0-0.4,0-0.7,0.1-1l-5.4-5.8c-1.3,2-2.1,4.4-2,6.9
+                                            c0,6.9,5.8,12.6,12.7,12.5c2.1,0,4.1-0.6,5.8-1.5L57.3,65.8z"/>
+                                            <path d="M69.2,1.6c-2.1,0-3.7,1.6-3.7,3.7v16.3l-26.7,9.5l5,5.2l21.7-7.6v16.4c-1.6-0.7-3.3-1.2-5.2-1.2c-2.7,0-4.5,0.3-6.9,2.2
+                                            l5.2,5.4c0,0,1.1-0.4,1.8-0.4c2.9,0,5.2,2.3,5.3,5.1v0.4c0,0.6-0.4,1.7-0.4,1.7l5.5,5.2c1.6-1.9,2-4.4,2.1-6.9V5.3
+                                            C73,3.3,71.3,1.6,69.2,1.6z"/>
+                                            <path d="M28.2,42.3l4.8-1.7L28,35.2l0,0l-7.1-7.3v22.5c-1.6-0.8-3.3-1.2-5.2-1.2C8.7,49.2,3,54.9,3,61.8c0,6.9,5.7,12.6,12.6,12.6
+                                            c6.8,0,12.4-5.5,12.6-12.3L28.1,42L28.2,42.3z M15.7,67.1c-2.9,0-5.3-2.4-5.3-5.3c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3
+                                            C21,64.7,18.5,67.1,15.7,67.1z"/>
                                         </svg>
                                     </div>
                                     <div class="search-navbar">
@@ -251,6 +268,13 @@
                     </navbar>
                 </header>
                 
+                <section class="embeded-music">
+                    <audio id="music" class="myaudio" loop>
+                        <source src="assets/audio/Music for SSI Website.mp3" type="audio/mpeg" />
+                        <p>If you can read this, your browser does not support the audio element.</p>
+                     </audio>
+                </section>
+
                 <section class="section-cover-page">
                     <div class="container centered-container">
                         <div class="title-section-page">
@@ -258,15 +282,15 @@
                         </div>
                     </div>
                 </section>
-                <!-- <section class="section-about">
+                <section class="section-about">
                     <div class="container centered-container">
                         <div class="wrp-fill-form">
                             <div class="summary-about">
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. It has survived not only five centuries</h2>
+                                <h2>“SSI's distinctive designs seamlessly integrate innovation, creativity, and advanced engineering solutions to meet the evolving demands of today’s construction industry."</h2>
                             </div>
                         </div>
                     </div>
-                </section> -->
+                </section>
                 <section class="section-about-image">
                     <div class="container-fluid container-large">
                         <div class="slick aboutmarquee">
@@ -601,153 +625,6 @@
 
     </script>
     <script>
-    // Slider Image
-        let counter = 1
-        setInterval(()=>{
-            document.querySelector('.img.showing').classList.remove('showing')
-            const img = document.querySelector(`.img-${counter}`)
-            img.classList.add('showing')
-            counter++
-            if(counter >3){
-                counter = 1
-            }
-        },3000)
-
-    $('.select-country').select2({
-        placeholder: "Country",  
-    });
-
-    let countertwo = 1;
-
-    setInterval(() => {
-        // Hapus class 'showingtwo' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgtwo.showingtwo');
-        if (currentImg) {
-            currentImg.classList.remove('showingtwo');
-        }
-
-        // Tambahkan class 'showingtwo' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgtwo-${countertwo}`);
-        if (nextImg) {
-            nextImg.classList.add('showingtwo');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        countertwo++;
-        if (countertwo > 3) {
-            countertwo = 1;
-        }
-    }, 4500);
-
-
-    let counterthree = 1;
-
-    setInterval(() => {
-        // Hapus class 'showingthree' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgthree.showingthree');
-        if (currentImg) {
-            currentImg.classList.remove('showingthree');
-        }
-
-        // Tambahkan class 'showingthree' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgthree-${counterthree}`);
-        if (nextImg) {
-            nextImg.classList.add('showingthree');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        counterthree++;
-        if (counterthree > 3) {
-            counterthree = 1;
-        }
-    }, 3500);
-
-
-    let counterfourth = 1;
-
-    setInterval(() => {
-        // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgfourth.showingfourth');
-        if (currentImg) {
-            currentImg.classList.remove('showingfourth');
-        }
-
-        // Tambahkan class 'showingfourth' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgfourth-${counterfourth}`);
-        if (nextImg) {
-            nextImg.classList.add('showingfourth');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        counterfourth++;
-        if (counterfourth > 3) {
-            counterfourth = 1;
-        }
-    }, 4600);
-
-    let counterfiveth = 1;
-    setInterval(() => {
-        // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgfiveth.showingfiveth');
-        if (currentImg) {
-            currentImg.classList.remove('showingfiveth');
-        }
-
-        // Tambahkan class 'showingfiveth' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgfiveth-${counterfiveth}`);
-        if (nextImg) {
-            nextImg.classList.add('showingfiveth');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        counterfiveth++;
-        if (counterfiveth > 3) {
-            counterfiveth = 1;
-        }
-    }, 4000);
-
-
-    let counternineth = 1;
-    setInterval(() => {
-        // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgnineth.showingnineth');
-        if (currentImg) {
-            currentImg.classList.remove('showingnineth');
-        }
-
-        // Tambahkan class 'showingnineth' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgnineth-${counternineth}`);
-        if (nextImg) {
-            nextImg.classList.add('showingnineth');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        counternineth++;
-        if (counternineth > 3) {
-            counternineth = 1;
-        }
-    }, 3500);
-
-    let countertwelveth = 1;
-    setInterval(() => {
-        // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgtwelveth.showingtwelveth');
-        if (currentImg) {
-            currentImg.classList.remove('showingtwelveth');
-        }
-
-        // Tambahkan class 'showingtwelveth' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgtwelveth-${countertwelveth}`);
-        if (nextImg) {
-            nextImg.classList.add('showingtwelveth');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        countertwelveth++;
-        if (countertwelveth > 3) {
-            countertwelveth = 1;
-        }
-    }, 4800);
 
     gsap.fromTo(
     ".loading-page",
@@ -795,8 +672,56 @@
         touchThreshold: 120,
         useTransform: false,
         buttons: false
-    });    
-    AOS.init();
+    });   
+
+
+    function PlayMusic() {
+
+    var play=document.getElementById("music");
+        play.play();
+    }
+
+    $(document).ready(function(){
+        setTimeout(togglePlay,7000);
+    });
+
+    $(window).scroll(function() {
+    var myAudio = document.getElementById("music");
+        var scroll = $(window).scrollTop();
+        if (scroll >= 300) {
+            $(".wrp-arrow").addClass("swipe-up-nav");
+        } else {
+            $(".wrp-arrow").removeClass("swipe-up-nav");
+        }
+    });
+    // SCROLLING DOWN END
+
+    var music = document.getElementById("music");
+    var isPlaying = false;
+
+    function togglePlay() {
+        if (isPlaying) {
+        music.pause();
+            $('.playing').hide();
+            $('.mute').show();
+        } else {
+        music.play();
+            $('.playing').show();
+            $('.mute').hide();
+        }
+    };
+    music.onplaying = function() {
+        isPlaying = true;
+    };
+    music.onpause = function() {
+        isPlaying = false;
+    };
+
+    var button = document.getElementById("toggle");
+
+    // SCROLLING DOWN START
+
+
     </script>
 </body>
 </html>
