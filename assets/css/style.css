@@ -7826,12 +7826,28 @@ transition-duration: 0.5s;
 		color: var(--black-100);
 	}
 	.thumb-of-projects a {
-		min-height: 156px;
+		min-height: 156px;	
 	}
 	.card-projects-thumb {
 		width: 100%;
 		min-height: 156px;
 	}
+
+	.row.gutter--p25 .col-sm-6:nth-child(3), .row.gutter--p25 .col-sm-6:nth-child(6), .row.gutter--p25 .col-sm-6:nth-child(9), .row.gutter--p25 .col-sm-6:nth-child(12),.row.gutter--p25 .col-sm-6:nth-child(15),.row.gutter--p25 .col-sm-6:nth-child(18){
+		flex: 0 0 auto;
+		width: 100%;
+	}
+	.row.gutter--p25 .col-sm-6:nth-child(3) .card-projects-thumb, 
+	.row.gutter--p25 .col-sm-6:nth-child(6) .card-projects-thumb,
+	.row.gutter--p25 .col-sm-6:nth-child(9) .card-projects-thumb, 
+	.row.gutter--p25 .col-sm-6:nth-child(12) .card-projects-thumb,
+	.row.gutter--p25 .col-sm-6:nth-child(15) .card-projects-thumb,
+	{
+		width: 100%;
+		min-height: 236px;
+		max-height: 236px;
+	}
+
 	.header {
 		overflow: hidden
 	}
