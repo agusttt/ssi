@@ -4961,6 +4961,7 @@ transition-duration: 0.5s;
 	padding: 0px 0px;
 	position: relative;
 	overflow: hidden;
+	margin-top: 3px;
 }
 .card-half-projects a{
 	text-decoration: none;
@@ -5018,6 +5019,7 @@ transition-duration: 0.5s;
 	line-height: 16.64px;
 	text-transform: none;
 	margin-bottom: 1.5px;
+	
 }
 
 .projects-list a:hover .caption-title-projects h2{
@@ -5051,7 +5053,7 @@ transition-duration: 0.5s;
 }
 
 .projects-item-two .card-project-two:last-child{
-	margin-top: 5px;
+	margin-bottom: 5px;
 	
 }
 .projects-item-three{
@@ -8555,6 +8557,11 @@ transition-duration: 0.5s;
 	/* font: normal 600 clamp(1.125rem, 0.9964rem + 0.6431vw, 1.2275rem) var(--font-poppins); */
 	font: normal 600 15.64px/24.64px var(--font-poppins);
 	margin-bottom: 0.6px;
+}
+
+.card-services-desc {
+	min-height: 114px;
+	max-height: unset;
 }
 
 .tabulation-title h3 {
