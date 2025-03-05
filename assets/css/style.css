@@ -5770,7 +5770,7 @@ transition-duration: 0.5s;
 	height: 12px;
 	width: 100%;
 	z-index: 1;
-	top: -94px;		
+	top: -104px;		
 }
 
 .form-contact-us .wrp-submit-cv{
@@ -6122,6 +6122,10 @@ transition-duration: 0.5s;
 
 .title-services-list{
 	width: 100%;
+}
+
+.our-services-contents{
+	cursor: auto;
 }
 
 .title-services-list h2{
@@ -7164,6 +7168,46 @@ transition-duration: 0.5s;
 		max-width: 105%;
 	}
 
+	#value-engineering {
+		position: absolute;
+		background: transparent none;
+		/* background: #cf0000; */
+		height: 12px;
+		width: 100%;
+		z-index: 1;
+		top: -174px;
+	}
+
+
+	#structural-bim-detailing {
+		position: absolute;
+		background: transparent none;
+		/* background: #cf0000; */
+		height: 15px;
+		width: 100%;
+		z-index: 1;
+		top: -176px;
+	}
+
+	#site-supervision {
+		position: absolute;
+		background: transparent none;
+		/* background: #cf0000; */
+		height: 12px;
+		width: 100%;
+		z-index: 1;
+		top: -250px;
+	}
+
+	#concrete-technology-consulting {
+		position: absolute;
+		background: transparent none;
+		/* background: #cf0000; */
+		height: 12px;
+		width: 100%;
+		z-index: 1;
+		top: -219px;
+	}
 
 	.section-home-services {
 		padding: 56px 0px 60px 0px;
@@ -8619,6 +8663,56 @@ transition-duration: 0.5s;
 }
 
 /* ACCORDION SERVICES HOME END */
+
+
+/* SERVICE 480 START */
+
+.our-services-contents .row:nth-child(1) .col-sm-7{
+	order: 2;
+}
+
+.our-services-contents .row:nth-child(1) .col-md-5.col-12{
+	order: 2;
+}
+
+.our-services-contents .row:nth-child(2) .col-sm-7.col-12{
+	order: 1;
+}
+
+.our-services-contents .row:nth-child(2) .col-md-5.col-12{
+	order: 1;
+}
+
+.our-services-contents .row:nth-child(3) .col-sm-7.col-12{
+	order: 1;
+	/* background: #cf0000; */
+}
+
+.our-services-contents .row:nth-child(3) .col-md-5.col-12{
+	order: 2;
+}
+
+.our-services-contents .row:nth-child(5) .col-sm-7.col-12{
+	order: 1;
+	/* background: #cf0000; */
+}
+
+.our-services-contents .row:nth-child(5) .col-md-5.col-12{
+	order: 2;
+}
+
+.our-services-contents .row:nth-child(7) .col-sm-7.col-12{
+	order: 1;
+	/* background: #cf0000; */
+}
+
+.our-services-contents .row:nth-child(7) .col-md-5.col-12{
+	order: 2;
+}
+.wrp-services-list {
+	margin-bottom: 20px;
+}
+/* SERVICES 480 END */
 
 /* DIALOG MODAL PEOPLE 480 START*/
 .row-modal-people {

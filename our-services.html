@@ -65,12 +65,12 @@
                                     <div id="collapseMenu1" class="collapse" aria-labelledby="headingOne"
                                         data-bs-parent="#accordionMenu">
                                         <ul class="sub-menu-child">
-                                            <li><a href="#strucutraal-design">Structural Design</a></li>
-                                            <li><a href="#strucutraal-assestment-retrofitting">Structural Assessment & Retrofitting Design</a></li>
-                                            <li><a href="#value-engineering">Value Engineering</a></li>
-                                            <li><a href="#structural-bim-detailing">Structural BIM & Detailing</a></li>
-                                            <li><a href="#site-supervision">Site Supervision</a></li>    
-                                            <li><a href="#concrete-technology-consulting">Concrete Technology Consulting</a></li>
+                                            <li><a class="strucutraal-design" href="#strucutraal-design">Structural Design</a></li>
+                                            <li><a class="strucutraal-assestment-retrofitting" href="#strucutraal-assestment-retrofitting">Structural Assessment & Retrofitting Design</a></li>
+                                            <li><a class="value-engineering" href="#value-engineering">Value Engineering</a></li>
+                                            <li><a class="structural-bim-detailing" href="#structural-bim-detailing">Structural BIM & Detailing</a></li>
+                                            <li><a class="site-supervision" href="#site-supervision">Site Supervision</a></li>    
+                                            <li><a class="concrete-technology-consulting" href="#concrete-technology-consulting">Concrete Technology Consulting</a></li>
                                         </ul>
                                     </div>
                                     <a class="menu-head-accordions has-submenu-child" data-bs-toggle="collapse"
@@ -273,7 +273,7 @@
 
                 <section class="section-about-people" data-bs-spy="scroll" data-bs-target="#navbar-campaign"
                 data-bs-root-margin="560px 0px 0px 0px" data-bs-smooth-scroll="true" tabindex="0" data-bs-offset="560" >
-                    <div class="container centered-container">
+                    <div class="container centered-container our-services-contents">
                         <div class="title-section-page">
                             <h1>Our Services</h1>
                         </div>
@@ -702,6 +702,103 @@
 
     // SCROLLING DOWN START
 
+    $(".strucutraal-design").click(function (e) {
+      e.preventDefault();
+      if ($('.wrp-mobile-item').hasClass("active")) {
+        $('.wrp-mobile-item').removeClass('active');
+        $('.navbar-mobile').removeClass('active');
+        $('.dropdown-burger').removeClass('is-active');
+        $('.menu-head-accordions').removeClass('collapsed');
+        $(document.body).removeClass("unscrolled");
+      } else {
+        $(document.body).addClass("unscrolled");
+        $('.dropdown-burger').removeClass('is-active');
+      }
+    });
+    
+    $(".strucutraal-assestment-retrofitting").click(function (e) {
+      e.preventDefault();
+      if ($('.wrp-mobile-item').hasClass("active")) {
+        $('.wrp-mobile-item').removeClass('active');
+        $('.navbar-mobile').removeClass('active');
+        $('.dropdown-burger').removeClass('is-active');
+        $('.menu-head-accordions').removeClass('collapsed');
+        $(document.body).removeClass("unscrolled");
+      } else {
+        $(document.body).addClass("unscrolled");
+        $('.dropdown-burger').removeClass('is-active');
+      }
+    });
+
+    $(".value-engineering").click(function (e) {
+      e.preventDefault();
+      if ($('.wrp-mobile-item').hasClass("active")) {
+        $('.wrp-mobile-item').removeClass('active');
+        $('.navbar-mobile').removeClass('active');
+        $('.dropdown-burger').removeClass('is-active');
+        $('.menu-head-accordions').removeClass('collapsed');
+        $(document.body).removeClass("unscrolled");
+      } else {
+        $(document.body).addClass("unscrolled");
+        $('.dropdown-burger').removeClass('is-active');
+      }
+    });
+
+    $(".structural-bim-detailing").click(function (e) {
+      e.preventDefault();
+      if ($('.wrp-mobile-item').hasClass("active")) {
+        $('.wrp-mobile-item').removeClass('active');
+        $('.navbar-mobile').removeClass('active');
+        $('.dropdown-burger').removeClass('is-active');
+        $('.menu-head-accordions').removeClass('collapsed');
+        $(document.body).removeClass("unscrolled");
+      } else {
+        $(document.body).addClass("unscrolled");
+        $('.dropdown-burger').removeClass('is-active');
+      }
+    });
+    
+    $(".site-supervision").click(function (e) {
+      e.preventDefault();
+      if ($('.wrp-mobile-item').hasClass("active")) {
+        $('.wrp-mobile-item').removeClass('active');
+        $('.navbar-mobile').removeClass('active');
+        $('.dropdown-burger').removeClass('is-active');
+        $('.menu-head-accordions').removeClass('collapsed');
+        $(document.body).removeClass("unscrolled");
+      } else {
+        $(document.body).addClass("unscrolled");
+        $('.dropdown-burger').removeClass('is-active');
+      }
+    });
+    
+    $(".concrete-technology-consulting").click(function (e) {
+      e.preventDefault();
+      if ($('.wrp-mobile-item').hasClass("active")) {
+        $('.wrp-mobile-item').removeClass('active');
+        $('.navbar-mobile').removeClass('active');
+        $('.dropdown-burger').removeClass('is-active');
+        $('.menu-head-accordions').removeClass('collapsed');
+        $(document.body).removeClass("unscrolled");
+      } else {
+        $(document.body).addClass("unscrolled");
+        $('.dropdown-burger').removeClass('is-active');
+      }
+    });
+    
+    $(".strucutraal-assestment-retrofitting").click(function (e) {
+      e.preventDefault();
+      if ($('.wrp-mobile-item').hasClass("active")) {
+        $('.wrp-mobile-item').removeClass('active');
+        $('.navbar-mobile').removeClass('active');
+        $('.dropdown-burger').removeClass('is-active');
+        $('.menu-head-accordions').removeClass('collapsed');
+        $(document.body).removeClass("unscrolled");
+      } else {
+        $(document.body).addClass("unscrolled");
+        $('.dropdown-burger').removeClass('is-active');
+      }
+    });    
 
     </script>
 </body>
