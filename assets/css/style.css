@@ -4793,6 +4793,37 @@ transition-duration: 0.5s;
 }
 
 /* PROJECT DETAIL ONE START */
+
+/* PROJECT DETAIL RESIDENTIAL HOUSING START */
+.left-column-residential{
+	flex: 0 0 auto;
+	width: 17%;
+	min-height: 64px;
+	background: var(--gray-200);
+}
+
+.center-column-residential{
+	flex: 0 0 auto;
+	width: 22%;
+	min-height: 218px;
+}
+
+.center-column-residential .thumb-of-projects a{
+	min-height: 218px;
+}
+
+.center-column-residential .thumb-of-projects a .card-projects-thumb {
+	width: 100%;
+	min-height: 218px;
+}
+
+.right-column-residential{
+	flex: 0 0 auto;
+	width: 17%;
+	min-height: 64px;
+	background: var(--gray-200);
+}
+/* PROJECT DETAIL RESIDENTIAL HOUSING END */
 .psliderone {
 	width: 100%;
 	height: auto;
