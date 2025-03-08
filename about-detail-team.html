@@ -44,10 +44,7 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!-- FAVICON END -->
 
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
     <link rel="stylesheet" href="assets/css/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/css/select2.min.css">
     <link rel="stylesheet" href="assets/css/style.css">    
     <title>Suradjin Sutjipto, INC - Consulting Structural Engineers Building</title>
 </head>
@@ -449,15 +446,12 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
     crossorigin="anonymous"></script>   
-    <script src="assets/js/select2.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script> 
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
@@ -496,29 +490,6 @@
         }
     });
     // HAMBURGER MENU END    
-
-    // CLIENTS HOME
-    $('.slick.marquee').slick({
-        speed: 7000,
-        autoplay: true,
-        autoplaySpeed: 0,
-        centerMode: false,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        draggable:false,
-        focusOnSelect:false,
-        pauseOnFocus:false,
-        pauseOnHover:false,
-        slidesToScroll: 1,
-        variableWidth: true,
-        infinite: true,
-        initialSlide: 1,
-        arrows: false,
-        buttons: false
-    });
-
-
-
 
     // Lenis smooth scrolling
     const lenis = new Lenis({
@@ -599,153 +570,6 @@
 
     </script>
     <script>
-    // Slider Image
-        let counter = 1
-        setInterval(()=>{
-            document.querySelector('.img.showing').classList.remove('showing')
-            const img = document.querySelector(`.img-${counter}`)
-            img.classList.add('showing')
-            counter++
-            if(counter >3){
-                counter = 1
-            }
-        },3000)
-
-    $('.select-country').select2({
-        placeholder: "Country",  
-    });
-
-    let countertwo = 1;
-
-    setInterval(() => {
-        // Hapus class 'showingtwo' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgtwo.showingtwo');
-        if (currentImg) {
-            currentImg.classList.remove('showingtwo');
-        }
-
-        // Tambahkan class 'showingtwo' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgtwo-${countertwo}`);
-        if (nextImg) {
-            nextImg.classList.add('showingtwo');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        countertwo++;
-        if (countertwo > 3) {
-            countertwo = 1;
-        }
-    }, 4500);
-
-
-    let counterthree = 1;
-
-    setInterval(() => {
-        // Hapus class 'showingthree' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgthree.showingthree');
-        if (currentImg) {
-            currentImg.classList.remove('showingthree');
-        }
-
-        // Tambahkan class 'showingthree' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgthree-${counterthree}`);
-        if (nextImg) {
-            nextImg.classList.add('showingthree');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        counterthree++;
-        if (counterthree > 3) {
-            counterthree = 1;
-        }
-    }, 3500);
-
-
-    let counterfourth = 1;
-
-    setInterval(() => {
-        // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgfourth.showingfourth');
-        if (currentImg) {
-            currentImg.classList.remove('showingfourth');
-        }
-
-        // Tambahkan class 'showingfourth' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgfourth-${counterfourth}`);
-        if (nextImg) {
-            nextImg.classList.add('showingfourth');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        counterfourth++;
-        if (counterfourth > 3) {
-            counterfourth = 1;
-        }
-    }, 4600);
-
-    let counterfiveth = 1;
-    setInterval(() => {
-        // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgfiveth.showingfiveth');
-        if (currentImg) {
-            currentImg.classList.remove('showingfiveth');
-        }
-
-        // Tambahkan class 'showingfiveth' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgfiveth-${counterfiveth}`);
-        if (nextImg) {
-            nextImg.classList.add('showingfiveth');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        counterfiveth++;
-        if (counterfiveth > 3) {
-            counterfiveth = 1;
-        }
-    }, 4000);
-
-
-    let counternineth = 1;
-    setInterval(() => {
-        // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgnineth.showingnineth');
-        if (currentImg) {
-            currentImg.classList.remove('showingnineth');
-        }
-
-        // Tambahkan class 'showingnineth' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgnineth-${counternineth}`);
-        if (nextImg) {
-            nextImg.classList.add('showingnineth');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        counternineth++;
-        if (counternineth > 3) {
-            counternineth = 1;
-        }
-    }, 3500);
-
-    let countertwelveth = 1;
-    setInterval(() => {
-        // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-        const currentImg = document.querySelector('.imgtwelveth.showingtwelveth');
-        if (currentImg) {
-            currentImg.classList.remove('showingtwelveth');
-        }
-
-        // Tambahkan class 'showingtwelveth' ke elemen berikutnya
-        const nextImg = document.querySelector(`.imgtwelveth-${countertwelveth}`);
-        if (nextImg) {
-            nextImg.classList.add('showingtwelveth');
-        }
-
-        // Increment counter atau reset ke 1 jika melebihi 3
-        countertwelveth++;
-        if (countertwelveth > 3) {
-            countertwelveth = 1;
-        }
-    }, 4800);
 
     gsap.fromTo(
     ".loading-page",
@@ -771,7 +595,6 @@
         delay: 0.4,
     }
     );
-    AOS.init();
 
     function PlayMusic() {
 
