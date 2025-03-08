@@ -2571,6 +2571,56 @@ main .span-high{
 	z-index: 1;
 	background-size: 100%;
   }
+
+
+  .circle-shape{
+	width: 100.5px;
+	height: 194px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	-ms-mask-image: url("../images/logo/LOGO-CIRCLE-SHAPE.svg");
+	-moz-mask-image: url("../images/logo/LOGO-CIRCLE-SHAPE.svg");
+	-webkit-mask-image: url("../images/logo/LOGO-CIRCLE-SHAPE.svg");
+	mask-image: -webkit-image-set(url("../images/logo/LOGO-CIRCLE-SHAPE.svg") 1x, url("../images/logo/LOGO-CIRCLE-SHAPE.svg") 2x);
+	text-indent: -9999em;
+	overflow: hidden;
+	_zoom: 1;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	z-index: 3;
+	top: 32px;
+	/* border: 2px solid #cf0000; */
+
+	width: 100.5px;
+	height: 194px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	_zoom: 1;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	z-index: 3;
+	top: 32px;
+  }
+  
+  .circle-shape:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1104px;
+	height: 164px;
+	content: " ";
+	background: url("../images/logo/bg-logo-circle.svg") top center;
+	background-repeat: no-repeat;
+	z-index: 1;
+	background-size: 100%;
+  }
+
+  
 	.logo-circle-top{
 		z-index: 6;
 	}
@@ -2593,7 +2643,32 @@ main .span-high{
 	top: 86px;
 	left: 1px;
 	background: linear-gradient(to bottom,  rgba(227,142,84,1) 0%,rgba(227,142,84,1) 23%,rgba(175,76,42,1) 50%,rgba(122,49,13,1) 70%,rgba(92,35,7,1) 87%,rgba(72,27,3,1) 100%);
-  }
+	animation: smoothcircle 8.96s ease-in;
+	-ms-animation: smoothcircle 8.96s ease-in;
+	-moz-animation: smoothcircle 8.96s ease-in;
+	-webkit-animation: smoothcircle 8.96s ease-in;
+}
+
+@-webkit-keyframes smoothcircle {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@-moz-keyframes smoothcircle {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@-o-keyframes smoothcircle {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes smoothcircle {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
 
   .logo-circle:after{
 	position: absolute;
@@ -2677,7 +2752,14 @@ main .span-high{
 		-moz-animation: logo-new 2.4s linear infinite;
 	}
 
-
+	.circlenew-shine:after{
+		opacity: 1;
+		transition: opacity 0.46s;
+		-webkit-animation: logo 2.4s linear infinite;
+		animation: logo 2.4s linear infinite;
+		-ms-zoom-animation: logo 2.4s linear infinite;
+		-moz-animation: logo 2.4s linear infinite;
+	}
   /* .auto-shining:hover:after {
 	opacity: 0;
 	animation-count: 1;
@@ -2741,6 +2823,23 @@ main .span-high{
 	}
   }  
 
+
+  @-webkit-keyframes circlenew-shine {
+	0% {
+	  -webkit-transform: translate3d(0, 0, 0);
+	}
+	50%, 100% {
+	  -webkit-transform: translate3d(298px, 0, 0);
+	}
+  }
+  @keyframes circlenew-shine {
+	0% {
+	  transform: translate3d(0, 0, 0);
+	}
+	50%, 100% {
+	  transform: translate3d(298px, 0, 0);
+	}
+  }  
 
   .loading-page {
 	position: fixed;
@@ -3423,6 +3522,14 @@ main .span-high{
 	font: normal 400 clamp(0.9775rem, 0.6426rem + 0.4186vw, 1rem) var(--font-arial);
 	color: var(--gray-900);
 	margin-bottom: 18px;
+}
+
+.floating-title-page{
+	width: 100%;
+	height: auto;
+	min-height: 1px;
+	position: sticky;
+	top:62.5px;
 }
 
 .section-about-people .dynamic-content{
@@ -5678,6 +5785,23 @@ transition-duration: 0.5s;
 	margin-bottom: 1px;
 }
 
+.left-title-section{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	top: -36px;
+	margin-bottom: 15px;
+}
+
+.left-title-section h1 {
+	/* font: normal 600 clamp(1.1025rem, -8.758rem + 12.3256vw, 1.765rem) var(--font-arial); */
+	font: normal 600 clamp(1.1025rem, -8.758rem + 12.3256vw, 1.765rem) var(--font-spectral);
+	color: var(--gray-950);
+	margin-bottom: 1px;
+}
+
 .wrp-fill-form{
 	width: 100%;
 	height: auto;
@@ -6166,7 +6290,8 @@ transition-duration: 0.5s;
 	width: 100%;
 	min-height: 124px;
 	height: auto;
-	top: 89px;
+	/* top: 89px; */
+	top: 124px;
 	position: sticky;
 	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
 	letter-spacing: 0.14px;
@@ -6175,6 +6300,8 @@ transition-duration: 0.5s;
 .left-table-of-content ul{
 	height: auto;
 	padding-left: 0;
+	position: relative;
+	top: -40px;
 }
 
 .left-table-of-content ul li{
@@ -6598,7 +6725,7 @@ transition-duration: 0.5s;
 }
 
 .center-col-footer{
-	width: 31.74%;
+	width: 31.24%;
 	height: auto;
 	position: relative;
 	font: normal 500 clamp(0.7575rem, 0.3482rem + 0.5116vw, 0.785rem) var(--font-arial);
@@ -6666,7 +6793,7 @@ transition-duration: 0.5s;
 
 .right-col-footer {
 	padding-left: 48px;
-	width: 34.32%;
+	width: 34.98%;
 	min-height: 222.5px;	
 	position: relative;
 	font: normal 500 clamp(0.7575rem, 0.3482rem + 0.5116vw, 0.785rem) var(--font-arial);
@@ -8664,6 +8791,15 @@ transition-duration: 0.5s;
 
 /* ACCORDION SERVICES HOME END */
 
+/* WHY CHOOSE US 480 START */
+.left-title-section{
+	display: none;
+}
+
+.left-table-of-content ul{
+	top: unset;
+}
+/* WHY CHOOSE US 480 END */
 
 /* SERVICE 480 START */
 

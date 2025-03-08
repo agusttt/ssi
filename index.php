@@ -1,0 +1,2252 @@
+<!DOCTYPE html>
+<html lang="en" class="viewports">
+
+<head>
+    <!-- META FRAGMENTS START -->
+    <!-- META FRAGMENTS START -->
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />     -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#034ea1">
+    <meta name="robots" content="index, follow" />
+    <meta name="title" content="SURADJIN SUTJIPTO, INC. - CONSULTING STRUCTURAL ENGINEERS">
+    <meta name="description"
+        content="At SSI, we treat our work as an art, emphasizing cost-effectiveness, constructibility, and attention to detail as our distinguishing characteristics" />
+    <meta name="keywords"
+        content="Structural Consultant, Structural Engineer, Design, Structural Analysis, Engineering, Civil Engineering Consultant, Building, Structural Design, Bridge Structural Design, Industrial Structural Design, Concrete Structure Analysis, Steel Structure Analysis, Structural Strengthening, Structural Renovation, Structural Inspection, Structural Project Management, Earthquake Resistant Structure Consultant, Geotechnical Structure, Structural Consultant Jakarta, Structural Engineer Kalimantan" />
+    <meta name="copyright" content="&copy; 2025 suradjinsutjipto.id - CONSULTING STRUCTURAL ENGINEERS">
+    <meta name="generator"
+        content="Content management system laravel v10.0 developed by Komunigrafik - PT Penyedia Konten Kreatif" />
+    <!-- FACEBOOK OPEN GRAPH -->
+    <meta property="og:url" content="https://suradjinsutjipto.id">
+    <meta property="og:type" content="website">
+    <meta property="og:title"
+        content="SURADJIN SUTJIPTO, INC. - CONSULTING STRUCTURAL ENGINEERS">
+    <meta property="og:description" content="At SSI, we treat our work as an art, emphasizing cost-effectiveness, constructibility, and attention to detail as our distinguishing characteristics">
+    <meta property="og:image" content="https://suradjinsutjipto.id/dwt/assets/frontend/images/ssi-image-meta.png">
+    <!-- FACEBOOK OPEN GRAPH -->
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@SuradjinSutjipto">
+    <meta name="twitter:title"
+        content="SURADJIN SUTJIPTO, INC. - CONSULTING STRUCTURAL ENGINEERS">
+    <meta name="twitter:description" content="Structural Consultant, Structural Engineer, Design, Structural Analysis, Engineering, Civil Engineering Consultant, Building, Structural Design, Bridge Structural Design, Industrial Structural Design, Concrete Structure Analysis, Steel Structure Analysis, Structural Strengthening, Structural Renovation, Structural Inspection, Structural Project Management, Earthquake Resistant Structure Consultant, Geotechnical Structure, Structural Consultant Jakarta, Structural Engineer Kalimantan">
+    <meta name="twitter:image" content="https://suradjinsutjipto/assets/images/logo/suradjinsutjipto-image-meta.png" />
+    <meta name="twitter:url" content="https://twitter.com/@SuradjinSutjipto">
+    <!-- TWITTER CARD -->    
+    <!-- META FRAGMENTS END -->
+
+
+    <!-- FAVICON START -->
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- FAVICON END -->
+
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/aos.css">   
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">   
+    <link rel="stylesheet" href="assets/css/style-collase.css">    
+    <title>Suradjin Sutjipto, INC - Consulting Structural Engineers Building</title>
+</head>
+<body class="javascript: void(0)">
+
+<!-- LOADING PAGE -->
+<div class="loading-page">
+    <svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 282.4 480" style="enable-background:new 0 0 282.4 480;" xml:space="preserve">
+        <defs>
+            <linearGradient id="verticalGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" style="stop-color:#df7d44;stop-opacity:1" />
+                <stop offset="25%" style="stop-color:#943a0c;stop-opacity:1" />
+                <stop offset="56%" style="stop-color:#541e04;stop-opacity:1" />
+                <stop offset="86%" style="stop-color:#4a1902;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#481802;stop-opacity:1" />
+            </linearGradient>
+        </defs>                
+        <g>
+            <path class="st0" d="M184.7,99.8c-45.3,45.3-45.3,118.9,0,163.8l5.8,5.8c16,16,16,42.6,0,58.6l-40.8,40.8v105.2l93.6-93.6
+                c45.3-45.3,45.3-118.9,0-163.8l-5.8-5.8c-16-16-16-42.6,0-58.6l40.8-40.8V6.1C278.3,6.1,184.7,99.8,184.7,99.8z" fill="url(#verticalGradient)"/>
+            <path class="st0" d="M97.7,99.8L4.1,6.1v105.2l40.8,40.8c16,16,16,42.6,0,58.6l-5.8,5.8c-45.3,45.3-45.3,118.9,0,163.8l93.6,93.6
+                V368.7l-40.8-40.8c-16-16-16-42.6,0-58.6l5.8-5.8C143,218.3,143,144.6,97.7,99.8C97.7,99.8,97.7,99.8,97.7,99.8z" fill="url(#verticalGradient)"/>
+            <path class="st0" d="M144.3,6.1c-16.9,0-32,10.2-38.2,25.7s-2.7,33.3,8.9,45.3c12,12,29.7,15.5,45.3,8.9
+                c15.5-6.2,25.7-21.7,25.7-38.2S167.4,6.1,144.3,6.1z"fill="url(#verticalGradient)"/>
+        </g>
+    </svg>
+    <div class="contain-preload logo-name logo-circle-top">
+        <div class="logo-circle circle-shine"></div>
+    </div>
+    <div class="contain-preload logo-name">
+        <div class="logo-shape auto-shine"></div>
+    </div>
+    <div class="contain-preload logo-name">
+        <a class="logo auto-shining" href="javascript: void(0)" target="_blank">&nbsp;</a>
+    </div>    
+</div>    
+<!-- LOADING PAGE END -->
+    <!-- MODAL DIALOG PEOPLE 1 -->
+    <div class="modal fade fade" id="modalseePeople" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modaladdtoCartLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-people" role="document">
+            <div class="modal-content animate-bottom">
+                <div class="modal-header modal-header-people">
+                    <a class="close close-area" data-bs-dismiss="modal">
+                        <img src="assets/images/svg/close-red.svg" alt="Close">
+                    </a>                
+                </div>           
+                <div class="modal-body modal-body-people">
+                    <div class="row-modal-people">
+                        <div class="side-left-people">
+                            <div class="card-people-image-modal">
+                                <img src="assets/images/Suradjin-Sutjipto-President-of-SSI.jpg" alt="Suradjin Sutjipto President of SSI - Suradjin Sutjipto, Inc.">
+                            </div>
+                            <div class="people-social-network">
+
+                            </div>
+                        </div>
+                        <div class="side-right-people">
+                            <div class="wrp-desc-people-dialog">
+                                <div class="wrp-content-dialog">
+                                    <div class="title-right-desc">
+                                        <h3>Suradjin Sutjipto</h3>
+                                    </div>
+                                    <div class="wrp-content-biography">
+                                        <div class="content-biography">
+                                            <h5>President</h5>
+                                            <p>Suradjin Sutjipto, a licensed Professional Structural Engineer, holds a Master’s in Earthquake Engineering from UCLA, where he studied under renowned professors Gary C. Hart and Robert E. Englekirk. Recognized for his innovative approach and technical expertise, Suradjin has designed landmark high-rise projects in Indonesia, the United States, and Taiwan, along with industrial and low-rise structures in Malaysia and Australia. With over 35 years of experience, he combines academic insight with practical knowledge, establishing himself as a leader in structural engineering. His contributions to the Indonesian National Standard (SNI) and his dedication to earthquake-resistant design have earned him prestigious accolades, including the Herudi Technical Committee Award.</p> 
+                                            <div class="button-dialog-socmed-outline">
+                                                <a href="javascript: void(0)">
+                                                    <div class="righ-icon-sn-dialog">
+                                                        <p>View Full Profile</p>
+                                                    </div>
+                                                    <div class="right-icon-ar-dialog">
+                                                        <div class="icon-linkedin-arrow">
+                                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
+                                                            <path class="st0" d="M7.2,39.2h49.6L41.1,23c-1.9-1.9-1.8-5,0.1-6.9c1.9-1.9,5-1.8,6.9,0.1l22.3,23c2.7,2.8,2.7,7.2,0,10.1L48,71.8
+                                                                c-0.9,1-2.2,1.4-3.4,1.4c-1.2,0-2.5-0.5-3.4-1.4c-1.9-1.9-1.9-5,0-6.9l16-16.1H7.2c-2.7,0-4.9-2.2-4.9-4.9
+                                                                C2.4,41.3,4.5,39.2,7.2,39.2z"/>
+                                                            </svg>
+                                                        </div>    
+                                                    </div>
+                                                </a>                                
+                                            </div>                                                                                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>        
+    <!-- MODAL DIALOG PEOPLE 1 -->  
+
+    <!-- MODAL DIALOG PEOPLE 2 -->
+    <div class="modal fade fade" id="modalseePeople2" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modaladdtoCartLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-people" role="document">
+            <div class="modal-content animate-bottom">
+                <div class="modal-header modal-header-people">
+                    <a class="close close-area" data-bs-dismiss="modal">
+                        <img src="assets/images/svg/close-red.svg" alt="Close">
+                    </a>                
+                </div>           
+                <div class="modal-body modal-body-people">
+                    <div class="row-modal-people">
+                        <div class="side-left-people">
+                            <div class="card-people-image-modal">
+                                <img src="assets/images/Indrawati-Sumeru-Director-SSI.jpg" alt="Indrawati Sumeru Director of SSI - Suradjin Sutjipto, Inc.">
+                            </div>
+                            <div class="people-social-network">
+
+                            </div>
+                        </div>
+                        <div class="side-right-people">
+                            <div class="wrp-desc-people-dialog">
+                                <div class="wrp-content-dialog">
+                                    <div class="title-right-desc">
+                                        <h3>Indrawati Sumeru</h3>
+                                    </div>
+                                    <div class="wrp-content-biography">
+                                        <div class="content-biography">
+                                            <h5>Director</h5>
+                                            <p>Indrawati Sumeru is a highly accomplished structural engineer and educator,
+                                                combining extensive experience in both practice and academia. A top graduate of
+                                                Trisakti University and the University of Indonesia, she is a licensed Professional
+                                                Structural Engineer with deep expertise in structural engineering and management.
+                                                As a Director at Suradjin Sutjipto, Inc. (SSI), she has led high-profile projects across
+                                                commercial, industrial, luxury resort, and institutional sectors in Indonesia and
+                                                internationally. Her notable works include Gandaria City, St. Regis Bali, and the
+                                                Lynas Plant in Malaysia. A university lecturer specializing in structural analysis,
+                                                concrete technology, and project management, Indrawati bridges academic
+                                                knowledge with practical application. She has contributed to national standards
+                                                development for steel structures, SNI 8369, and authored scholarly works on building
+                                                codes and earthquake mitigation. As an active member of HAKI and PII, she also
+                                                serves as an expert reviewer for structural design projects in South Jakarta. Her
+                                                leadership and expertise have earned her respect in both the engineering and
+                                                academic communities.</p> 
+                                            <div class="button-dialog-socmed-outline">
+                                                <a href="javascript: void(0)">
+                                                    <div class="righ-icon-sn-dialog">
+                                                        <p>View Full Profile</p>
+                                                    </div>
+                                                    <div class="right-icon-ar-dialog">
+                                                        <div class="icon-linkedin-arrow">
+                                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
+                                                            <path class="st0" d="M7.2,39.2h49.6L41.1,23c-1.9-1.9-1.8-5,0.1-6.9c1.9-1.9,5-1.8,6.9,0.1l22.3,23c2.7,2.8,2.7,7.2,0,10.1L48,71.8
+                                                                c-0.9,1-2.2,1.4-3.4,1.4c-1.2,0-2.5-0.5-3.4-1.4c-1.9-1.9-1.9-5,0-6.9l16-16.1H7.2c-2.7,0-4.9-2.2-4.9-4.9
+                                                                C2.4,41.3,4.5,39.2,7.2,39.2z"/>
+                                                            </svg>
+                                                        </div>    
+                                                    </div>
+                                                </a>                                
+                                            </div>                                                                                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>        
+    <!-- MODAL DIALOG PEOPLE 2 -->  
+
+    <!-- MODAL DIALOG PEOPLE 3 -->
+    <div class="modal fade fade" id="modalseePeople3" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modaladdtoCartLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-people" role="document">
+            <div class="modal-content animate-bottom">
+                <div class="modal-header modal-header-people">
+                    <a class="close close-area" data-bs-dismiss="modal">
+                        <img src="assets/images/svg/close-red.svg" alt="Close">
+                    </a>                
+                </div>           
+                <div class="modal-body modal-body-people">
+                    <div class="row-modal-people">
+                        <div class="side-left-people">
+                            <div class="card-people-image-modal">
+                                <img src="assets/images/William-Supardjo-Design-Manager-SSI.jpg" alt="William Supardjo Design Manager of SSI - Suradjin Sutjipto, Inc. linkedin">
+                            </div>
+                            <div class="people-social-network">
+
+                            </div>
+                        </div>
+                        <div class="side-right-people">
+                            <div class="wrp-desc-people-dialog">
+                                <div class="wrp-content-dialog">
+                                    <div class="title-right-desc">
+                                        <h3>William Supardjo</h3>
+                                    </div>
+                                    <div class="wrp-content-biography">
+                                        <div class="content-biography">
+                                            <h5>Design Manager</h5>
+                                            <p>William Supardjo holds a bachelor’s degree in Civil Engineering from Tarumanagara
+                                                University, where he received the Djarum Beasiswa Plus Award and graduated with
+                                                honors. Certified by ACI and AISC, William has contributed to landmark projects,
+                                                showcasing his expertise in code-based design, Performance-Based Design (PBD),
+                                                and structural assessments, with nonlinear analysis applied in both PBD and in-depth
+                                                building assessments. William utilized ASCE 41 guidelines to evaluate structural
+                                                behavior and enhance seismic resilience. As a contributor to SNI 6816:2024 and an
+                                                active member of ACI, AISC, ASCE, and HAKI, William remains committed to
+                                                advancing structural engineering standards.</p> 
+                                            <div class="button-dialog-socmed-outline">
+                                                <a href="javascript: void(0)">
+                                                    <div class="righ-icon-sn-dialog">
+                                                        <p>View Full Profile</p>
+                                                    </div>
+                                                    <div class="right-icon-ar-dialog">
+                                                        <div class="icon-linkedin-arrow">
+                                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
+                                                            <path class="st0" d="M7.2,39.2h49.6L41.1,23c-1.9-1.9-1.8-5,0.1-6.9c1.9-1.9,5-1.8,6.9,0.1l22.3,23c2.7,2.8,2.7,7.2,0,10.1L48,71.8
+                                                                c-0.9,1-2.2,1.4-3.4,1.4c-1.2,0-2.5-0.5-3.4-1.4c-1.9-1.9-1.9-5,0-6.9l16-16.1H7.2c-2.7,0-4.9-2.2-4.9-4.9
+                                                                C2.4,41.3,4.5,39.2,7.2,39.2z"/>
+                                                            </svg>
+                                                        </div>    
+                                                    </div>
+                                                </a>                                
+                                            </div>                                                                                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>        
+    <!-- MODAL DIALOG PEOPLE 3 -->  
+
+    <!-- MODAL DIALOG PEOPLE 4 -->
+    <div class="modal fade fade" id="modalseePeople4" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modaladdtoCartLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-people" role="document">
+            <div class="modal-content animate-bottom">
+                <div class="modal-header modal-header-people">
+                    <a class="close close-area" data-bs-dismiss="modal">
+                        <img src="assets/images/svg/close-red.svg" alt="Close">
+                    </a>                
+                </div>           
+                <div class="modal-body modal-body-people">
+                    <div class="row-modal-people">
+                        <div class="side-left-people">
+                            <div class="card-people-image-modal">
+                                <img src="assets/images/Sherrica-A-Sucipto-SSI.jpg" alt="Sherrica A Sucipto BIM & CAD Manager of SSI - Suradjin Sutjipto, Inc. linkedin">
+                            </div>
+                            <div class="people-social-network">
+
+                            </div>
+                        </div>
+                        <div class="side-right-people">
+                            <div class="wrp-desc-people-dialog">
+                                <div class="wrp-content-dialog">
+                                    <div class="title-right-desc">
+                                        <h3>Sherrica A. Sucipto</h3>
+                                    </div>
+                                    <div class="wrp-content-biography">
+                                        <div class="content-biography">
+                                            <h5>BIM & CAD Manager</h5>
+                                            <p>Sherrica A. Sucipto completed her Civil Engineering degree at Trisakti University,
+                                                graduating as the top student with a specialization in structural design, detailing, and
+                                                BIM. During her internship, she gained valuable insights into the constructibility of
+                                                structural designs. Throughout her career, she has contributed to major projects,
+                                                including high-rise office buildings, mixed-use developments, complex steel detailing,
+                                                and residential timber structures. Her expertise extends to advanced structural
+                                                assessments, such as post-earthquake evaluations, SLF assessments, and nonlinear analyses based on ASCE 41 standards. Sherrica has also contributed to national
+                                                standards, including SNI 6816:2024 on reinforced concrete detailing.</p> 
+                                            <div class="button-dialog-socmed-outline">
+                                                <a href="javascript: void(0)">
+                                                    <div class="righ-icon-sn-dialog">
+                                                        <p>View Full Profile</p>
+                                                    </div>
+                                                    <div class="right-icon-ar-dialog">
+                                                        <div class="icon-linkedin-arrow">
+                                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
+                                                            <path class="st0" d="M7.2,39.2h49.6L41.1,23c-1.9-1.9-1.8-5,0.1-6.9c1.9-1.9,5-1.8,6.9,0.1l22.3,23c2.7,2.8,2.7,7.2,0,10.1L48,71.8
+                                                                c-0.9,1-2.2,1.4-3.4,1.4c-1.2,0-2.5-0.5-3.4-1.4c-1.9-1.9-1.9-5,0-6.9l16-16.1H7.2c-2.7,0-4.9-2.2-4.9-4.9
+                                                                C2.4,41.3,4.5,39.2,7.2,39.2z"/>
+                                                            </svg>
+                                                        </div>    
+                                                    </div>
+                                                </a>                                
+                                            </div>                                                                                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>        
+    <!-- MODAL DIALOG PEOPLE 4 -->  
+
+    <div id="smooth-wrapper" class="smooth-wrapper">
+        <div id="smooth-content" class="smooth-content">
+            <div class="content">
+    <!-- NAVBAR MOBILE STARTING-->
+    <div class="navbar-mobile">
+        <div class="wrp-navbar-mobile">
+            <div class="container-mobile">
+                <div class="wrp-mobile-item">
+                    <div class="accordion accordionMenu" id="accordionMenu">
+                        <!-- <a href="javascript: void(0)" class="menu-head-accordions has-submenu-child" data-bs-toggle="collapse"
+                            data-bs-target="#collapseMenu1" aria-expanded="true" aria-controls="collapseMenu1">
+                            Our Services
+                        </a> -->
+                        <a href="javascript: void(0)" class="menu-head-accordions has-submenu-child">
+                            Our Services
+                        </a>
+                        <div id="collapseMenu1" class="collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionMenu">
+                            <ul class="sub-menu-child">
+                                <li><a href="javascript: void(0)">Structural Design</a></li>
+                                <li><a href="javascript: void(0)">Structural Assessment & Retrofitting Design</a></li>
+                                <li><a href="javascript: void(0)">Value Engineering</a></li>
+                                <li><a href="javascript: void(0)">Structural BIM & Detailing</a></li>
+                                <li><a href="javascript: void(0)">Site Supervision</a></li>    
+                                <li><a href="javascript: void(0)">Concrete Technology Consulting</a></li>
+                            </ul>
+                        </div>
+                        <a class="menu-head-accordions has-submenu-child" data-bs-toggle="collapse"
+                            data-bs-target="#collapseMenu2" aria-expanded="true" aria-controls="collapseMenu2">
+                            Our Projects
+                        </a>
+                        <div id="collapseMenu2" class="collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionMenu">
+                            <ul class="sub-menu-child">
+                                <li><a href="javascript: void(0)">Mixed Used Building</a></li>
+                                <li><a href="javascript: void(0)">Apartments</a></li>
+                                <li><a href="javascript: void(0)">Office Buildings</a></li>
+                                <li><a href="javascript: void(0)">Retail Facilities</a></li>
+                                <li><a href="javascript: void(0)">Resorts</a></li>
+                                <li><a href="javascript: void(0)">Hotels</a></li>
+                                <li><a href="javascript: void(0)">Institutional Facilities</a></li>
+                                <li><a href="javascript: void(0)">Medical Facilities</a></li>
+                                <li><a href="javascript: void(0)">Industrial Facilities</a></li>
+                                <li><a href="javascript: void(0)">Residential Housing</a></li>
+                                <li><a href="javascript: void(0)">Specialty Structures</a></li>
+                                <li><a href="javascript: void(0)">International</a></li>
+                            </ul>
+                        </div>
+                        <a class="menu-head-accordions has-submenu-child" data-bs-toggle="collapse"
+                            data-bs-target="#collapseMenu3" aria-expanded="true" aria-controls="collapseMenu3">
+                            Our Company
+                        </a>
+                        <div id="collapseMenu3" class="collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionMenu">
+                            <ul class="sub-menu-child">
+                                <li><a href="javascript: void(0)">About Us</a></li>
+                                <li><a href="javascript: void(0)">Why SSI</a></li>
+                                <li><a href="javascript: void(0)">Our Team</a></li>
+                            </ul>
+                        </div>
+                        <a class="menu-head-accordions" href="javascript: void(0)">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NAVBAR MOBILE END -->
+    
+    <header class="header">
+        <navbar class="navbar navbar-desc">
+            <div class="container-fluid container-large">
+                <div class="navbar-flex">
+                    <div class="logo-brand">
+                        <a href="javascript: void(0)" class="logo-brand-navbar">
+                            <img src="assets/images/logo/LOGO-SURADJIN-SUTJIPTO-INC.png" alt="Suradjin Sutjipto, INC - Consulting Structural Engineers Building">
+                        </a>
+                    </div>
+                    <div class="navbar-align-right">
+                        <ul class="navbar-nav nav-fill wrp-nav-item">
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link menu-item" href="javascript: void(0)">
+                                    <div class="text-parent">
+                                        Our Services
+                                    </div>
+                                    <div class="chevron-down">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg> 
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu animate slideIn first-level">
+                                    <li><a href="javascript: void(0)">Structural Design</a></li>
+                                    <li><a href="javascript: void(0)">Structural Assessment & Retrofitting Design</a></li>
+                                    <li><a href="javascript: void(0)">Value Engineering</a></li>
+                                    <li><a href="javascript: void(0)">Structural BIM & Detailing</a></li>
+                                    <li><a href="javascript: void(0)">Site Supervision</a></li>    
+                                    <li><a href="javascript: void(0)">Concrete Technology Consulting</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link menu-item" href="javascript: void(0)">
+                                    <div class="text-parent">
+                                        Our Projects
+                                    </div>
+                                    <div class="chevron-down">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg> 
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu animate slideIn first-level">
+                                    <li><a href="javascript: void(0)">Mixed Used Building</a></li>
+                                    <li><a href="javascript: void(0)">Apartments</a></li>
+                                    <li><a href="javascript: void(0)">Office Buildings</a></li>
+                                    <li><a href="javascript: void(0)">Retail Facilities</a></li>
+                                    <li><a href="javascript: void(0)">Resorts</a></li>
+                                    <li><a href="javascript: void(0)">Hotels</a></li>
+                                    <li><a href="javascript: void(0)">Institutional Facilities</a></li>
+                                    <li><a href="javascript: void(0)">Medical Facilities</a></li>
+                                    <li><a href="javascript: void(0)">Industrial Facilities</a></li>
+                                    <li><a href="javascript: void(0)">Residential Housing</a></li>
+                                    <li><a href="javascript: void(0)">Specialty Structures</a></li>
+                                    <li><a href="javascript: void(0)">International</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link menu-item" href="javascript: void(0)">
+                                    <div class="text-parent">
+                                        Our Company
+                                    </div>
+                                    <div class="chevron-down">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg> 
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu animate slideIn first-level">
+                                    <li><a href="javascript: void(0)">About Us</a></li>
+                                    <li><a href="javascript: void(0)">Why SSI</a></li>
+                                    <li><a href="javascript: void(0)">Our Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown dropdown-hover"><a class="nav-link menu-item" href="javascript: void(0)">Contact Us</a></li>
+                        </ul>
+                        <div onClick="togglePlay()" id="toggle" class="music-icon played">
+                            <svg class="playing" ="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
+                                <path d="M28.2,20.3c0-2-1.6-3.7-3.7-3.7c-2,0-3.7,1.6-3.7,3.7l0,30.1c-1.6-0.8-3.4-1.2-5.3-1.2C8.7,49.1,3,54.8,3,61.8
+                                s5.7,12.6,12.6,12.6c6.8,0,12.4-5.5,12.6-12.3C28.2,62,28.2,20.3,28.2,20.3z M15.6,67.1c-2.9,0-5.3-2.4-5.3-5.3
+                                c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3v0C20.9,64.7,18.6,67.1,15.6,67.1z"/>
+                                <path d="M72.9,5.3c0-2-1.6-3.7-3.7-3.7c-2,0-3.7,1.6-3.7,3.7l0,39.8c-1.6-0.7-3.4-1.2-5.3-1.2c-7,0-12.6,5.7-12.6,12.6
+                                c0,7,5.7,12.6,12.6,12.6c6.9,0,12.4-5.5,12.6-12.4c0,0,0,0,0,0L72.9,5.3z M60.4,61.8c-2.9,0-5.3-2.4-5.3-5.3c0-2.9,2.4-5.3,5.3-5.3
+                                c2.9,0,5.2,2.3,5.3,5.1v0.4C65.6,59.5,63.3,61.8,60.4,61.8z"/>
+                                <path d="M24.5,24c-1.5,0-3-1-3.5-2.5c-0.6-1.9,0.4-4,2.3-4.6l44.7-15c2-0.7,4,0.4,4.6,2.3c0.6,1.9-0.4,4-2.3,4.6l-44.7,15
+                                C25.3,23.9,24.9,24,24.5,24z"/>
+                                <rect x="23.4" y="27.9" transform="matrix(0.9404 -0.34 0.34 0.9404 -7.8515 17.7119)" width="46.4" height="6.7"/>
+                            </svg>
+                            <svg class="mute" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
+                                <path d="M70.8,67L18.2,11.9c-1.3-1.4-3.5-1.4-4.9-0.1c-1.4,1.3-1.4,3.6-0.1,4.9l52.6,55.1c0.7,0.7,1.6,1.1,2.5,1.1
+                                c0.9,0,1.7-0.3,2.4-1C72.1,70.6,72.2,68.4,70.8,67z"/>
+                                <path class="st0" d="M15.7,56.5c-2.9,0-5.3,2.4-5.3,5.3c0,2.9,2.4,5.3,5.3,5.3c2.9,0,5.3-2.4,5.3-5.3C21,58.9,18.5,56.5,15.7,56.5z"
+                                />
+                                <path d="M72.8,4.1c-0.6-1.9-2.6-3-4.6-2.3l-43,14.5l5.9,5.9L70.5,8.7C72.3,8.1,73.3,6,72.8,4.1z"/>
+                                <path class="st0" d="M0,132.4c0.2,0,0.3,0,0.5-0.1l-5.7-6.3c-0.1,0.3-0.1,0.7-0.1,1C-5.3,130-2.9,132.4,0,132.4z"/>
+                                <path d="M57.3,65.8c-0.2,0-0.3,0.1-0.5,0.1c-2.9,0-5.3-2.4-5.3-5.3c0-0.4,0-0.7,0.1-1l-5.4-5.8c-1.3,2-2.1,4.4-2,6.9
+                                c0,6.9,5.8,12.6,12.7,12.5c2.1,0,4.1-0.6,5.8-1.5L57.3,65.8z"/>
+                                <path d="M69.2,1.6c-2.1,0-3.7,1.6-3.7,3.7v16.3l-26.7,9.5l5,5.2l21.7-7.6v16.4c-1.6-0.7-3.3-1.2-5.2-1.2c-2.7,0-4.5,0.3-6.9,2.2
+                                l5.2,5.4c0,0,1.1-0.4,1.8-0.4c2.9,0,5.2,2.3,5.3,5.1v0.4c0,0.6-0.4,1.7-0.4,1.7l5.5,5.2c1.6-1.9,2-4.4,2.1-6.9V5.3
+                                C73,3.3,71.3,1.6,69.2,1.6z"/>
+                                <path d="M28.2,42.3l4.8-1.7L28,35.2l0,0l-7.1-7.3v22.5c-1.6-0.8-3.3-1.2-5.2-1.2C8.7,49.2,3,54.9,3,61.8c0,6.9,5.7,12.6,12.6,12.6
+                                c6.8,0,12.4-5.5,12.6-12.3L28.1,42L28.2,42.3z M15.7,67.1c-2.9,0-5.3-2.4-5.3-5.3c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3
+                                C21,64.7,18.5,67.1,15.7,67.1z"/>
+                            </svg>
+                        </div>
+                        <div class="search-navbar">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360"
+                                style="enable-background:new 0 0 360 360;" xml:space="preserve">
+                                <path class="st0" d="M345.9,325.9l-79.6-79.6c-6.1,7.4-13,14.3-20.4,20.4l79.6,79.6c5.6,5.6,14.8,5.6,20.4,0l0,0
+                                                                                                                            C351.6,340.7,351.6,331.5,345.9,325.9z" />
+                                <path class="st0"
+                                    d="M266.3,246.2c21.1-25.6,33.8-58.5,33.8-94.2c0-81.9-66.6-148.4-148.4-148.4S3.2,70.2,3.2,152
+                                                                                                                            s66.6,148.4,148.4,148.4c35.7,0,68.6-12.7,94.2-33.8C253.3,260.5,260.2,253.7,266.3,246.2z M151.7,32.4
+                                                                                                                            c65.9,0,119.6,53.6,119.6,119.6s-53.6,119.6-119.6,119.6S32.1,218,32.1,152S85.7,32.4,151.7,32.4z" />
+                            </svg>
+                        </div>
+                        <div class="wrp-burger-menu">
+                            <div class="text-menu"></div>
+                            <div class="burger-mobile">
+                                <div class="hamburger hamburger--3dy-r trigger-mm dropdown-burger">
+                                    <div class="hamburger-box">
+                                        <div class="hamburger-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </navbar>
+    </header>
+    <section class="embeded-music">
+        <audio id="music" class="myaudio" loop>
+            <source src="assets/audio/Music for SSI Website.mp3" type="audio/mpeg" />
+            <p>If you can read this, your browser does not support the audio element.</p>
+         </audio>
+    </section>
+    <!-- SECTION HERO IMAGES START -->
+    <section class="section-hero-images">
+        <div class="container container-large">
+            <div class="row-grid">
+                <div class="column-gallery column-odd">
+                    <div class="card-project-case">
+                        <div class="wslider">
+                            <div class="slides">
+                              <div class="slide active" style="background-image: url('assets/images/home-showcase/A1/showcase-homepage-a-satu-1.jpg');"></div>
+                              <div class="slide" style="background-image: url('assets/images/home-showcase/A1/showcase-homepage-a-satu-2.jpg');"></div>
+                              <div class="slide" style="background-image: url('assets/images/home-showcase/A1/showcase-homepage-a-satu-3.jpg');"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-project-case">
+                        <div class="hcortw">
+                            <div class="slidecortw">
+                                <div class="slidehcortw active" style="background-image: url('assets/images/home-showcase/A2/showcase-homepage-a-dua-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcortw" style="background-image: url('assets/images/home-showcase/A2/showcase-homepage-a-dua-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcortw" style="background-image: url('assets/images/home-showcase/A2/showcase-homepage-a-dua-3.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project-case">
+                        <div class="hcorth">
+                            <div class="slidecort">
+                                <div class="slidehcorth active" style="background-image: url('assets/images/home-showcase/A3/showcase-homepage-a-tiga-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcorth" style="background-image: url('assets/images/home-showcase/A3/showcase-homepage-a-tiga-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcorth" style="background-image: url('assets/images/home-showcase/A3/showcase-homepage-a-tiga-3.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-gallery column-event">
+                    <div class="card-project-case">
+                        <div class="hctron">
+                            <div class="slidectron">
+                                <div class="slidehctron active" style="background-image: url('assets/images/home-showcase/B1/showcase-homepage-b-satu-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehctron" style="background-image: url('assets/images/home-showcase/B1/showcase-homepage-b-satu-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehctron" style="background-image: url('assets/images/home-showcase/B1/showcase-homepage-b-satu-3.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project-case collase-2">
+                        <div class="wslider">
+                            <div class="slides">
+                              <div class="slidedua active" style="background-image: url('assets/images/home-showcase/B2/showcase-homepage-b-dua-1.jpg');"></div>
+                              <div class="slidedua" style="background-image: url('assets/images/home-showcase/B2/showcase-homepage-b-dua-2.jpg');"></div>
+                              <div class="slidedua" style="background-image: url('assets/images/home-showcase/B2/showcase-homepage-b-dua-3.jpg');"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-gallery column-event">
+                    <div class="card-project-case">
+                        <div class="hciron">
+                            <div class="slideciron">
+                                <div class="slidehciron active" style="background-image: url('assets/images/home-showcase/C1/showcase-homepage-c-satu-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehciron" style="background-image: url('assets/images/home-showcase/C1/showcase-homepage-c-satu-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehciron" style="background-image: url('assets/images/home-showcase/C1/showcase-homepage-c-satu-3.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project-case">
+                        <div class="hcirtw">
+                            <div class="slidecirtw">
+                                <div class="slidehcirtw active" style="background-image: url('assets/images/home-showcase/C2/showcase-homepage-c-dua-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcirtw" style="background-image: url('assets/images/home-showcase/C2/showcase-homepage-c-dua-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcirtw" style="background-image: url('assets/images/home-showcase/C2/showcase-homepage-c-dua-3.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-gallery column-odd">
+                    <div class="card-project-case">
+                        <div class="wslider">
+                            <div class="slides">
+                              <div class="slidetiga active" style="background-image: url('assets/images/home-showcase/D1/showcase-homepage-d-satu-1.jpg');"></div>
+                              <div class="slidetiga" style="background-image: url('assets/images/home-showcase/D1/showcase-homepage-d-satu-2.jpg');"></div>
+                              <div class="slidetiga" style="background-image: url('assets/images/home-showcase/D1/showcase-homepage-d-satu-3.jpg');"></div>
+                            </div>
+                        </div>                         
+                    </div>
+                    <div class="card-project-case">
+                        <div class="hcfrtw">
+                            <div class="slidecfrtw">
+                                <div class="slidehcfrtw active" style="background-image: url('assets/images/home-showcase/D2/showcase-homepage-d-dua-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcfrtw" style="background-image: url('assets/images/home-showcase/D2/showcase-homepage-d-dua-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcfrtw" style="background-image: url('assets/images/home-showcase/D2/showcase-homepage-d-dua-3.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project-case">
+                        <div class="hcfrth">
+                            <div class="slidecfrth">
+                                <div class="slidehcfrth active" style="background-image: url('assets/images/home-showcase/D3/showcase-homepage-d-tiga-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcfrth" style="background-image: url('assets/images/home-showcase/D3/showcase-homepage-d-tiga-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcfrth" style="background-image: url('assets/images/home-showcase/D3/showcase-homepage-d-tiga-3.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-gallery column-event">
+                    <div class="card-project-case">
+                        <div class="hcvron">
+                            <div class="slidecvron">
+                                <div class="slidehcvron active" style="background-image: url('assets/images/home-showcase/E1/showcase-homepage-e-satu-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcvron" style="background-image: url('assets/images/home-showcase/E1/showcase-homepage-e-satu-3.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidehcvron" style="background-image: url('assets/images/home-showcase/E1/showcase-homepage-e-satu-1.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project-case">
+                        <div class="wslider">
+                            <div class="slides">
+                              <div class="slideempat active" style="background-image: url('assets/images/home-showcase/E2/showcase-homepage-e-dua-1.jpg');"></div>
+                              <div class="slideempat" style="background-image: url('assets/images/home-showcase/E2/showcase-homepage-e-dua-2.jpg');"></div>
+                              <div class="slideempat" style="background-image: url('assets/images/home-showcase/E2/showcase-homepage-e-dua-3.jpg');"></div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>         
+        </div>
+        <div class="w-100">
+            <div class="w-100">
+                <div class="wrp-arrow">
+                    <div id="scroll-down" class="scrd-down">
+                        <div class="icon-arrow-down">
+                            <span class="arrow-down"></span>
+                        </div>
+                        <div class="right-text-arrow">
+                            <span id="scroll-title">
+                                Scroll Down to Explore
+                            </span>
+                        </div>               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION HERO IMAGES END -->
+
+    <!-- SECTION HERO IMAGES MOBILE START -->
+     <section class="section-hero-mobile">
+        <div class="container centered-container">
+            <div class="row row-grid-5">
+                <div class="portraite-column-projects-home column-odd">
+                    <div class="home-project-portraite">
+                        <div class="mconron">
+                            <div class="slideconron">
+                                <div class="slidemconron active" style="background-image: url('assets/images/cr-3-image-tall-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemconron" style="background-image: url('assets/images/cr-3-image-tall-1-3.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemconron" style="background-image: url('assets/images/cr-3-image-tall-1-2.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portraite-column-projects-home column-even">
+                    <div class="home-project-portraite">
+                        <div class="mctwron">
+                            <div class="slidectwron">
+                                <div class="slidemctwron active" style="background-image: url('assets/images/cr-3-image-tall-3.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemctwron" style="background-image: url('assets/images/cr-3-image-tall-3-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemctwron" style="background-image: url('assets/images/cr-3-image-tall-3-2.jpg');background-repeat: no-repeat;"></div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>           
+                <div class="landscape-column-projects-home column-odd">
+                    <div class="home-project-landscape">
+                        <div class="mconrtw">
+                            <div class="slideconrtw">
+                                <div class="slidemconrtw active" style="background-image: url('assets/images/cr-3-image-medium-2-2-2.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemconrtw" style="background-image: url('assets/images/cr-3-image-medium-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemconrtw" style="background-image: url('assets/images/cr-3-image-medium-2-2.jpg');background-repeat: no-repeat;"></div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>     
+                <div class="portraite-column-projects-home-38 column-odd">
+                    <div class="home-project-portraite-38">
+                        <div class="mconrth">
+                            <div class="slideconrth">
+                                <div class="slidemconrth active" style="background-image: url('assets/images/cr-3-image-tall-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemconrth" style="background-image: url('assets/images/cr-3-image-tall-1-3.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemconrth" style="background-image: url('assets/images/cr-3-image-tall-1-2.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portraite-column-projects-home-62 column-even">
+                    <div class="home-project-landscape-62">
+                        <div class="mctwrth">
+                            <div class="slidectwrth">
+                                <div class="slidemctwrth active" style="background-image: url('assets/images/cr-3-image-tall-3-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemctwrth" style="background-image: url('assets/images/cr-3-image-tall-3.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemctwrth" style="background-image: url('assets/images/cr-3-image-tall-3-2.jpg');background-repeat: no-repeat;"></div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>    
+                <div class="portraite-column-projects-home column-odd">
+                    <div class="home-project-equilateral">
+                        <div class="mconrfr">
+                            <div class="slideconrfr">
+                                <div class="slidemconrfr active" style="background-image: url('assets/images/cr-3-image-high-1 -1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemconrfr" style="background-image: url('assets/images/cr-3-image-tall-4.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemconrfr" style="background-image: url('assets/images/cr-3-image-tall-2-22.jpg');background-repeat: no-repeat;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portraite-column-projects-home column-even">
+                    <div class="home-project-equilateral">
+                        <div class="mctwrfr">
+                            <div class="slidectwrfr">
+                                <div class="slidemctwrfr active" style="background-image: url('assets/images/cr-3-image-tall-3.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemctwrfr" style="background-image: url('assets/images/cr-3-image-tall-3-1.jpg');background-repeat: no-repeat;"></div>
+                                <div class="slidemctwrfr" style="background-image: url('assets/images/cr-3-image-tall-3-2.jpg');background-repeat: no-repeat;"></div>
+                            </div>  
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+     </section>
+    <!-- SECTION HERO IMAGES MOBILE END -->
+    <section class="section-home-services">
+        <div class="container centered-container">
+            <div class="row">
+                <div class="title-section-home">
+                    <h2>Our Services</h2>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="wrp-card-services">
+                        <ul>
+                            <li class="services-items" data-index="0">
+                                <a href="javascript: void(0)">
+                                    <div class="card-services-desc">
+                                        <h2>Concrete Technology Consulting</h2>
+                                        <p>Tailored concrete technology solutions to optimize performance, from mix design to advanced construction techniques, ensuring durability, efficiency, and compliance with the latest standards.</p>
+                                    </div>
+                                    <div class="card-services-images">
+                                        <figure data-aspect-ratio="1:1">
+                                            <img src="assets/images/card-image-services-home.jpg" alt="Concrete Technology Consulting">
+                                        </figure>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="services-items" data-index="1">
+                                <a href="javascript: void(0)">
+                                    <div class="card-services-desc">
+                                        <h2>Site Supervision</h2>
+                                        <p>Experienced site supervision to ensure construction projects are executed according to design specifications and regulatory requirements, overseeing quality, progress, and providing timely solutions for smooth project completion.</p>
+                                    </div>
+                                    <div class="card-services-images">
+                                        <figure data-aspect-ratio="1:1">
+                                            <img src="assets/images/card-image-services-home-site-supervision.jpg" alt="Concrete Technology Consulting">
+                                        </figure>
+                                    </div>
+                                </a>
+                            </li> 
+                            <li class="services-items" data-index="2">
+                                <a href="javascript: void(0)">
+                                    <div class="card-services-desc">
+                                        <h2>Structural BIM & Detailing</h2>
+                                        <p>Advanced BIM and CAD technologies used to produce high-quality, coordinated construction documentation, ensuring error-free structural drawings and shop details, along with expert guidance for creating shop drawings and bar bending schedules.</p>
+                                    </div>
+                                    <div class="card-services-images">
+                                        <figure data-aspect-ratio="1:1">
+                                            <img src="assets/images/card-image-services-home-structural-BIM-Detailing.jpg" alt="Concrete Technology Consulting">
+                                        </figure>
+                                    </div>
+                                </a>
+                            </li>   
+                            <li class="services-items" data-index="3">
+                                <a href="javascript: void(0)">
+                                    <div class="card-services-desc">
+                                        <h2>Value Engineering</h2>
+                                        <p>Optimizing project outcomes by identifying cost-effective alternatives that improve performance, reduce costs, and enhance value, all without compromising quality or safety.</p>
+                                    </div>
+                                    <div class="card-services-images">
+                                        <figure data-aspect-ratio="1:1">
+                                            <img src="assets/images/card-image-services-home-value-engineering.jpg" alt="Value Engineering">
+                                        </figure>
+                                    </div>
+                                </a>
+                            </li>     
+                            <li class="services-items" data-index="4">
+                                <a href="javascript: void(0)">
+                                    <div class="card-services-desc">
+                                        <h2>Structural Assessment & Retrofitting Design</h2>
+                                        <p>Post-earthquake Assessments, detailed evaluations in line with ASCE 41 guidelines, and Comprehensive Assessments for resilience and seismic robustness, ensuring SLF compliance and meeting regulatory standards.</p>
+                                    </div>
+                                    <div class="card-services-images">
+                                        <figure data-aspect-ratio="1:1">
+                                            <img src="assets/images/card-image-services-home-structural-assessment-retrofitting-design.jpg" alt="Structural Assessment & Retrofitting Design">
+                                        </figure>
+                                    </div>
+                                </a>
+                            </li>    
+                            <li class="services-items" data-index="4">
+                                <a href="javascript: void(0)">
+                                    <div class="card-services-desc">
+                                        <h2>Structural Design</h2>
+                                        <p>Comprehensive structural design solutions, including Code-Based Design, Performance-Based Design with advanced modeling, and independent Design Peer Reviews, ensuring compliance, efficiency, and tailored structural responses.</p>
+                                    </div>
+                                    <div class="card-services-images">
+                                        <figure data-aspect-ratio="1:1">
+                                            <img src="assets/images/card-image-services-home-structural-design.jpg" alt="Structural Design Suradjin Sutjipto, INC">
+                                        </figure>
+                                    </div>
+                                </a>
+                            </li>                                                        
+                        </ul>
+                    </div>
+
+
+<div class="sm-wrp-card-services w-100 d-lg-none d-md-none d-sm-flex">
+    <div class="wrp-according-catalog">
+        <div class="accordion" id="accordionCatalog">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="tabultaion-with-icon">
+                            <div class="tabulation-title">
+                                <h3>Concrete Technology Consulting</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="collapseOne" class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionCatalog">
+                    <div class="accordion-body accordion-body-catalog">
+                        <div class="card-services-desc">
+                            <p>Tailored concrete technology solutions to optimize performance, from mix design to advanced construction techniques, ensuring durability, efficiency, and compliance with the latest standards.</p>
+                        </div>
+                        <div class="card-services-images">
+                            <figure data-aspect-ratio="1:1">
+                                <img src="assets/images/card-image-services-home.jpg" alt="Concrete Technology Consulting">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="tabultaion-with-icon">
+                            <div class="tabulation-title">
+                                <h3>Site Supervision</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="collapseTwo" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionCatalog">
+                    <div class="accordion-body accordion-body-catalog">
+                        <div class="card-services-desc">
+                            <p>Experienced site supervision to ensure construction projects are executed according to design specifications and regulatory requirements, overseeing quality, progress, and providing timely solutions for smooth project completion.</p>
+                        </div>
+                        <div class="card-services-images">
+                            <figure data-aspect-ratio="1:1">
+                                <img src="assets/images/card-image-services-home-site-supervision.jpg" alt="Site Supervision Suradjin Sutjipto, INC">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="tabultaion-with-icon">
+                            <div class="tabulation-title">
+                                <h3>Structural BIM & Detailing</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionCatalog">
+                    <div class="accordion-body accordion-body-catalog">
+                        <div class="card-services-desc">
+                            <p>Advanced BIM and CAD technologies used to produce high-quality, coordinated construction documentation, ensuring error-free structural drawings and shop details, along with expert guidance for creating shop drawings and bar bending schedules.</p>
+                        </div>
+                        <div class="card-services-images">
+                            <figure data-aspect-ratio="1:1">
+                                <img src="assets/images/card-image-services-home-structural-BIM-Detailing.jpg" alt="Structural BIM & Detailing Suradjin Sutjipto, INC">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="tabultaion-with-icon">
+                            <div class="tabulation-title">
+                                <h3>Value Engineering</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionCatalog">
+                    <div class="accordion-body accordion-body-catalog">
+                        <div class="card-services-desc">
+                            <p>Optimizing project outcomes by identifying cost-effective alternatives that improve performance, reduce costs, and enhance value, all without compromising quality or safety.</p>
+                        </div>
+                        <div class="card-services-images">
+                            <figure data-aspect-ratio="1:1">
+                                <img src="assets/images/card-image-services-home-value-engineering.jpg" alt="Value Engineering Suradjin Sutjipto, INC">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFiveth" aria-expanded="false" aria-controls="collapseFiveth">
+                        <div class="tabultaion-with-icon">
+                            <div class="tabulation-title">
+                                <h3>Structural Assessment & Retrofitting Design</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="collapseFiveth" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionCatalog">
+                    <div class="accordion-body accordion-body-catalog">
+                        <div class="card-services-desc">
+                            <p>Post-earthquake Assessments, detailed evaluations in line with ASCE 41 guidelines, and Comprehensive Assessments for resilience and seismic robustness, ensuring SLF compliance and meeting regulatory standards.</p>
+                        </div>
+                        <div class="card-services-images">
+                            <figure data-aspect-ratio="1:1">
+                                <img src="assets/images/card-image-services-home-structural-assessment-retrofitting-design.jpg" alt="Structural Assessment & Retrofitting Design Suradjin Sutjipto, INC">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsesixth" aria-expanded="false" aria-controls="collapsesixth">
+                        <div class="tabultaion-with-icon">
+                            <div class="tabulation-title">
+                                <h3>Structural Design</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="collapsesixth" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionCatalog">
+                    <div class="accordion-body accordion-body-catalog">
+                        <div class="card-services-desc">
+                            <p>Comprehensive structural design solutions, including Code-Based Design, Performance-Based Design with advanced modeling, and independent Design Peer Reviews, ensuring compliance, efficiency, and tailored structural responses.</p>
+                        </div>
+                        <div class="card-services-images">
+                            <figure data-aspect-ratio="1:1">
+                                <img src="assets/images/card-image-services-home-structural-design.jpg" alt="Structural Design Suradjin Sutjipto, INC">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>    
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-projects-home">
+        <div class="container centered-container">
+            <div class="row">
+                <div class="title-section-home">
+                    <h2>Our Projects</h2>
+                </div>
+            </div>      
+            <div class="row row-projects">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-mixed-use-building.jpg" alt="mixed use building portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Mixed Use Building</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-apartments.jpg" alt="apartments portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Apartments</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-office-buildings.jpg" alt="Office building portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Office Buildings</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-retail-facilities.jpg" alt="Retail facilities portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Retail Facilities</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-resorts.jpg" alt="Resorts building portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Resorts</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-hotels.jpg" alt="hotels portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Hotels</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-institutional-facilities.jpg" alt="Institutional facilities building portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Institutional Facilities</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-medical-facilities.jpg" alt="Medical facilities portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Medical Facilities</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>       
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-industrial-facilities.jpg" alt="Industrial facilities building portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Industrial Facilities</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-residential-housing.jpg" alt="Residential housing portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Residential Housing</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="javascript: void(0)">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-special-structure.jpg" alt="Specialty structures portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>Specialty Structures</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="wrp-item-projects">
+                        <a href="#">
+                            <div class="card-home-projects">
+                                <img src="assets/images/projects-home-international.jpg" alt="International facilities portfolio projects showcase">
+                            </div>
+                            <div class="desc-home-projects">
+                                <div class="title-projects-home">
+                                    <h2>International</h2>
+                                </div>
+                                <div class="more-projects-home">
+                                    <div class="text-seemore">
+                                        <h4>See more</h4>
+                                    </div>
+                                    <div class="icon-arrow">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <g class="st0">
+                                                <path class="st1" d="M12,18c-0.4,0-0.8-0.1-1-0.4L1.9,8.5C1.3,7.9,1.3,7,1.9,6.4s1.5-0.6,2.1,0l8,8l8-8c0.6-0.6,1.5-0.6,2.1,0
+                                                                                                                                                                                                                                                                                                        s0.6,1.5,0,2.1L13,17.6C12.8,17.9,12.4,18,12,18z"></path>
+                                            </g>
+                                        </svg>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>            
+            </div>        
+        </div>
+    </section>
+    <section class="section-home-people">
+        <div class="container centered-container">
+            <div class="row">
+                <div class="title-section-home">
+                    <h2>Our Team</h2>
+                </div>
+            </div>            
+            <div class="row-card-people">
+                <div class="wrp-card-people">
+                    <a class="modals modal-act" href="#" data-bs-toggle="modal" data-bs-target="#modalseePeople">
+                        <div class="card-photo-people">
+                            <img src="assets/images/Suradjin-Sutjipto-President-of-SSI.jpg" alt="Suradjin Sutjipto President of SSI - Suradjin Sutjipto, Inc.">
+                        </div>
+                        <div class="people-name-home">
+                            <h2>Suradjin Sutjipto</h2>
+                        </div>
+                        <div class="people-title-home">
+                            <h3>President</h3>
+                        </div>
+                        <div class="desc-people-home">
+                            <p>Suradjin Sutjipto, a licensed Professional Structural Engineer, holds a Master’s in Earthquake Engineering from UCLA, where he studied under renowned professors Gary C. Hart and Robert E. Englekirk. Recognized for his innovative approach and technical expertise, Suradjin has designed landmark high-rise projects in Indonesia, the United States, and Taiwan along with industrial and low-rise structures in Malaysia...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="wrp-card-people">
+                    <a class="modals modal-act" href="#" data-bs-toggle="modal" data-bs-target="#modalseePeople2">
+                        <div class="card-photo-people">
+                            <img src="assets/images/Indrawati-Sumeru-Director-SSI.jpg" alt="Indrawati Sumeru Director SSI - Suradjin Sutjipto, Inc.">
+                        </div>
+                        <div class="people-name-home">
+                            <h2>Indrawati Sumeru</h2>
+                        </div>
+                        <div class="people-title-home">
+                            <h3>Director</h3>
+                        </div>
+                        <div class="desc-people-home">
+                            <p>Indrawati Sumeru is a highly accomplished structural engineer and educator, combining extensive experience in both practice and academia. A top graduate of Trisakti University and the University of Indonesia, she is a licensed Professional Structural Engineer with deep expertise in structural engineering and management. As a Director at Suradjin Sutjipto, Inc. (SSI), she has led high-profile projects...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="wrp-card-people">
+                    <a class="modals modal-act" href="#" data-bs-toggle="modal" data-bs-target="#modalseePeople3">
+                        <div class="card-photo-people">
+                            <img src="assets/images/William-Supardjo-Design-Manager-SSI.jpg" alt="Indrawati Sumeru Design Manager SSI - Suradjin Sutjipto, Inc.">
+                        </div>
+                        <div class="people-name-home">
+                            <h2>William Supardjo</h2>
+                        </div>
+                        <div class="people-title-home">
+                            <h3>Design Manager</h3>
+                        </div>
+                        <div class="desc-people-home">
+                            <p>William Supardjo holds a bachelor’s degree in Civil Engineering from Tarumanagara University, where he received the Djarum Beasiswa Plus Award and graduated with honors. Certified by ACI and AISC, William has contributed to landmark projects, showcasing his expertise in code-based design, Performance-Based Design (PBD), and structural assessments, with nonlinear analysis applied in both PBD...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="wrp-card-people">
+                    <a class="modals modal-act" href="#" data-bs-toggle="modal" data-bs-target="#modalseePeople4">
+                        <div class="card-photo-people">
+                            <img src="assets/images/Sherrica-A-Sucipto-SSI.jpg" alt="Sherrica A. Sucipto BIM & CAD Manager SSI - Suradjin Sutjipto, Inc.">
+                        </div>
+                        <div class="people-name-home">
+                            <h2>Sherrica A. Sucipto</h2>
+                        </div>
+                        <div class="people-title-home">
+                            <h3>BIM & CAD Manager</h3>
+                        </div>
+                        <div class="desc-people-home">
+                            <p>Sherrica A. Sucipto completed her Civil Engineering degree at Trisakti University, graduating as the top student with a specialization in structural design, detailing, and BIM. During her internship, she gained valuable insights into the constructibility of structural designs. Throughout her career, she has contributed to major projects, including high-rise office buildings, mixed-use developments, complex steel...</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="wrp-card-people">
+                    <a href="#">
+                        <div class="card-photo-people">
+                            <img src="assets/images/Sherrica-A-Sucipto-SSI.jpg" alt="Sherrica A. Sucipto BIM & CAD Manager SSI - Suradjin Sutjipto, Inc.">
+                        </div>
+                        <div class="people-name-home">
+                            <h2>John Doe</h2>
+                        </div>
+                        <div class="people-title-home">
+                            <h3>BIM & CAD Manager</h3>
+                        </div>
+                        <div class="desc-people-home">
+                            <p>Sherrica A. Sucipto completed her Civil Engineering degree at Trisakti University, graduating as the top student with a specialization in structural design, detailing, and BIM. During her internship, she gained valuable insights into the constructibility of structural designs. Throughout her career, she has contributed to major projects, including high-rise office buildings, mixed-use developments, complex steel...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="wrp-card-people">
+                    <a href="#">
+                        <div class="card-photo-people">
+                            <img src="assets/images/Sherrica-A-Sucipto-SSI.jpg" alt="Sherrica A. Sucipto BIM & CAD Manager SSI - Suradjin Sutjipto, Inc.">
+                        </div>
+                        <div class="people-name-home">
+                            <h2>Jannes Santoso</h2>
+                        </div>
+                        <div class="people-title-home">
+                            <h3>BIM & CAD Manager</h3>
+                        </div>
+                        <div class="desc-people-home">
+                            <p>Sherrica A. Sucipto completed her Civil Engineering degree at Trisakti University, graduating as the top student with a specialization in structural design, detailing, and BIM. During her internship, she gained valuable insights into the constructibility of structural designs. Throughout her career, she has contributed to major projects, including high-rise office buildings, mixed-use developments, complex steel...</p>
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="section-home-clients">
+        <div class="container centered-container">
+            <div class="row" class="wrp-card-people">
+                <div class="title-section-home">
+                    <h2>Our Clients</h2>
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-12">
+					<div class="slick marquee">
+						<div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-hana-bank.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+						<div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-bakrie-tower.png"  alt="javascript: void(0)"/>
+							</div>
+						</div>
+						<div class="slick-slide">
+							<div class="inner">
+								<img width="58" src="assets/images/clients/logo-mgk-kemayoran.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+						<div class="slick-slide">
+							<div class="inner">
+								<img width="54" src="assets/images/clients/logo-gky.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+						<div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-gandaria-city.png" alt/>
+							</div>
+						</div>
+						<div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-q-n-b.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+						<div class="slick-slide">
+							<div class="inner">
+								<img width="64" src="assets/images/clients/logo-providence-park.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+						<div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-xxi.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+						<div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/four-season-logo.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-ag-network.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-sheraton-hotel-bandung.png" alt="sheraton hotel bandung design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-six-sense.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-bara-arkitra.png" alt="bara arkitra"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-caffey-college.png" alt="caffey college"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-b-residence.png" alt="b residence"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-tijili-seminyak.png" alt="javascript: void(0)"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-beca.png" alt="beca"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-salim-group-co.png" alt="salim group co design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-englekirk.png" alt="englekirk"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-dewata-wibawa.png" alt="dewata wibawa"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-discovery-ancol.png" alt="discovery ancol"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-duta-dramaga-lestari.png" alt="duta dramaga lestari"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-gereja-st-theresia-menteng.png" alt="st theresia menteng design architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-kajima-indonesia.png" alt="kajima indonesia design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-pilot.png" alt="pilot factory design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-kiic-karawang-international-industrial-city.png" alt="kiic karawang international industrial city factory design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-nusa-raya-cipta-nrc-indonesia.png" alt="nusa raya cipta indonesia design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-lysaght.png" alt="nusa raya cipta indonesia design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-pt-cahaya-warna-prima.png" alt="provices group design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-robinsons-malls.png" alt="provices group design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-st-regis-bali.png" alt="st regis bali design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-fletcher.png" alt="fletcher design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-pakuwon-group-indonesia.png" alt="pakuwon group indonesia design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-mestika-bank.png" alt="mestika bank indonesia design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-universitas-trisakti.png" alt="universitas trisakti indonesia design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-gading-park.png" alt="gading park indonesia Hotels Resorts design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-twink-indonesia.png" alt="twink indonesia design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-the-union-group.png" alt="the union group design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-u-residence.png" alt="u residence design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-provices-group.png" alt="provices group design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-super-mall-karawaci.png" alt="super mall karawaci design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-ppi-pt-prestress-indonesia.png" alt="ppi pt prestress design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-Tony-Eddy-and-Associates.png" alt="Tony Eddy & Associates design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-pt-promaco.png" alt="pt promaco design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-santa-monica-place.png" alt="santa monica place Retail Facilities design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-pt-taisei-indonesia-construction.png" alt="pt taisei indonesia construction design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-king-island-indonesia.png" alt="king island design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-erha.png" alt="erha Medical Facilities design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-pt-asahimas.png" alt="pt asahimas indonesia Industrial Facilities factory design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-dramaga-tower.png" alt="dramaga tower design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-delami-brand.png" alt="delami brand Retail Facilities design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+                        <div class="slick-slide">
+							<div class="inner">
+								<img src="assets/images/clients/logo-coral-sand-epicentrum.png" alt="coral sand epicentrum Retail Facilities design building architecture structural engineering by SURADJIN SUTJIPTO, INC"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container centered-container">
+            <div class="footer-row-one">
+                <div class="left-col-footer">
+                    <div class="w-100">
+                        <h5>Griya SSI</h5>
+                        <p>Kemanggisan Utama VII / 3,  Jakarta 11480, Indonesia</p>
+                    </div>
+                    <div class="w-100">
+                        <div class="contain-contacts">
+                            <div class="phone-whatasapp">
+                                <div class="containts-label">
+                                    <p>Phone</p>
+                                </div>
+                                <div class="conatains-link">
+                                    <a href="tel:(62-21) 5367-5511, 534-7070" target="_blank">(62-21) 5367-5511, 534-7070</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>          
+                    <div class="w-100">
+                        <div class="contain-contacts">
+                            <div class="phone-whatasapp">
+                                <div class="containts-label">
+                                    <p>WhatsApp</p>
+                                </div>
+                                <div class="conatains-link">
+                                    <a href="https://wa.me/+6281234800551" target="_blank">(+62) 81234800551</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+
+                <div class="center-col-footer">
+                    <div class="frame-maps-griya">
+                        <iframe class="footer-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.547273325767!2d106.7862735!3d-6.1912786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6ed1e722025%3A0xe74737395fc6b36c!2sSuradjin%20Sutjipto%2C%20Inc.!5e0!3m2!1sen!2sid!4v1736833244676!5m2!1sen!2sid" width="100%" height="204" style="border:0;" allowfullscreen="javascript: void(0)" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="right-col-footer">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="item-nav-footer">
+                                <ul>
+                                    <li><a href="javascript: void(0)">Our Services</a></li>
+                                    <li><a href="javascript: void(0)">Our Projects</a></li>
+                                    <li><a href="javascript: void(0)">Our Company</a></li>
+                                    <li><a href="javascript: void(0)">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="item-copyright-music">
+                                <p>Music: <i>Happiness Inside</i> - Riyandi Kusuma ℗ 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-row-two">
+                <div class="footer-copyright">
+                    <p>SSI &copy; 2025</p>
+                </div>
+                <div class="footer-logo">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 282.4 480" style="enable-background:new 0 0 282.4 480;" xml:space="preserve">
+                        <g>
+                            <path class="st0" d="M184.7,99.8c-45.3,45.3-45.3,118.9,0,163.8l5.8,5.8c16,16,16,42.6,0,58.6l-40.8,40.8v105.2l93.6-93.6
+                                c45.3-45.3,45.3-118.9,0-163.8l-5.8-5.8c-16-16-16-42.6,0-58.6l40.8-40.8V6.1C278.3,6.1,184.7,99.8,184.7,99.8z"/>
+                            <path class="st0" d="M97.7,99.8L4.1,6.1v105.2l40.8,40.8c16,16,16,42.6,0,58.6l-5.8,5.8c-45.3,45.3-45.3,118.9,0,163.8l93.6,93.6
+                                V368.7l-40.8-40.8c-16-16-16-42.6,0-58.6l5.8-5.8C143,218.3,143,144.6,97.7,99.8C97.7,99.8,97.7,99.8,97.7,99.8z"/>
+                            <path class="st0" d="M144.3,6.1c-16.9,0-32,10.2-38.2,25.7s-2.7,33.3,8.9,45.3c12,12,29.7,15.5,45.3,8.9
+                                c15.5-6.2,25.7-21.7,25.7-38.2S167.4,6.1,144.3,6.1z"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>   
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script> 
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script>
+    // HAMBURGER MENU START
+    var forEach = function (t, o, r) { if ("[object Object]" === Object.prototype.toString.call(t)) for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t); else for (var e = 0, l = t.length; l > e; e++)o.call(r, t[e], e, t) };
+
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+        forEach(hamburgers, function (hamburger) {
+            hamburger.addEventListener("click", function () {
+                this.classList.toggle("is-active");
+            }, false);
+        });
+    }
+
+    // hamburger mobile menu
+    $(".dropdown-burger").click(function(e) {
+        e.preventDefault();
+        if ($('.navbar-mobile').hasClass("active")) {
+            $('.navbar-mobile').removeClass('active');
+            $('.wrp-mobile-item').removeClass('active');
+            $('.section-desk-nav').removeClass('active');
+            $(document.body).removeClass("unscrolled");
+            $('.wrp-list-notification-item').removeClass('activated');
+            $('.notification-item').removeClass('active');
+            $('.summary-notify-dashboard').removeClass('blur');
+        } else {
+            $(".navbar-mobile").addClass("active");
+            $('.wrp-mobile-item').addClass('active');
+            $('.section-desk-nav').addClass('active');
+            $(document.body).addClass("unscrolled");
+            $('.wrp-list-notification-item').removeClass('activated');
+            $('.notification-item').removeClass('active');
+            $('.summary-notify-dashboard').removeClass('blur');
+        }
+    });
+    // HAMBURGER MENU END    
+
+    // CLIENTS HOME
+    $('.slick.marquee').slick({
+        speed: 4500,
+        autoplay: true,
+        autoplaySpeed: 0,
+        centerMode: false,
+        cssEase: 'linear',
+        slidesToShow: 1,
+        draggable:false,
+        focusOnSelect:false,
+        pauseOnFocus:false,
+        pauseOnHover:false,
+        slidesToScroll: 1,
+        variableWidth: true,
+        infinite: true,
+        initialSlide: 1,
+        arrows: false,
+        buttons: false
+    });
+
+
+    AOS.init();
+
+    // Lenis smooth scrolling
+    const lenis = new Lenis({
+    // wrapper: document.querySelector('.smooth-wrapper'),
+    // content: document.querySelector('.smooth-content'),
+    duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    direction: 'vertical',
+    gestureDirection: 'vertical',
+    smooth: true,
+    mouseMultiplier: 1,
+    smoothTouch: false,
+    touchMultiplier: 2,
+    infinite: false,
+  });
+  
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  
+  requestAnimationFrame(raf);
+  
+  // GSAP animations
+
+
+
+  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+  let smooth = ScrollSmoother.create({
+    smooth: 1.4,
+    normalizeScroll: true
+  });
+  const sections = gsap.utils.toArray('.hero');
+  
+  sections.forEach((section, index) => {
+    const content = section.querySelector('.content');
+    
+    gsap.fromTo(content, 
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        duration: 1,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: section,
+          start: 'top center',
+          end: 'bottom center',
+          toggleActions: 'play none none reverse'
+        }
+      }
+    );
+  });
+
+$(".modal-act").click(function (e) {
+    e.preventDefault();
+    if ($('body').hasClass("modal-open")) {
+    $('.notification-item').removeClass('active');
+    $('html').addClass("unscrolledbody");
+    $('body').addClass("unscrolled");
+    $('html').removeClass("lenis"); 
+    $('html').removeClass("lenis-smooth");
+    $('html').removeClass("vieports");    
+    } else {
+    $('html').removeClass("unscrolledbody");
+    $('body').removeClass("unscrolled");
+    $('html').addClass("lenis"); 
+    $('html').addClass("lenis-smooth");
+    $('html').addClass("vieports");
+    }
+});
+
+$(".close-area").on("click", function () {
+    $('html').removeClass("unscrolledbody");
+    $('body').removeClass("unscrolled");
+});
+    </script>
+<script>
+// Slider Image
+    let counter = 1
+    setInterval(()=>{
+        document.querySelector('.img.showing').classList.remove('showing')
+        const img = document.querySelector(`.img-${counter}`)
+        img.classList.add('showing')
+        counter++
+        if(counter >3){
+            counter = 1
+        }
+    },4000)
+
+
+let countertwo = 1;
+
+setInterval(() => {
+    // Hapus class 'showingtwo' dari elemen yang sedang menampilkannya
+    const currentImg = document.querySelector('.imgtwo.showingtwo');
+    if (currentImg) {
+        currentImg.classList.remove('showingtwo');
+    }
+
+    // Tambahkan class 'showingtwo' ke elemen berikutnya
+    const nextImg = document.querySelector(`.imgtwo-${countertwo}`);
+    if (nextImg) {
+        nextImg.classList.add('showingtwo');
+    }
+
+    // Increment counter atau reset ke 1 jika melebihi 3
+    countertwo++;
+    if (countertwo > 3) {
+        countertwo = 1;
+    }
+}, 4500);
+
+
+let counterthree = 1;
+
+setInterval(() => {
+    // Hapus class 'showingthree' dari elemen yang sedang menampilkannya
+    const currentImg = document.querySelector('.imgthree.showingthree');
+    if (currentImg) {
+        currentImg.classList.remove('showingthree');
+    }
+
+    // Tambahkan class 'showingthree' ke elemen berikutnya
+    const nextImg = document.querySelector(`.imgthree-${counterthree}`);
+    if (nextImg) {
+        nextImg.classList.add('showingthree');
+    }
+
+    // Increment counter atau reset ke 1 jika melebihi 3
+    counterthree++;
+    if (counterthree > 3) {
+        counterthree = 1;
+    }
+}, 3500);
+
+
+let counterfourth = 1;
+
+setInterval(() => {
+    // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
+    const currentImg = document.querySelector('.imgfourth.showingfourth');
+    if (currentImg) {
+        currentImg.classList.remove('showingfourth');
+    }
+
+    // Tambahkan class 'showingfourth' ke elemen berikutnya
+    const nextImg = document.querySelector(`.imgfourth-${counterfourth}`);
+    if (nextImg) {
+        nextImg.classList.add('showingfourth');
+    }
+
+    // Increment counter atau reset ke 1 jika melebihi 3
+    counterfourth++;
+    if (counterfourth > 3) {
+        counterfourth = 1;
+    }
+}, 4600);
+
+let counterfiveth = 1;
+setInterval(() => {
+    // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
+    const currentImg = document.querySelector('.imgfiveth.showingfiveth');
+    if (currentImg) {
+        currentImg.classList.remove('showingfiveth');
+    }
+
+    // Tambahkan class 'showingfiveth' ke elemen berikutnya
+    const nextImg = document.querySelector(`.imgfiveth-${counterfiveth}`);
+    if (nextImg) {
+        nextImg.classList.add('showingfiveth');
+    }
+
+    // Increment counter atau reset ke 1 jika melebihi 3
+    counterfiveth++;
+    if (counterfiveth > 3) {
+        counterfiveth = 1;
+    }
+}, 4000);
+
+
+let counternineth = 1;
+setInterval(() => {
+    // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
+    const currentImg = document.querySelector('.imgnineth.showingnineth');
+    if (currentImg) {
+        currentImg.classList.remove('showingnineth');
+    }
+
+    // Tambahkan class 'showingnineth' ke elemen berikutnya
+    const nextImg = document.querySelector(`.imgnineth-${counternineth}`);
+    if (nextImg) {
+        nextImg.classList.add('showingnineth');
+    }
+
+    // Increment counter atau reset ke 1 jika melebihi 3
+    counternineth++;
+    if (counternineth > 3) {
+        counternineth = 1;
+    }
+}, 3500);
+
+let countertwelveth = 1;
+setInterval(() => {
+    // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
+    const currentImg = document.querySelector('.imgtwelveth.showingtwelveth');
+    if (currentImg) {
+        currentImg.classList.remove('showingtwelveth');
+    }
+
+    // Tambahkan class 'showingtwelveth' ke elemen berikutnya
+    const nextImg = document.querySelector(`.imgtwelveth-${countertwelveth}`);
+    if (nextImg) {
+        nextImg.classList.add('showingtwelveth');
+    }
+
+    // Increment counter atau reset ke 1 jika melebihi 3
+    countertwelveth++;
+    if (countertwelveth > 3) {
+        countertwelveth = 1;
+    }
+}, 4800);
+
+gsap.fromTo(
+  ".loading-page",
+  { opacity: 1 },
+  {
+    opacity: 0,
+    display: "none",
+    duration: 1.2,
+    delay: 3,
+  }
+);
+
+gsap.fromTo(
+  ".logo-name",
+  {
+    // y: 50,
+    y: 0,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 2,
+    delay: 0.4,
+  }
+);
+
+$(".co-rtwo").slick({
+    vertical: true,
+    verticalSwiping: true,
+    slidesToShow: 1, // Number of slides visible at a time
+    slidesToScroll: 1, // Number of slides to scroll at a time
+    dots: true,       // Show navigation dots (optional)
+    arrows: true,     // Show navigation arrows (optional)
+    infinite: true,   // Loop the slider (optional)
+    autoplay: true,    // Autoplay the slider (optional)
+    autoplaySpeed: 2800 // Autoplay speed in milliseconds (optional)
+});
+
+function PlayMusic() {
+
+var play=document.getElementById("music");
+play.play();
+}
+
+$(document).ready(function(){
+setTimeout(togglePlay,2000);
+});
+
+$(window).scroll(function() {
+    var myAudio = document.getElementById("music");
+    var scroll = $(window).scrollTop();
+    if (scroll >= 300) {
+        $(".wrp-arrow").addClass("swipe-up-nav");
+    } else {
+        $(".wrp-arrow").removeClass("swipe-up-nav");
+    }
+});
+// SCROLLING DOWN END
+
+var music = document.getElementById("music");
+var isPlaying = false;
+
+function togglePlay() {
+  if (isPlaying) {
+    music.pause();
+    $('.playing').hide();
+    $('.mute').show();
+  } else {
+    music.play();
+    $('.playing').show();
+    $('.mute').hide();
+  }
+};
+music.onplaying = function() {
+  isPlaying = true;
+};
+music.onpause = function() {
+  isPlaying = false;
+};
+
+var button = document.getElementById("toggle");
+
+// SCROLLING DOWN START
+
+</script>
+<script src="assets/js/script-sliders.js"></script>
+</body>
+</html>

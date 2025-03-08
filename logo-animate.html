@@ -36,8 +36,11 @@
                         c15.5-6.2,25.7-21.7,25.7-38.2S167.4,6.1,144.3,6.1z"fill="url(#verticalGradient)"/>
                 </g>
             </svg>
-            <div class="contain-preload logo-name logo-circle-top">
+            <!-- <div class="contain-preload logo-name logo-circle-top">
                 <div class="logo-circle circle-shine"></div>
+            </div> -->
+            <div class="contain-preload logo-name" style="position: relative;margin-bottom:-217.5px;z-index: 3;">
+                <div class="circle-shape circlenew-shine"></div>
             </div>
             <div class="contain-preload logo-name">
                 <div class="logo-shape auto-shine"></div>
@@ -56,22 +59,22 @@ gsap.fromTo(
   {
     opacity: 0,
     display: "none",
-    duration: 297.5,
-    delay: 236.5,
+    duration: 214.5,
+    delay: 156.5,
   }
 );
 
 gsap.fromTo(
   ".logo-name",
   {
-    y: 50,
+    y: 0,
     opacity: 0,
   },
   {
     y: 0,
     opacity: 1,
-    duration: 2,
-    delay: 0.5,
+    duration: 2.5,
+    delay: 0.2,
   }
 );
 </script>
