@@ -4799,7 +4799,7 @@ transition-duration: 0.5s;
 	flex: 0 0 auto;
 	width: 17%;
 	min-height: 64px;
-	background: var(--gray-200);
+	background: var(--white-one);
 }
 
 .center-column-residential{
@@ -4821,9 +4821,38 @@ transition-duration: 0.5s;
 	flex: 0 0 auto;
 	width: 17%;
 	min-height: 64px;
-	background: var(--gray-200);
+	background: var(--white-one);
 }
 
+.left-column-residential{
+	min-height: 218px;
+}
+
+.left-column-residential .thumb-of-projects a{
+	min-height: 218px;
+}
+
+.left-column-residential .thumb-of-projects a .card-projects-thumb {
+	width: 100%;
+	min-height: 218px;
+}
+
+
+.right-column-residential{
+	min-height: 218px;
+}
+
+.right-column-residential .thumb-of-projects a{
+	min-height: 218px;
+}
+
+.right-column-residential .thumb-of-projects a .card-projects-thumb {
+	width: 100%;
+	min-height: 218px;
+}
+.table-residential-housing{
+	margin-top: 24px;
+}
 .project-name-residential{
 	width: 100%;
 	height: auto;
@@ -4872,6 +4901,20 @@ transition-duration: 0.5s;
 	display: none;
 }
 
+.table-residential-housing thead tr th{
+	font: normal 600 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	letter-spacing: 0.14px;
+	line-height: 124%;
+	margin-bottom: 1px;
+	border-top: 2.5px solid #a84c1b;
+}
+
+.table-residential-housing thead tr th:last-child{
+	text-align: right;
+}
+.table-residential-housing tbody tr td:last-child{
+	text-align: right;
+}
 
 .project-stories-residential{
 	width: 100%;
