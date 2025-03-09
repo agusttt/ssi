@@ -4823,6 +4823,80 @@ transition-duration: 0.5s;
 	min-height: 64px;
 	background: var(--gray-200);
 }
+
+.project-name-residential{
+	width: 100%;
+	height: auto;
+	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	letter-spacing: 0.14px;
+	line-height: 124%;
+}
+
+.project-name-residential h2{
+	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	letter-spacing: 0.14px;
+	line-height: 124%;
+	margin-bottom: 1px;
+}
+
+.project-name-residential h3{
+	font: normal 400 clamp(0.715rem, 0.051rem + 0.8637vw, 0.7925rem) var(--font-arial);
+	color: var(--gray-700);
+	letter-spacing: 0.04px;
+	line-height: 18.64px;
+	margin-bottom: 1px;
+	display: none;
+}
+
+.project-location-residential{
+	width: 100%;
+	height: auto;
+	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	letter-spacing: 0.14px;
+	line-height: 124%;
+}
+
+.project-location-residential h2{
+	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	letter-spacing: 0.14px;
+	line-height: 124%;
+	margin-bottom: 1px;
+}
+
+.project-location-residential h3{
+	font: normal 400 clamp(0.715rem, 0.051rem + 0.8637vw, 0.7925rem) var(--font-arial);
+	color: var(--gray-700);
+	letter-spacing: 0.04px;
+	line-height: 18.64px;
+	margin-bottom: 1px;
+	display: none;
+}
+
+
+.project-stories-residential{
+	width: 100%;
+	height: auto;
+	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	letter-spacing: 0.14px;
+	line-height: 124%;
+}
+
+.project-stories-residential h2{
+	font: normal 400 clamp(0.8663rem, 0.736rem + 0.1628vw, 0.875rem) var(--font-arial);
+	letter-spacing: 0.14px;
+	line-height: 124%;
+	margin-bottom: 1px;
+}
+
+.project-stories-residential h3{
+	font: normal 400 clamp(0.715rem, 0.051rem + 0.8637vw, 0.7925rem) var(--font-arial);
+	color: var(--gray-700);
+	letter-spacing: 0.04px;
+	line-height: 18.64px;
+	margin-bottom: 1px;
+	display: none;
+}
+
 /* PROJECT DETAIL RESIDENTIAL HOUSING END */
 .psliderone {
 	width: 100%;
