@@ -3360,16 +3360,16 @@ main .span-high{
 .row-card-people{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-	-ms-justify-content: flex-start;
-	-moz-justify-content: flex-start;
-	-webkit-justify-content: flex-start;
+	justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
 	gap: 24px 36px;
 }
 
 .wrp-card-people{
 	/* width: 202px; */
-	width: 14%;
+	width: 18.86%;
 	min-height: 204px;
 	background: var(--white-one);
 	padding-left: 0px;
@@ -3412,8 +3412,8 @@ main .span-high{
 
 .card-photo-people{
 	width: 100%;
-	min-height: 195.5px;
-	max-height: 195.6px;
+	min-height: 263px;
+	max-height: 263px;
 	overflow: hidden;
 	/* margin-bottom: 23px; */
 	margin-bottom: 20px;
@@ -3482,9 +3482,9 @@ main .span-high{
 	color: var(--gray-700);
 	letter-spacing: 0.04px;
 	line-height: 18.64px;
-	height: 167px;
+	height: 132px;
 	display: -webkit-box;
-	-webkit-line-clamp: 9;
+	-webkit-line-clamp: 7;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 	text-overflow: ellipsis;
