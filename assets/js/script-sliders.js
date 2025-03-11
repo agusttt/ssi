@@ -517,7 +517,7 @@ document.addEventListener("DOMContentLoaded", function () {
      showSmconrtw(currentSmconrtw);
    
      // Auto-looping
-     setInterval(nextSmconrtw, 8500); // Change slide every 8.5 seconds
+     setInterval(nextSmconrtw, 12000); // Change slide every 8.5 seconds
  
      // MOBILE SLIDER JS SLIDE COL 1 ROW 2 END 
 
@@ -543,7 +543,7 @@ document.addEventListener("DOMContentLoaded", function () {
      showSmconrth(currentSmconrth);
    
      // Auto-looping
-     setInterval(nextSmconrth, 5000); // Change slide every 8.5 seconds
+     setInterval(nextSmconrth, 10000); // Change slide every 8.5 seconds
  
      // MOBILE SLIDER JS SLIDE COL 1 ROW 3 END 
 
@@ -596,7 +596,7 @@ document.addEventListener("DOMContentLoaded", function () {
      showSmconrfr(currentSmconrfr);
    
      // Auto-looping
-     setInterval(nextSmconrfr, 5200); // Change slide every 8.5 seconds
+     setInterval(nextSmconrfr, 11000); // Change slide every 8.5 seconds
  
      // MOBILE SLIDER JS SLIDE COL 1 ROW 4 END 
 

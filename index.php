@@ -895,168 +895,166 @@
                         </ul>
                     </div>
 
+                    <div class="sm-wrp-card-services w-100 d-lg-none d-md-none d-sm-flex">
+                                    <div class="wrp-according-catalog">
+                                        <div class="accordion" id="accordionCatalog">
+                                            <div class="accordion-item">
+                                                <div class="accordion-header">
+                                                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        <div class="tabultaion-with-icon">
+                                                            <div class="tabulation-title">
+                                                                <h3>Structural Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                                    data-bs-parent="#accordionCatalog">
+                                                    <div class="accordion-body accordion-body-catalog">
+                                                        <div class="card-services-desc">
+                                                            <p>Comprehensive structural design solutions, including Code-Based Design, Performance-Based Design with advanced modeling, and independent Design Peer Reviews, ensuring compliance, efficiency, and tailored structural responses.</p>
+                                                        </div>
+                                                        <div class="card-services-images">
+                                                            <figure data-aspect-ratio="1:1">
+                                                                <img src="assets/images/card-image-services-home-structural-design.jpg" alt="Structural Design Suradjin Sutjipto, INC">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordion-header">
+                                                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <div class="tabultaion-with-icon">
+                                                            <div class="tabulation-title">
+                                                                <h3>Structural Assessment & Retrofitting Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionCatalog">
+                                                    
+                                                    <div class="accordion-body accordion-body-catalog">
+                                                        <div class="card-services-desc">
+                                                            <p>Post-earthquake Assessments, detailed evaluations in line with ASCE 41 guidelines, and Comprehensive Assessments for resilience and seismic robustness, ensuring SLF compliance and meeting regulatory standards.</p>
+                                                        </div>
+                                                        <div class="card-services-images">
+                                                            <figure data-aspect-ratio="1:1">
+                                                                <img src="assets/images/card-image-services-home-structural-assessment-retrofitting-design.jpg" alt="Structural Assessment & Retrofitting Design Suradjin Sutjipto, INC">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordion-header">
+                                                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        <div class="tabultaion-with-icon">
+                                                            <div class="tabulation-title">
+                                                                <h3>Value Engineering</h3>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionCatalog">
+                                                    <div class="accordion-body accordion-body-catalog">
+                                                        <div class="card-services-desc">
+                                                            <p>Optimizing project outcomes by identifying cost-effective alternatives that improve performance, reduce costs, and enhance value, all without compromising quality or safety.</p>
+                                                        </div>
+                                                        <div class="card-services-images">
+                                                            <figure data-aspect-ratio="1:1">
+                                                                <img src="assets/images/card-image-services-home-value-engineering.jpg" alt="Value Engineering Suradjin Sutjipto, INC">
+                                                            </figure>
+                                                        </div>
+                                                    </div>                                                    
+                                                </div>
+                                            </div>
 
-<div class="sm-wrp-card-services w-100 d-lg-none d-md-none d-sm-flex">
-    <div class="wrp-according-catalog">
-        <div class="accordion" id="accordionCatalog">
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <div class="tabultaion-with-icon">
-                            <div class="tabulation-title">
-                                <h3>Concrete Technology Consulting</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div id="collapseOne" class="accordion-collapse collapse show"
-                    data-bs-parent="#accordionCatalog">
-                    <div class="accordion-body accordion-body-catalog">
-                        <div class="card-services-desc">
-                            <p>Tailored concrete technology solutions to optimize performance, from mix design to advanced construction techniques, ensuring durability, efficiency, and compliance with the latest standards.</p>
-                        </div>
-                        <div class="card-services-images">
-                            <figure data-aspect-ratio="1:1">
-                                <img src="assets/images/card-image-services-home.jpg" alt="Concrete Technology Consulting">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <div class="tabultaion-with-icon">
-                            <div class="tabulation-title">
-                                <h3>Site Supervision</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div id="collapseTwo" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionCatalog">
-                    <div class="accordion-body accordion-body-catalog">
-                        <div class="card-services-desc">
-                            <p>Experienced site supervision to ensure construction projects are executed according to design specifications and regulatory requirements, overseeing quality, progress, and providing timely solutions for smooth project completion.</p>
-                        </div>
-                        <div class="card-services-images">
-                            <figure data-aspect-ratio="1:1">
-                                <img src="assets/images/card-image-services-home-site-supervision.jpg" alt="Site Supervision Suradjin Sutjipto, INC">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <div class="tabultaion-with-icon">
-                            <div class="tabulation-title">
-                                <h3>Structural BIM & Detailing</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div id="collapseThree" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionCatalog">
-                    <div class="accordion-body accordion-body-catalog">
-                        <div class="card-services-desc">
-                            <p>Advanced BIM and CAD technologies used to produce high-quality, coordinated construction documentation, ensuring error-free structural drawings and shop details, along with expert guidance for creating shop drawings and bar bending schedules.</p>
-                        </div>
-                        <div class="card-services-images">
-                            <figure data-aspect-ratio="1:1">
-                                <img src="assets/images/card-image-services-home-structural-BIM-Detailing.jpg" alt="Structural BIM & Detailing Suradjin Sutjipto, INC">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordion-header">
+                                                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                        <div class="tabultaion-with-icon">
+                                                            <div class="tabulation-title">
+                                                                <h3>Structural BIM & Detailing</h3>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseFour" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionCatalog">
+                                                    <div class="accordion-body accordion-body-catalog">
+                                                        <div class="card-services-desc">
+                                                            <p>Advanced BIM and CAD technologies used to produce high-quality, coordinated construction documentation, ensuring error-free structural drawings and shop details, along with expert guidance for creating shop drawings and bar bending schedules.</p>
+                                                        </div>
+                                                        <div class="card-services-images">
+                                                            <figure data-aspect-ratio="1:1">
+                                                                <img src="assets/images/card-image-services-home-structural-BIM-Detailing.jpg" alt="Structural BIM & Detailing Suradjin Sutjipto, INC">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        <div class="tabultaion-with-icon">
-                            <div class="tabulation-title">
-                                <h3>Value Engineering</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div id="collapseFour" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionCatalog">
-                    <div class="accordion-body accordion-body-catalog">
-                        <div class="card-services-desc">
-                            <p>Optimizing project outcomes by identifying cost-effective alternatives that improve performance, reduce costs, and enhance value, all without compromising quality or safety.</p>
-                        </div>
-                        <div class="card-services-images">
-                            <figure data-aspect-ratio="1:1">
-                                <img src="assets/images/card-image-services-home-value-engineering.jpg" alt="Value Engineering Suradjin Sutjipto, INC">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordion-header">
+                                                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseFiveth" aria-expanded="false" aria-controls="collapseFiveth">
+                                                        <div class="tabultaion-with-icon">
+                                                            <div class="tabulation-title">
+                                                                <h3>Site Supervision</h3>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseFiveth" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionCatalog">
+                                                    <div class="accordion-body accordion-body-catalog">
+                                                        <div class="card-services-desc">
+                                                            <p>Experienced site supervision to ensure construction projects are executed according to design specifications and regulatory requirements, overseeing quality, progress, and providing timely solutions for smooth project completion.</p>
+                                                        </div>
+                                                        <div class="card-services-images">
+                                                            <figure data-aspect-ratio="1:1">
+                                                                <img src="assets/images/card-image-services-home-site-supervision.jpg" alt="Site Supervision Suradjin Sutjipto, INC">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFiveth" aria-expanded="false" aria-controls="collapseFiveth">
-                        <div class="tabultaion-with-icon">
-                            <div class="tabulation-title">
-                                <h3>Structural Assessment & Retrofitting Design</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div id="collapseFiveth" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionCatalog">
-                    <div class="accordion-body accordion-body-catalog">
-                        <div class="card-services-desc">
-                            <p>Post-earthquake Assessments, detailed evaluations in line with ASCE 41 guidelines, and Comprehensive Assessments for resilience and seismic robustness, ensuring SLF compliance and meeting regulatory standards.</p>
-                        </div>
-                        <div class="card-services-images">
-                            <figure data-aspect-ratio="1:1">
-                                <img src="assets/images/card-image-services-home-structural-assessment-retrofitting-design.jpg" alt="Structural Assessment & Retrofitting Design Suradjin Sutjipto, INC">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsesixth" aria-expanded="false" aria-controls="collapsesixth">
-                        <div class="tabultaion-with-icon">
-                            <div class="tabulation-title">
-                                <h3>Structural Design</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div id="collapsesixth" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionCatalog">
-                    <div class="accordion-body accordion-body-catalog">
-                        <div class="card-services-desc">
-                            <p>Comprehensive structural design solutions, including Code-Based Design, Performance-Based Design with advanced modeling, and independent Design Peer Reviews, ensuring compliance, efficiency, and tailored structural responses.</p>
-                        </div>
-                        <div class="card-services-images">
-                            <figure data-aspect-ratio="1:1">
-                                <img src="assets/images/card-image-services-home-structural-design.jpg" alt="Structural Design Suradjin Sutjipto, INC">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>    
-</div>
+                                            <div class="accordion-item">
+                                                <div class="accordion-header">
+                                                    <a class="accordion-button accordion-pluss collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapsesixth" aria-expanded="false" aria-controls="collapsesixth">
+                                                        <div class="tabultaion-with-icon">
+                                                            <div class="tabulation-title">
+                                                                <h3>Concrete Technology Consulting</h3>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapsesixth" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionCatalog">
+                                                    <div class="accordion-body accordion-body-catalog">
+                                                        <div class="card-services-desc">
+                                                            <p>Tailored concrete technology solutions to optimize performance, from mix design to advanced construction techniques, ensuring durability, efficiency, and compliance with the latest standards.</p>
+                                                        </div>
+                                                        <div class="card-services-images">
+                                                            <figure data-aspect-ratio="1:1">
+                                                                <img src="assets/images/card-image-services-home.jpg" alt="Concrete Technology Consulting">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
 
 
 
