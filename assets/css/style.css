@@ -4601,6 +4601,10 @@ main .span-high{
 	min-height: 536px;
 }
 
+.special-case-gandaria{
+	text-decoration: unset;
+}
+
 .description-detail-project{
 	width: 100%;
 	min-height: 540px;	
@@ -4742,7 +4746,7 @@ main .span-high{
 .card-related-projects{
 	width: 100%;
 	min-height: 112px;
-	max-height: 112px;
+	max-height: 116px;
 	overflow: hidden !important;
 	background: var(--gray-200);
 }
@@ -7380,7 +7384,7 @@ transition-duration: 0.5s;
 	}
 	.description-detail-project {
 		min-height: 606px;
-		margin-bottom: 52px;
+		margin-bottom: 64px;
 	}
 	.footer{
 		background-size: 41%;
@@ -7553,7 +7557,7 @@ transition-duration: 0.5s;
 	.card-related-projects {
 		width: 100%;
 		min-height: 143px;
-		max-height: 143px;
+		max-height: 146px;
 	}
 
 	/* SLIDER PROJECT 1920 START */
@@ -7597,6 +7601,13 @@ transition-duration: 0.5s;
 	}		
 
 	/* SLIDER PROJECT 1920 END */
+
+	/* LIST PROJECTS 1920 START */
+	.thumb-of-projects a {
+		min-height: 312px;
+		max-height: 332px;
+	}
+	/* LIST PROJECTS 1920 END */
 
 }
 /* MEDIA 1920 START */
@@ -7718,7 +7729,12 @@ transition-duration: 0.5s;
 		width: 100%;
 		min-height: 542px;
 	}
-
+	/* LIST PROJECTS 1536 START */
+	.thumb-of-projects a {
+		min-height: 250px;
+		max-height: 267px;
+	}
+	/* LIST PROJECTS 1536 END */
 }
 /* MEDIA 1536-1582 END */
 
@@ -8230,16 +8246,16 @@ transition-duration: 0.5s;
 	.nav-header,
 	.main-wrapper,
 	.header-content {
-		overflow: hidden
+		overflow: hidden;
 	}
 
 	.accordionMenu ul.sub-menu-child li:first-child {
-		margin-top: 10px
+		margin-top: 10px;
 	}
 
 	.accordionMenu ul.sub-menu-child li a {
 		font: normal 400 17.24px/25.64px var(--font-arial);
-		padding: 14px 10px 15px 3px !important
+		padding: 14px 10px 15px 3px !important;
 	}
 
 	.has-submenu-child::before {
@@ -8291,6 +8307,27 @@ transition-duration: 0.5s;
 	}
 
 	/* MOBILE NAVBAR 480 END */
+
+	.gutter--m25.row,
+	.gutter--m25.container,
+	.gutter--m25.container-fluid,
+	.gutter--m25.customized-container,
+	.gutter--m25.container.centered-container {
+	  margin-left: -2.5px!important;
+	  margin-right: -2.5px!important;
+	}
+	
+	.gutter--m25>[class^="col-"] {
+	  padding-left: 2.5px!important;
+	  padding-right: 2.5px!important;
+	}
+	
+	.card-related-projects {
+		width: 100%;
+		min-height: 109px;
+		max-height: 114px;
+	}
+
 	.row-card-people {
 		gap: 24px 24px;
 	}
@@ -9002,6 +9039,20 @@ transition-duration: 0.5s;
 	top: unset;
 }
 /* WHY CHOOSE US 480 END */
+
+
+/* GANDARIA SPECIAL CASE 480 START */
+
+.section-detail-project.special-case-gandaria .row.detail-odd{
+	text-decoration: none;
+}
+.section-detail-project.special-case-gandaria .row.detail-even .col-sm-12.col-12:first-child{
+	order: 2;
+}
+.section-detail-project.special-case-gandaria .row.detail-even .col-sm-12.col-12:last-child{
+	order: 1;
+}
+/* GANDARIA SPECIAL CASE 480 END */
 
 /* SERVICE 480 START */
 
