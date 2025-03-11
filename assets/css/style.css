@@ -8044,7 +8044,7 @@ transition-duration: 0.5s;
 		width: 100%;
 		height: 84vh;
 		position: relative;
-		background: var(--gray-950);
+		background: var(--white-one);
 		z-index: 5;
 		opacity: 0;
 		margin-top: unset;
@@ -8755,7 +8755,47 @@ transition-duration: 0.5s;
 }
 /* CSS SLIDE COL 2 ROW 4 END  */
 
+/* SLIDE DETAIL PROJECT 480 START */
+.psliderone, .pslidertwo, .psliderthree, .psliderfourth, .psliderfiveth{
+	min-height: 336px;
+	max-height: 336px !important;
+}
+.slidespone, .slidespone.active {
+	position: relative;
+	width: 100%;
+	min-height: 336px;
+	max-height: 336px !important;
+}
 
+.slidesptwo, .slidesptwo.active{
+	position: relative;
+	width: 100%;
+	min-height: 336px;
+	max-height: 336px !important;
+}
+
+.slidespthree, .slidespthree.active{
+	position: relative;
+	width: 100%;
+	min-height: 336px;
+	max-height: 336px !important;
+}
+
+.slidespfourth, .slidespfourth.active{
+	position: relative;
+	width: 100%;
+	min-height: 336px;
+	max-height: 336px !important;
+}
+
+.slidespfiveth, .slidespfiveth.active{
+	position: relative;
+	width: 100%;
+	min-height: 336px;
+	max-height: 336px !important;
+}
+
+/* SLIDE DETAIL PROJECT 480 START */
 .portraite-column-projects-home{
 	background: var(--gray-100);
 	-ms-flex: 0 0 50%;
