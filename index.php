@@ -389,7 +389,7 @@
                         <div id="collapseMenu2" class="collapse" aria-labelledby="headingOne"
                             data-bs-parent="#accordionMenu">
                             <ul class="sub-menu-child">
-                                <li><a href="javascript: void(0)">Mixed Used Building</a></li>
+                                <li><a href="javascript: void(0)">Mixed Use Building</a></li>
                                 <li><a href="javascript: void(0)">Apartments</a></li>
                                 <li><a href="javascript: void(0)">Office Buildings</a></li>
                                 <li><a href="javascript: void(0)">Retail Facilities</a></li>
@@ -474,7 +474,7 @@
                                     </div>
                                 </a>
                                 <ul class="dropdown-menu animate slideIn first-level">
-                                    <li><a href="javascript: void(0)">Mixed Used Building</a></li>
+                                    <li><a href="javascript: void(0)">Mixed Use Building</a></li>
                                     <li><a href="javascript: void(0)">Apartments</a></li>
                                     <li><a href="javascript: void(0)">Office Buildings</a></li>
                                     <li><a href="javascript: void(0)">Retail Facilities</a></li>
@@ -508,7 +508,13 @@
                                     <li><a href="javascript: void(0)">Our Team</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown dropdown-hover"><a class="nav-link menu-item" href="javascript: void(0)">Contact Us</a></li>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link menu-item" href="contact.html">
+                                    <div class="text-parent">
+                                        Contact Us
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                         <div onClick="togglePlay()" id="toggle" class="music-icon played">
                             <svg class="playing" ="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -541,7 +547,7 @@
                                 C21,64.7,18.5,67.1,15.7,67.1z"/>
                             </svg>
                         </div>
-                        <div class="search-navbar">
+                        <!-- <div class="search-navbar">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360"
                                 style="enable-background:new 0 0 360 360;" xml:space="preserve">
@@ -552,7 +558,7 @@
                                                                                                                             s66.6,148.4,148.4,148.4c35.7,0,68.6-12.7,94.2-33.8C253.3,260.5,260.2,253.7,266.3,246.2z M151.7,32.4
                                                                                                                             c65.9,0,119.6,53.6,119.6,119.6s-53.6,119.6-119.6,119.6S32.1,218,32.1,152S85.7,32.4,151.7,32.4z" />
                             </svg>
-                        </div>
+                        </div> -->
                         <div class="wrp-burger-menu">
                             <div class="text-menu"></div>
                             <div class="burger-mobile">
@@ -1780,86 +1786,98 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="container centered-container">
-            <div class="footer-row-one">
-                <div class="left-col-footer">
-                    <div class="w-100">
-                        <h5>Griya SSI</h5>
-                        <p>Kemanggisan Utama VII / 3,  Jakarta 11480, Indonesia</p>
-                    </div>
-                    <div class="w-100">
-                        <div class="contain-contacts">
-                            <div class="phone-whatasapp">
-                                <div class="containts-label">
-                                    <p>Phone</p>
+                    <div class="container centered-container">
+                        <div class="footer-row-one">
+                            <div class="left-col-footer">
+                                <div class="w-100">
+                                    <h5>Griya SSI</h5>
+                                    <p>Kemanggisan Utama VII / 3,  Jakarta 11480, Indonesia</p>
                                 </div>
-                                <div class="conatains-link">
-                                    <a href="tel:(62-21) 5367-5511, 534-7070" target="_blank">(62-21) 5367-5511, 534-7070</a>
-                                </div>
+                                <div class="w-100">
+                                    <div class="contain-contacts">
+                                        <div class="phone-whatasapp">
+                                            <div class="containts-label">
+                                                <p>Phone</p>
+                                            </div>
+                                            <div class="conatains-link">
+                                                <a href="tel:(62-21) 5367-5511, 534-7070" target="_blank">(62-21) 5367-5511, 534-7070</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>          
+                                <div class="w-100">
+                                    <div class="contain-contacts">
+                                        <div class="phone-whatasapp">
+                                            <div class="containts-label">
+                                                <p>WhatsApp</p>
+                                            </div>
+                                            <div class="conatains-link">
+                                                <a href="https://wa.me/+6281234800551" target="_blank">(+62) 81234800551</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>     
+                                <div class="w-100">
+                                    <div class="contain-contacts">
+                                        <div class="phone-whatasapp">
+                                            <div class="containts-label">
+                                                <p>Email</p>
+                                            </div>
+                                            <div class="conatains-link">
+                                                <a href="mailto:ssi@ssi-web.com" target="_blank">ssi@ssi-web.com</a>                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>           
                             </div>
-                        </div>
-                    </div>          
-                    <div class="w-100">
-                        <div class="contain-contacts">
-                            <div class="phone-whatasapp">
-                                <div class="containts-label">
-                                    <p>WhatsApp</p>
-                                </div>
-                                <div class="conatains-link">
-                                    <a href="https://wa.me/+6281234800551" target="_blank">(+62) 81234800551</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>           
-                </div>
 
-                <div class="center-col-footer">
-                    <div class="frame-maps-griya">
-                        <iframe class="footer-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.547273325767!2d106.7862735!3d-6.1912786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6ed1e722025%3A0xe74737395fc6b36c!2sSuradjin%20Sutjipto%2C%20Inc.!5e0!3m2!1sen!2sid!4v1736833244676!5m2!1sen!2sid" width="100%" height="204" style="border:0;" allowfullscreen="javascript: void(0)" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-                <div class="right-col-footer">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="item-nav-footer">
-                                <ul>
-                                    <li><a href="javascript: void(0)">Our Services</a></li>
-                                    <li><a href="javascript: void(0)">Our Projects</a></li>
-                                    <li><a href="javascript: void(0)">Our Company</a></li>
-                                    <li><a href="javascript: void(0)">Contact Us</a></li>
-                                </ul>
+                            <div class="center-col-footer">
+                                <div class="frame-maps-griya">
+                                    <iframe class="footer-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.547273325767!2d106.7862735!3d-6.1912786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6ed1e722025%3A0xe74737395fc6b36c!2sSuradjin%20Sutjipto%2C%20Inc.!5e0!3m2!1sen!2sid!4v1736833244676!5m2!1sen!2sid" width="100%" height="204" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                            <div class="right-col-footer">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="item-nav-footer">
+                                            <ul>
+                                                <li><a href="our-services.html">Our Services</a></li>
+                                                <li><a href="#">Our Projects</a></li>
+                                                <li><a href="about-us.html">Our Company</a></li>
+                                                <li><a href="contact.html">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="item-copyright-music">
+                                            <p>Music: <i>Happiness Inside</i> - Riyandi Kusuma ℗ 2019</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-row-two">
+                            <div class="footer-copyright">
+                                <p>SSI &copy; 2025</p>
+                            </div>
+                            <div class="footer-logo">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 282.4 480" style="enable-background:new 0 0 282.4 480;" xml:space="preserve">
+                                    <g>
+                                        <path class="st0" d="M184.7,99.8c-45.3,45.3-45.3,118.9,0,163.8l5.8,5.8c16,16,16,42.6,0,58.6l-40.8,40.8v105.2l93.6-93.6
+                                            c45.3-45.3,45.3-118.9,0-163.8l-5.8-5.8c-16-16-16-42.6,0-58.6l40.8-40.8V6.1C278.3,6.1,184.7,99.8,184.7,99.8z"/>
+                                        <path class="st0" d="M97.7,99.8L4.1,6.1v105.2l40.8,40.8c16,16,16,42.6,0,58.6l-5.8,5.8c-45.3,45.3-45.3,118.9,0,163.8l93.6,93.6
+                                            V368.7l-40.8-40.8c-16-16-16-42.6,0-58.6l5.8-5.8C143,218.3,143,144.6,97.7,99.8C97.7,99.8,97.7,99.8,97.7,99.8z"/>
+                                        <path class="st0" d="M144.3,6.1c-16.9,0-32,10.2-38.2,25.7s-2.7,33.3,8.9,45.3c12,12,29.7,15.5,45.3,8.9
+                                            c15.5-6.2,25.7-21.7,25.7-38.2S167.4,6.1,144.3,6.1z"/>
+                                    </g>
+                                </svg>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="item-copyright-music">
-                                <p>Music: <i>Happiness Inside</i> - Riyandi Kusuma ℗ 2019</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-row-two">
-                <div class="footer-copyright">
-                    <p>SSI &copy; 2025</p>
-                </div>
-                <div class="footer-logo">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        viewBox="0 0 282.4 480" style="enable-background:new 0 0 282.4 480;" xml:space="preserve">
-                        <g>
-                            <path class="st0" d="M184.7,99.8c-45.3,45.3-45.3,118.9,0,163.8l5.8,5.8c16,16,16,42.6,0,58.6l-40.8,40.8v105.2l93.6-93.6
-                                c45.3-45.3,45.3-118.9,0-163.8l-5.8-5.8c-16-16-16-42.6,0-58.6l40.8-40.8V6.1C278.3,6.1,184.7,99.8,184.7,99.8z"/>
-                            <path class="st0" d="M97.7,99.8L4.1,6.1v105.2l40.8,40.8c16,16,16,42.6,0,58.6l-5.8,5.8c-45.3,45.3-45.3,118.9,0,163.8l93.6,93.6
-                                V368.7l-40.8-40.8c-16-16-16-42.6,0-58.6l5.8-5.8C143,218.3,143,144.6,97.7,99.8C97.7,99.8,97.7,99.8,97.7,99.8z"/>
-                            <path class="st0" d="M144.3,6.1c-16.9,0-32,10.2-38.2,25.7s-2.7,33.3,8.9,45.3c12,12,29.7,15.5,45.3,8.9
-                                c15.5-6.2,25.7-21.7,25.7-38.2S167.4,6.1,144.3,6.1z"/>
-                        </g>
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </footer>
+                </footer>
             </div>
         </div>
     </div>
@@ -2013,152 +2031,9 @@ $(".close-area").on("click", function () {
     $('html').removeClass("unscrolledbody");
     $('body').removeClass("unscrolled");
 });
-    </script>
+</script>
 <script>
-// Slider Image
-    let counter = 1
-    setInterval(()=>{
-        document.querySelector('.img.showing').classList.remove('showing')
-        const img = document.querySelector(`.img-${counter}`)
-        img.classList.add('showing')
-        counter++
-        if(counter >3){
-            counter = 1
-        }
-    },4000)
 
-
-let countertwo = 1;
-
-setInterval(() => {
-    // Hapus class 'showingtwo' dari elemen yang sedang menampilkannya
-    const currentImg = document.querySelector('.imgtwo.showingtwo');
-    if (currentImg) {
-        currentImg.classList.remove('showingtwo');
-    }
-
-    // Tambahkan class 'showingtwo' ke elemen berikutnya
-    const nextImg = document.querySelector(`.imgtwo-${countertwo}`);
-    if (nextImg) {
-        nextImg.classList.add('showingtwo');
-    }
-
-    // Increment counter atau reset ke 1 jika melebihi 3
-    countertwo++;
-    if (countertwo > 3) {
-        countertwo = 1;
-    }
-}, 4500);
-
-
-let counterthree = 1;
-
-setInterval(() => {
-    // Hapus class 'showingthree' dari elemen yang sedang menampilkannya
-    const currentImg = document.querySelector('.imgthree.showingthree');
-    if (currentImg) {
-        currentImg.classList.remove('showingthree');
-    }
-
-    // Tambahkan class 'showingthree' ke elemen berikutnya
-    const nextImg = document.querySelector(`.imgthree-${counterthree}`);
-    if (nextImg) {
-        nextImg.classList.add('showingthree');
-    }
-
-    // Increment counter atau reset ke 1 jika melebihi 3
-    counterthree++;
-    if (counterthree > 3) {
-        counterthree = 1;
-    }
-}, 3500);
-
-
-let counterfourth = 1;
-
-setInterval(() => {
-    // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-    const currentImg = document.querySelector('.imgfourth.showingfourth');
-    if (currentImg) {
-        currentImg.classList.remove('showingfourth');
-    }
-
-    // Tambahkan class 'showingfourth' ke elemen berikutnya
-    const nextImg = document.querySelector(`.imgfourth-${counterfourth}`);
-    if (nextImg) {
-        nextImg.classList.add('showingfourth');
-    }
-
-    // Increment counter atau reset ke 1 jika melebihi 3
-    counterfourth++;
-    if (counterfourth > 3) {
-        counterfourth = 1;
-    }
-}, 4600);
-
-let counterfiveth = 1;
-setInterval(() => {
-    // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-    const currentImg = document.querySelector('.imgfiveth.showingfiveth');
-    if (currentImg) {
-        currentImg.classList.remove('showingfiveth');
-    }
-
-    // Tambahkan class 'showingfiveth' ke elemen berikutnya
-    const nextImg = document.querySelector(`.imgfiveth-${counterfiveth}`);
-    if (nextImg) {
-        nextImg.classList.add('showingfiveth');
-    }
-
-    // Increment counter atau reset ke 1 jika melebihi 3
-    counterfiveth++;
-    if (counterfiveth > 3) {
-        counterfiveth = 1;
-    }
-}, 4000);
-
-
-let counternineth = 1;
-setInterval(() => {
-    // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-    const currentImg = document.querySelector('.imgnineth.showingnineth');
-    if (currentImg) {
-        currentImg.classList.remove('showingnineth');
-    }
-
-    // Tambahkan class 'showingnineth' ke elemen berikutnya
-    const nextImg = document.querySelector(`.imgnineth-${counternineth}`);
-    if (nextImg) {
-        nextImg.classList.add('showingnineth');
-    }
-
-    // Increment counter atau reset ke 1 jika melebihi 3
-    counternineth++;
-    if (counternineth > 3) {
-        counternineth = 1;
-    }
-}, 3500);
-
-let countertwelveth = 1;
-setInterval(() => {
-    // Hapus class 'showingfourth' dari elemen yang sedang menampilkannya
-    const currentImg = document.querySelector('.imgtwelveth.showingtwelveth');
-    if (currentImg) {
-        currentImg.classList.remove('showingtwelveth');
-    }
-
-    // Tambahkan class 'showingtwelveth' ke elemen berikutnya
-    const nextImg = document.querySelector(`.imgtwelveth-${countertwelveth}`);
-    if (nextImg) {
-        nextImg.classList.add('showingtwelveth');
-    }
-
-    // Increment counter atau reset ke 1 jika melebihi 3
-    countertwelveth++;
-    if (countertwelveth > 3) {
-        countertwelveth = 1;
-    }
-}, 4800);
 
 gsap.fromTo(
   ".loading-page",
