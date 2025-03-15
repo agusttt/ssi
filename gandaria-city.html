@@ -281,12 +281,21 @@
                         <p>If you can read this, your browser does not support the audio element.</p>
                      </audio>
                 </section>
-
+                <section class="section-test-links">
+                    <ul>
+                        <li><a href="#gandariacity">gandariacity</a></li>
+                        <li><a href="#gandariaheights">gandariaheights</a></li>
+                        <li><a href="#gandaria-8">gandaria-8</a></li>
+                        <li><a href="#gandariacity-mall">gandariacity-mall</a></li>
+                        <li><a href="#sheraton-grand-jakarta">sheraton-grand-jakarta</a></li>
+                    </ul>
+                </section>
                 <section class="section-detail-project special-case-gandaria">
                     <div class="container centered-container container-projects-detail">
                         <div class="row detail-odd gutter--45">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="description-detail-project">
+                                    <div id="gandariacity"></div>
                                     <div class="w-100">
                                         <div class="title-of-projects">
                                             <h2>Mixed Use Building</h2>
@@ -347,6 +356,7 @@
                             </div>                            
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="description-detail-project">
+                                    <div id="gandariaheights"></div>
                                     <div class="w-100">
                                         <div class="title-of-projects">
                                             <h2>Apartment</h2>
@@ -385,6 +395,7 @@
                         <div class="row detail-odd gutter--45">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="description-detail-project">
+                                    <div id="gandaria-8"></div>
                                     <div class="w-100">
                                         <div class="title-of-projects">
                                             <h2>Office Buildings</h2>
@@ -445,6 +456,7 @@
                             </div>                            
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="description-detail-project">
+                                    <div id="gandariacity-mall"></div>
                                     <div class="w-100">
                                         <div class="title-of-projects">
                                             <h2>Retail</h2>
@@ -483,6 +495,7 @@
                         <div class="row detail-odd gutter--45">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="description-detail-project">
+                                    <div id="sheraton-grand-jakarta"></div>
                                     <div class="w-100">
                                         <div class="title-of-projects">
                                             <h2>Hotel</h2>
@@ -709,6 +722,17 @@
             }, false);
         });
     }
+
+    // FUNGSI SCROLL LINK HIDE URL
+    $(document).on('click', 'a[href^="#"]', function (event) {
+            event.preventDefault();
+        
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+    });
+    // FUNGSI SCROLL LINK HIDE URL
+
 
     // hamburger mobile menu
     $(".dropdown-burger").click(function(e) {

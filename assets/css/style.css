@@ -4487,6 +4487,30 @@ main .span-high{
 	pointer-events: none;
 }
 
+.section-test-links{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	position: sticky;
+	top: 78px;
+	background: var(--white-trans-2);
+	border: 1px solid #cf0000;
+	border-radius: 6px;
+	z-index: 9;
+}
+
+.section-test-links ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.section-test-links ul li a{
+	color: #cf0000;
+	padding: 6px 10px;
+}
+
 .floating-label-country>.form-select{
 	border-radius: 0px;
 	border: 0px;
@@ -4675,7 +4699,59 @@ main .span-high{
 	-moz-justify-content: space-between;
 	-webkit-justify-content: space-between;
 	margin-bottom: 68px;
+	position: relative;
 }
+
+#gandariacity{
+	position: absolute;
+	width: 100%;
+	height: 18px;
+	/* background: #cf0000; */
+	background: transparent none;
+	left: 0;
+	top: -18px;
+}
+
+#gandariaheights{
+	position: absolute;
+	width: 100%;
+	height: 18px;
+	/* background: #cf0000; */
+	background: transparent none;
+	left: 0;
+	top: -18px;	
+}
+
+#gandaria-8{
+	position: absolute;
+	width: 100%;
+	height: 18px;
+	/* background: #cf0000; */
+	background: transparent none;
+	left: 0;
+	top: -18px;
+}
+
+#gandariacity-mall{
+	position: absolute;
+	width: 100%;
+	height: 18px;
+	/* background: #cf0000; */
+	background: transparent none;
+	left: 0;
+	top: -18px;	
+}
+
+#sheraton-grand-jakarta{
+	position: absolute;
+	width: 100%;
+	height: 18px;
+	/* background: #cf0000; */
+	background: transparent none;
+	left: 0;
+	top: -18px;		
+}
+
 .scale-detail-projects{
 	width: 100%;
 	height: auto;
