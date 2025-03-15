@@ -5,10 +5,10 @@
     <!-- META FRAGMENTS START -->
     <!-- META FRAGMENTS START -->
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
-    <meta http-equiv="pragma" content="no-cache" />     -->
+    <meta http-equiv="pragma" content="no-cache" />    
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ffffff">
@@ -62,7 +62,7 @@
 <body class="javascript: void(0)">
 
 <!-- LOADING PAGE -->
-<div class="loading-page">
+<!-- <div class="loading-page">
     <svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 282.4 480" style="enable-background:new 0 0 282.4 480;" xml:space="preserve">
         <defs>
@@ -92,8 +92,47 @@
     <div class="contain-preload logo-name">
         <a class="logo auto-shining" href="javascript: void(0)" target="_blank">&nbsp;</a>
     </div>    
+</div>     -->
+<!-- LOADING PAGE END -->
+
+
+<!-- LOADING PAGE -->
+<div class="loading-page">
+    <svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 282.4 480" style="enable-background:new 0 0 282.4 480;" xml:space="preserve">
+        <defs>
+            <linearGradient id="verticalGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" style="stop-color:#df7d44;stop-opacity:1" />
+                <stop offset="25%" style="stop-color:#943a0c;stop-opacity:1" />
+                <stop offset="56%" style="stop-color:#541e04;stop-opacity:1" />
+                <stop offset="86%" style="stop-color:#4a1902;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#481802;stop-opacity:1" />
+            </linearGradient>
+        </defs>                
+        <g>
+            <path class="st0" d="M184.7,99.8c-45.3,45.3-45.3,118.9,0,163.8l5.8,5.8c16,16,16,42.6,0,58.6l-40.8,40.8v105.2l93.6-93.6
+                c45.3-45.3,45.3-118.9,0-163.8l-5.8-5.8c-16-16-16-42.6,0-58.6l40.8-40.8V6.1C278.3,6.1,184.7,99.8,184.7,99.8z" fill="url(#verticalGradient)"/>
+            <path class="st0" d="M97.7,99.8L4.1,6.1v105.2l40.8,40.8c16,16,16,42.6,0,58.6l-5.8,5.8c-45.3,45.3-45.3,118.9,0,163.8l93.6,93.6
+                V368.7l-40.8-40.8c-16-16-16-42.6,0-58.6l5.8-5.8C143,218.3,143,144.6,97.7,99.8C97.7,99.8,97.7,99.8,97.7,99.8z" fill="url(#verticalGradient)"/>
+            <path class="st0" d="M144.3,6.1c-16.9,0-32,10.2-38.2,25.7s-2.7,33.3,8.9,45.3c12,12,29.7,15.5,45.3,8.9
+                c15.5-6.2,25.7-21.7,25.7-38.2S167.4,6.1,144.3,6.1z"fill="url(#verticalGradient)"/>
+        </g>
+    </svg>
+    <!-- <div class="contain-preload logo-name logo-circle-top">
+        <div class="logo-circle circle-shine"></div>
+    </div> -->
+    <div class="contain-preload logo-name" style="position: relative;margin-bottom:-217.5px;z-index: 3;">
+            <div class="circle-shape circlenew-shine"></div>
+    </div>    
+    <div class="contain-preload logo-name">
+        <div class="logo-shape auto-shine"></div>
+    </div>
+    <div class="contain-preload logo-name">
+        <a class="logo auto-shining" href="javascript: void(0)" target="_blank">&nbsp;</a>
+    </div>    
 </div>    
 <!-- LOADING PAGE END -->
+ 
     <!-- MODAL DIALOG PEOPLE 1 -->
     <div class="modal fade fade" id="modalseePeople" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modaladdtoCartLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-people" role="document">
@@ -1893,7 +1932,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
     crossorigin="anonymous"></script>   
-    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script> 
+    <!-- <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>  -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
     <script>
@@ -1934,7 +1974,7 @@
 
     // CLIENTS HOME
     $('.slick.marquee').slick({
-        speed: 4500,
+        speed: 5000,
         autoplay: true,
         autoplaySpeed: 0,
         centerMode: false,
@@ -2033,8 +2073,6 @@ $(".close-area").on("click", function () {
 });
 </script>
 <script>
-
-
 gsap.fromTo(
   ".loading-page",
   { opacity: 1 },
