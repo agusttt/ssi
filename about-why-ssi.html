@@ -1004,8 +1004,8 @@
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
     crossorigin="anonymous"></script>   
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
-    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script> 
-    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <!-- <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>  -->
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
     <script>
     // HAMBURGER MENU START
@@ -1042,29 +1042,6 @@
         }
     });
     // HAMBURGER MENU END    
-
-    // CLIENTS HOME
-    $('.slick.marquee').slick({
-        speed: 7000,
-        autoplay: true,
-        autoplaySpeed: 0,
-        centerMode: false,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        draggable:false,
-        focusOnSelect:false,
-        pauseOnFocus:false,
-        pauseOnHover:false,
-        slidesToScroll: 1,
-        variableWidth: true,
-        infinite: true,
-        initialSlide: 1,
-        arrows: false,
-        buttons: false
-    });
-
-
-
 
     // Lenis smooth scrolling
     const lenis = new Lenis({
@@ -1119,6 +1096,7 @@
       }
     );
   });
+
 
     $(".modal-act").click(function (e) {
         e.preventDefault();

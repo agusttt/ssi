@@ -53,7 +53,6 @@
 
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/aos.css">   
     <link rel="stylesheet" href="assets/css/hamburgers.min.css">
     <link rel="stylesheet" href="assets/css/style.css">   
     <link rel="stylesheet" href="assets/css/style-collase.css">    
@@ -1921,11 +1920,8 @@
         </div>
     </div>
 
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
@@ -1934,7 +1930,7 @@
     crossorigin="anonymous"></script>   
     <!-- <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>  -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
-    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script> 
+    <!-- <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>  -->
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
     <script>
     // HAMBURGER MENU START
@@ -1992,9 +1988,6 @@
         buttons: false
     });
 
-
-    AOS.init();
-
     // Lenis smooth scrolling
     const lenis = new Lenis({
     // wrapper: document.querySelector('.smooth-wrapper'),
@@ -2018,8 +2011,6 @@
   requestAnimationFrame(raf);
   
   // GSAP animations
-
-
 
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
   let smooth = ScrollSmoother.create({
