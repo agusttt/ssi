@@ -8630,7 +8630,7 @@ transition-duration: 0.5s;
     }
 
     .logo-brand {
-        width: 220px;
+        width: 256px;
     }
     .navbar-flex {
         padding-left: 0px;
@@ -9052,6 +9052,24 @@ transition-duration: 0.5s;
 .card-photo-detail{
     margin-bottom: 24px;
 }   
+
+.row.gutter--p25 .col-sm-6:nth-child(3), .row.gutter--p25 .col-sm-6:nth-child(6), .row.gutter--p25 .col-sm-6:nth-child(9), .row.gutter--p25 .col-sm-6:nth-child(12), .row.gutter--p25 .col-sm-6:nth-child(15), .row.gutter--p25 .col-sm-6:nth-child(18) {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.row.gutter--p25 .col-sm-6:nth-child(6){
+	flex: 0 0 auto;
+    width: 33.33%;
+}
+.row.gutter--p25 .col-md-4.col-sm-6:nth-child(9){
+	flex: 0 0 auto;
+    width: 33.33%;
+}
+.row.gutter--p25 .col-md-3.col-sm-6:nth-child(9){
+	flex: 0 0 auto;
+    width: 25%;
+}
 
 .action-button .button-dialog-socmed-outline{
     padding-left: 0px;
@@ -12548,6 +12566,11 @@ min-height: 306px;
 	-ms-align-items: center;
 	-moz-align-items: center;
 	-webkit-align-items: center;
+	order: 1;
+}
+
+.card-why-ssi{
+	order: 2;
 }
 
 .card-services-why .choosed-icon::before {
@@ -13229,7 +13252,14 @@ min-height: 306px;
 	border: 1px solid #fff !important;
 	/* padding: 15px 0px; */
 	padding: 4px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
 }
+
 
 #accordionSubcatalog .accordion-item {
 	border-radius: 0px;
