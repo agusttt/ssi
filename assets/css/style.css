@@ -8834,6 +8834,13 @@ transition-duration: 0.5s;
 		min-height: 74px;
 		max-height: 76px;
 	}
+
+	iframe.footer-maps{
+		width: 100%;
+		min-height: 225px!important;
+	}
+
+
 }
 /* 820 DEVICES PORTRAIT END */
 
@@ -8872,6 +8879,20 @@ transition-duration: 0.5s;
 		width: 100%;
 		min-height: 74px;
 		max-height: 76px;
+	}
+
+	iframe.footer-maps{
+		width: 100%;
+		min-height: 224px!important;
+	}
+
+	.logo-brand {
+		width: 250px;
+	}
+
+	.row-grid {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 }
@@ -8924,7 +8945,11 @@ transition-duration: 0.5s;
     .container-large {
         max-width: 100%;
     }
-
+	.frame-maps-griya {
+		width: 100%;
+		margin-top: 33px;
+		margin-bottom: 32px;
+	}
     .logo-brand {
         width: 256px;
     }
@@ -9556,14 +9581,7 @@ transition-duration: 0.5s;
 }
 /* ACCORDION WHY SSI 540-809 END */
 
-/* MEDIA 768 DEVICES POTRAIT START */
-@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (orientation: portrait) {
-	.description-detail-project {
-		width: 100%;
-		min-height: 366px;
-	}
-}
-/* MEDIA 768 DEVICES POTRAIT END */
+
 
 /* CSS SLIDE COL 1 ROW 1 START */
 
@@ -10541,6 +10559,11 @@ min-height: 306px;
 	flex: 0 0 auto;
     width: 50%;
 }
+.frame-maps-griya {
+	width: 100%;
+	margin-top: 33px;
+	margin-bottom: 32px;
+}
 
 /* FOOTER 540-809 START */
     .left-col-footer {
@@ -10554,6 +10577,8 @@ min-height: 306px;
     .frame-maps-griya {
         width: 100%;
         min-height: 210px;
+		margin-top: 33px;
+		margin-bottom: 32px;		
     }
 
     .frame-maps-griya iframe{
@@ -10608,6 +10633,20 @@ min-height: 306px;
 
  }
  /* 540-809 END */
+
+/* MEDIA 768 DEVICES POTRAIT START */
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (orientation: portrait) {
+	.description-detail-project {
+		width: 100%;
+		min-height: 366px;
+	}
+	.frame-maps-griya {
+		width: 100%;
+		margin-top: 33px;
+		margin-bottom: 32px;
+	}
+}
+/* MEDIA 768 DEVICES POTRAIT END */
 
  /* 481 - 539 START */
  @media screen and (min-device-width: 481px) and (max-device-width: 539px) {
@@ -12224,6 +12263,8 @@ min-height: 306px;
     .frame-maps-griya {
         width: 100%;
         min-height: 210px;
+		margin-top: 33px;
+		margin-bottom: 32px;
     }
 
     .frame-maps-griya iframe{
