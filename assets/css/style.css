@@ -13659,6 +13659,8 @@ min-height: 306px;
 	.frame-maps-griya {
 		width: 100%;
 		min-height: 210px;
+		margin-top: 33px;
+		margin-bottom: 32px;
 	}
 
 	.frame-maps-griya iframe{
@@ -13738,7 +13740,9 @@ min-height: 306px;
 
 /* MEDIA 320 START */
 @media screen and (max-width : 320px) {
-
+	.logo-brand {
+		width: 198px;
+	}
 }
 /* MEDIA 320 END */
 
