@@ -1114,7 +1114,7 @@
                 </div>
             </div>      
             <div class="row row-projects">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1141,7 +1141,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1168,7 +1168,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1195,7 +1195,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1222,7 +1222,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1249,7 +1249,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1276,7 +1276,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1303,7 +1303,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1330,7 +1330,7 @@
                         </a>
                     </div>
                 </div>       
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1357,7 +1357,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1384,7 +1384,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="javascript: void(0)">
                             <div class="card-home-projects">
@@ -1411,7 +1411,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
                     <div class="wrp-item-projects">
                         <a href="#">
                             <div class="card-home-projects">
