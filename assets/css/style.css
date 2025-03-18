@@ -5414,6 +5414,7 @@ transition-duration: 0.5s;
 	-moz-justify-content: space-between;
 	-webkit-justify-content: space-between;
 	padding: 32px 0px 42.5px 0px;
+/*	padding:22px 0px 42.5px 0px;*/
 }
 
 .projects-item-one{
@@ -5727,7 +5728,7 @@ transition-duration: 0.5s;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 9%, rgba(0, 0, 0, 0.04) 22%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.17) 47%, rgba(0, 0, 0, 0.24) 60%, rgba(0, 0, 0, 0.32) 74%, rgba(0, 0, 0, 0.56) 100%);
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 9%, rgba(0, 0, 0, 0.04) 22%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.17) 47%, rgba(0, 0, 0, 0.24) 60%, rgba(0, 0, 0, 0.32) 74%, rgba(0, 0, 0, 0.56) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#8f000000', GradientType=0);
-  }
+}
 
 .thumb-of-projects a img {
 	transform: scale(1, 1);
@@ -5754,6 +5755,16 @@ transition-duration: 0.5s;
 .card-projects-thumb img{
 	max-width: 100%;
 }
+
+
+.projects-list .row.gutter--p25 .col-lg-6.col-md-6 .thumb-of-projects a{
+    max-height: 420px;
+}
+
+.projects-list .row.gutter--p25 .col-lg-5.col-md-5 .thumb-of-projects a{
+    max-height: 415px;
+}
+
 
 /* .card-project-one a .card-projects-thumb img {
 	transform: scale(1, 1);
@@ -6286,21 +6297,21 @@ transition-duration: 0.5s;
 #site-supervision{
 	position: absolute;
 	background: transparent none;
-	/* background: #cf0000; */
+	/*background: #cf0000; */
 	height: 12px;
 	width: 100%;
 	z-index: 1;
-	top: -94px;	
+	top: -69px;	
 }
 
 #concrete-technology-consulting{
 	position: absolute;
 	background: transparent none;
-	/* background: #cf0000; */
+/*	background: #cf0000!important; */
 	height: 12px;
 	width: 100%;
 	z-index: 1;
-	top: -104px;		
+	top: -68px;		
 }
 
 .form-contact-us .wrp-submit-cv{
@@ -8350,12 +8361,82 @@ transition-duration: 0.5s;
 		min-height: 312px;
 		max-height: 332px;
 	}
+
+	.projects-list .row.gutter--p25 .col-lg-6.col-md-6 .thumb-of-projects a{
+	    max-height: 454px;
+	}
+
+	.projects-list .row.gutter--p25 .col-lg-5.col-md-5 .thumb-of-projects a{
+	    max-height: 454px;
+	}
+
+
 	/* LIST PROJECTS 1920 END */
 
 	.section-home-people {
 		width: 100%;
 		padding: 89px 0px 98px 0px;
-	  }
+	}
+
+	#strucutraal-design {
+	  position: absolute;
+	  background: transparent none;
+	  background: #cf0000;
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -135px;
+	}
+
+	#strucutraal-assestment-retrofitting {
+	    position: absolute;
+	    background: transparent none;
+		/*background: #cf0000;*/
+	    height: 12px;
+	    width: 100%;
+	    z-index: 1;
+	    top: -189px;
+	}	
+
+	#value-engineering {
+	    position: absolute;
+	    background: transparent none;
+		/*background: #cf0000;*/
+	    height: 12px;
+	    width: 100%;
+	    z-index: 1;
+	    top: -176px;
+	}
+
+	#structural-bim-detailing {
+	    position: absolute;
+	    background: transparent none;
+		/*background: #cf0000;*/
+	    height: 15px;
+	    width: 100%;
+	    z-index: 1;
+	    top: -186px;
+	}	
+
+	#site-supervision {
+	    position: absolute;
+	    background: transparent none;
+		/*background: #cf0000;*/
+	    height: 12px;
+	    width: 100%;
+	    z-index: 1;
+	    top: -226px;
+	}
+
+	#concrete-technology-consulting {
+	    position: absolute;
+	    background: transparent none;
+		/*background: #cf0000;*/
+	    height: 12px;
+	    width: 100%;
+	    z-index: 1;
+	    top: -170px;
+	}
 
 
 }
@@ -8484,6 +8565,68 @@ transition-duration: 0.5s;
 		max-height: 267px;
 	}
 	/* LIST PROJECTS 1536 END */
+
+	#strucutraal-design {
+	  position: absolute;
+	  background: transparent none;
+/*	  background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -117px;
+	}
+
+	#value-engineering {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -134px;
+	}
+
+	#strucutraal-assestment-retrofitting {
+	    position: absolute;
+	    background: transparent none;
+		/*background: #cf0000;*/
+	    height: 12px;
+	    width: 100%;
+	    z-index: 1;
+	    top: -132px;
+	}
+
+	#structural-bim-detailing {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -121px;
+	}
+
+	#site-supervision {
+	  position: absolute;
+	  background: transparent none;
+/*	  background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -118px;
+	}
+
+	#concrete-technology-consulting {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -136px;
+	}
+
+
 }
 /* MEDIA 1536-1582 END */
 
@@ -8620,6 +8763,64 @@ transition-duration: 0.5s;
 	.title-section-home h2{
 		font: normal 600 clamp(1.5rem, 1.2767rem + 0.2791vw, 1.515rem) var(--font-spectral);
 		color: var(--gray-950);
+	}
+	#strucutraal-design {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -54px;
+	}
+
+	#strucutraal-assestment-retrofitting {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -53px;
+	}
+
+	#value-engineering {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -54px;
+	}
+	#structural-bim-detailing {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -56px;
+	}
+
+	#site-supervision {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -50px;
+	}
+
+	#concrete-technology-consulting {
+	  position: absolute;
+	  background: transparent none;
+	  /*background: #cf0000;*/
+	  height: 12px;
+	  width: 100%;
+	  z-index: 1;
+	  top: -50px;
 	}
 
 }
