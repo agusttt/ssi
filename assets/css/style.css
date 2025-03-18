@@ -2350,7 +2350,7 @@ main .span-high{
 
 .wrp-arrow.swipe-up-nav{
 	/* transition: visibility 0s, opacity 0.5s linear; */
-	animation: fadeIn-fadeOut ease 1s;
+	animation: fadeIn-fadeOut ease .01s;
 	opacity: 0;
 	overflow: hidden;
 }
@@ -2967,27 +2967,27 @@ main .span-high{
 	border-right: 2px solid white;
 	transform: rotate(45deg);
 	margin: -10px;
-	animation: animate 2s infinite;
+	animation: animatedown 0.01s infinite;
 }
 
 .scroll-down span:nth-child(2)
 {
-	animation-delay: -0.2s;
+	animation-delay: 0.01s;
 }
 
 .scroll-down span:nth-child(3)
 {
-	animation-delay: -0.4s;
+	animation-delay: 0.01s;
 }
 
-@keyframes animate{
+@keyframes animatedown{
 	
 	0%{
 		opacity: 0;
 		transform: rotate(45deg) translate(-18px, -18px);
 	}
 	50%{
-		opacity: 1;
+		opacity: 0.01;
 	}
 	100%{
 		opacity: 0;
