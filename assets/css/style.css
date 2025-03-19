@@ -3541,7 +3541,8 @@ main .span-high{
 	border: 0px!important;
 	--bs-modal-border-color: var(--white-trans-full);
 }
-#modalseePeople4 .modal-dialog-people {
+
+#modalseePeople7 .modal-dialog-people, #modalseePeople-7 .modal-dialog-people {
 	max-width: 876px;
 	min-height: 296px;
 	height: auto;
@@ -3553,7 +3554,7 @@ main .span-high{
 	margin-top: 76px;
 }
 
-#modalseePeople3 .modal-dialog-people {
+#modalseePeople6 .modal-dialog-people, #modalseePeople-6 .modal-dialog-people {
 	max-width: 876px;
 	min-height: 296px;
 	height: auto;
@@ -3565,7 +3566,43 @@ main .span-high{
 	margin-top: 76px;
 }
 
-#modalseePeople2 .modal-dialog-people {
+#modalseePeople5 .modal-dialog-people, #modalseePeople-5 .modal-dialog-people {
+	max-width: 876px;
+	min-height: 296px;
+	height: auto;
+	border-radius: 0px !important;
+	overflow: hidden;
+	border: 0px!important;
+	outline: none;
+	box-shadow: none!important;
+	margin-top: 76px;
+}
+
+#modalseePeople4 .modal-dialog-people, #modalseePeople-4 .modal-dialog-people {
+	max-width: 876px;
+	min-height: 296px;
+	height: auto;
+	border-radius: 0px !important;
+	overflow: hidden;
+	border: 0px!important;
+	outline: none;
+	box-shadow: none!important;
+	margin-top: 76px;
+}
+
+#modalseePeople3 .modal-dialog-people, #modalseePeople-3 .modal-dialog-people {
+	max-width: 876px;
+	min-height: 296px;
+	height: auto;
+	border-radius: 0px !important;
+	overflow: hidden;
+	border: 0px!important;
+	outline: none;
+	box-shadow: none!important;
+	margin-top: 76px;
+}
+
+#modalseePeople2 .modal-dialog-people, #modalseePeople-2 .modal-dialog-people {
 	max-width: 876px;
 	/* max-height: 462px; */
 	height: auto;
@@ -3578,7 +3615,7 @@ main .span-high{
 	
 }
 
-#modalseePeople .modal-dialog-people {
+#modalseePeople .modal-dialog-people, #modalseePeople-1 .modal-dialog-people {
 	max-width: 876px;
 	min-height: 396px;
 	height: auto;
@@ -3597,7 +3634,9 @@ main .span-high{
 #modalseePeople3 .side-right-people{
 	cursor: pointer;
 }
-
+.side-right-people{
+	cursor: pointer;
+}
 
 .modal-header-people {
 	display: flex;
@@ -4668,7 +4707,8 @@ main .span-high{
 	font: normal 400 clamp(0.875rem, 0.7448rem + 0.1628vw, 0.8838rem) var(--font-arial);
 	color: var(--gray-950);
 	letter-spacing: 0.18px;
-	text-decoration: none;
+	text-decoration: underline;
+	margin-right: 1.5px;
 }
 
 .form-contact-us{
@@ -5727,6 +5767,17 @@ transition-duration: 0.5s;
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 9%, rgba(0, 0, 0, 0.04) 22%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.17) 47%, rgba(0, 0, 0, 0.24) 60%, rgba(0, 0, 0, 0.32) 74%, rgba(0, 0, 0, 0.56) 100%);
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 9%, rgba(0, 0, 0, 0.04) 22%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.17) 47%, rgba(0, 0, 0, 0.24) 60%, rgba(0, 0, 0, 0.32) 74%, rgba(0, 0, 0, 0.56) 100%);
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 9%, rgba(0, 0, 0, 0.04) 22%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.17) 47%, rgba(0, 0, 0, 0.24) 60%, rgba(0, 0, 0, 0.32) 74%, rgba(0, 0, 0, 0.56) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#8f000000', GradientType=0);
+}
+
+.thumb-of-projects a:hover .card-projects-thumb::before{
+	min-height: 106px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 1;
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.02) 9%, rgba(255, 255, 255, 0.01) 22%, rgba(255, 255, 255, 0.03) 24%, rgba(255, 255, 255, 0.19) 36%, rgba(255, 255, 255, 0.50) 60%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.80) 100%);
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.02) 9%, rgba(255, 255, 255, 0.01) 22%, rgba(255, 255, 255, 0.03) 24%, rgba(255, 255, 255, 0.19) 36%, rgba(255, 255, 255, 0.50) 60%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.80) 100%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.02) 9%, rgba(255, 255, 255, 0.01) 22%, rgba(255, 255, 255, 0.03) 24%, rgba(255, 255, 255, 0.19) 36%, rgba(255, 255, 255, 0.50) 60%, rgba(255, 255, 255, 0.78) 74%, rgba(255, 255, 255, 0.80) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#8f000000', GradientType=0);
 }
 
@@ -7199,6 +7250,7 @@ transition-duration: 0.5s;
 	color: var(--gray-100);
 	letter-spacing: 0.18px;
 	text-decoration: underline;
+	margin-right: 1.5px;
 }
 
 .left-col-footer .w-100:nth-child(2) .contain-contacts{
