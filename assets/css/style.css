@@ -3542,6 +3542,12 @@ main .span-high{
 	--bs-modal-border-color: var(--white-trans-full);
 }
 
+#modalseePeople1{
+	border-color: transparent none!important;
+	border: 0px!important;
+	--bs-modal-border-color: var(--white-trans-full);
+}
+
 #modalseePeople7 .modal-dialog-people, #modalseePeople-7 .modal-dialog-people {
 	max-width: 876px;
 	min-height: 296px;
@@ -3627,6 +3633,19 @@ main .span-high{
 	margin-top: 76px;
 }
 
+#modalseePeople1 .modal-dialog-people, #modalseePeople-1 .modal-dialog-people {
+	max-width: 876px;
+	min-height: 396px;
+	height: auto;
+	border-radius: 0px !important;
+	overflow: hidden;
+	border: 0px!important;
+	outline: none;
+	box-shadow: none!important;
+	margin-top: 76px;
+}
+
+
 #modalseePeople2 .side-right-people{
 	cursor: pointer;
 }
@@ -3710,6 +3729,14 @@ main .span-high{
 	border: 0px !important;
 }
 #modalseePeople .modal-dialog-people .modal-content {
+	background: transparent none;
+	border-radius: 1.125rem;
+	min-height: 520px;
+	padding-left: 0px 0px 20px 0px;
+	border: 0px !important;
+}
+
+#modalseePeople1 .modal-dialog-people .modal-content {
 	background: transparent none;
 	border-radius: 1.125rem;
 	min-height: 520px;
@@ -7659,6 +7686,12 @@ transition-duration: 0.5s;
 		max-width: 914px;
 		margin-top: 114px;
 	}
+
+	#modalseePeople1 .modal-dialog-people {
+		max-width: 914px;
+		margin-top: 114px;
+	}
+
 	.chevron-down {
 		width: 14px;
 		height: 14px;
@@ -12541,6 +12574,10 @@ min-height: 306px;
     margin-top: 36px;
 }
 
+#modalseePeople1 .modal-dialog-people {
+    margin-top: 36px;
+}
+
 #modalseePeople2 .modal-dialog-people {
     margin-top: 36px;
 }
@@ -14222,6 +14259,10 @@ min-height: 306px;
 }
 
 #modalseePeople .modal-dialog-people {
+	margin-top: 36px;
+}
+
+#modalseePeople1 .modal-dialog-people {
 	margin-top: 36px;
 }
 
