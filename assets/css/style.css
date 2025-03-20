@@ -11036,6 +11036,11 @@ min-height: 306px;
 		margin-top: 33px;
 		margin-bottom: 32px;
 	}
+
+	.form-contact-us .wrp-submit-cv {
+		padding-bottom: 48px;
+	}
+
 }
 /* MEDIA 768 DEVICES POTRAIT END */
 
@@ -11107,7 +11112,9 @@ min-height: 306px;
         min-width: 100%;
         max-width: 100%;
     }
-
+	.form-contact-us .wrp-submit-cv {
+		padding-bottom: 48px;
+	}
     /* DESKTOP NAVBAR 481-539 START */
     .navbar-desc {
         position: fixed;
@@ -14325,7 +14332,9 @@ min-height: 306px;
 
 /* DETAIL PROJECT 480 END */
 
-
+.form-contact-us .wrp-submit-cv {
+	padding-bottom: 64px;
+}
 
 /* FOOTER 480 START */
 	.left-col-footer {
