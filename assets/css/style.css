@@ -6354,7 +6354,7 @@ transition-duration: 0.5s;
 	top: -69px;
 }
 
-#strucutraal-assestment-retrofitting{
+#strucutral-assestment-retrofitting{
 	position: absolute;
 	background: transparent none;
 	/* background: #cf0000; */
@@ -7217,8 +7217,10 @@ transition-duration: 0.5s;
 	height: auto;
 	min-height: 124px;
 	padding: 18px 0px 0px 0px;
-	background: #385623 url(../images/footer-background-texture.jpg) top right no-repeat;
-	background-size: 58.76%;
+	background: #385623 url(../images/footer-background-texture_1_1.png) top right no-repeat;
+	/* background-size: 58.76%; */
+	background-size:48.86%;
+	background-position-x: 118%;
 }
 
 .footer-row-one{
@@ -7622,7 +7624,7 @@ transition-duration: 0.5s;
 		}
 	  }
 
-	  #strucutraal-assestment-retrofitting {
+	  #strucutral-assestment-retrofitting {
 		position: absolute;
 		background: transparent none;
 		/* background: #cf0000; */
@@ -8111,7 +8113,7 @@ transition-duration: 0.5s;
 		}
 	  }
 
-	  #strucutraal-assestment-retrofitting {
+	  #strucutral-assestment-retrofitting {
 		position: absolute;
 		background: transparent none;
 		/* background: #cf0000; */
@@ -8510,7 +8512,7 @@ transition-duration: 0.5s;
 	  top: -135px;
 	}
 
-	#strucutraal-assestment-retrofitting {
+	#strucutral-assestment-retrofitting {
 	    position: absolute;
 	    background: transparent none;
 		/*background: #cf0000;*/
@@ -8805,7 +8807,7 @@ transition-duration: 0.5s;
 	  top: -134px;
 	}
 
-	#strucutraal-assestment-retrofitting {
+	#strucutral-assestment-retrofitting {
 	    position: absolute;
 	    background: transparent none;
 		/*background: #cf0000;*/
@@ -8993,7 +8995,7 @@ transition-duration: 0.5s;
 	  top: -54px;
 	}
 
-	#strucutraal-assestment-retrofitting {
+	#strucutral-assestment-retrofitting {
 	  position: absolute;
 	  background: transparent none;
 	  /*background: #cf0000;*/
@@ -13111,7 +13113,7 @@ min-height: 306px;
 	}
 	.card-projects-thumb {
 		width: 100%;
-		min-height: 156px;
+		min-height: 120px;
 	}
 
 	.row.gutter--p25 .col-sm-6:nth-child(3), .row.gutter--p25 .col-sm-6:nth-child(6), .row.gutter--p25 .col-sm-6:nth-child(9), .row.gutter--p25 .col-sm-6:nth-child(12),.row.gutter--p25 .col-sm-6:nth-child(15),.row.gutter--p25 .col-sm-6:nth-child(18){
@@ -13806,7 +13808,7 @@ min-height: 306px;
 }
 
 .thumb-of-projects a {
-	max-height: 186px;
+	max-height: 120px;
 }
 .projects-list-residential .row.gutter--p25 .left-column-residential .thumb-of-projects a{
 	min-height: 102px;
