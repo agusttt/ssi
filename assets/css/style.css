@@ -4313,6 +4313,11 @@ main .span-high{
 	color: transparent;
 }
 
+.form-label-group input[type="number"] {
+	-webkit-appearance: none;
+	-moz-appearance:textfield !important;
+}
+
 .form-label-group input::placeholder {
 	color: transparent;
 }
