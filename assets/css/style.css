@@ -4875,7 +4875,8 @@ main .span-high{
 }
 
 .number-projects h2{
-	font: normal 600 clamp(1.1025rem, -8.758rem + 12.3256vw, 1.765rem) var(--font-arial);
+	/* font: normal 600 clamp(1.1025rem, -8.758rem + 12.3256vw, 1.765rem) var(--font-arial); */
+	font: normal 600 clamp(1.6563rem, 0.2609rem + 1.7442vw, 1.75rem) var(--font-arial);
 	color: #385623;
 	margin-bottom: 0px;
 }
