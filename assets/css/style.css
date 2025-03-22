@@ -9240,6 +9240,25 @@ transition-duration: 0.5s;
 
 /* SLIDER PROJECT DETAIL 834 END */
 
+.containt-presiden {
+	width: 100%;
+	min-height: 312px;
+	background: #b9b9b7;
+}
+
+.presiden-message-photo {
+	width: 100%;
+	min-height: 315px;
+	position: relative;
+}
+
+.message-text {
+	width: 58%;
+	padding-left: 74px;
+	padding-right: 48px;
+	padding-right: 15px;
+}
+
 }
 
 /* 820 DEVICES PORTRAIT START */
@@ -9283,7 +9302,24 @@ transition-duration: 0.5s;
 		width: 100%;
 		min-height: 225px!important;
 	}
+	.containt-presiden {
+		width: 100%;
+		min-height: 312px;
+		background: #b9b9b7;
+	}
 
+	.presiden-message-photo {
+		width: 100%;
+		min-height: 315px;
+		position: relative;
+	}
+
+	.message-text {
+		width: 58%;
+		padding-left: 74px;
+		padding-right: 48px;
+		padding-right: 15px;
+	}
 
 }
 /* 820 DEVICES PORTRAIT END */
@@ -9338,6 +9374,26 @@ transition-duration: 0.5s;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+
+	.containt-presiden {
+		width: 100%;
+		min-height: 312px;
+		background: #b9b9b7;
+	}
+
+	.presiden-message-photo {
+		width: 100%;
+		min-height: 315px;
+		position: relative;
+	}
+
+	.message-text {
+		width: 58%;
+		padding-left: 74px;
+		padding-right: 48px;
+		padding-right: 15px;
+	}
+
 
 }
 /* 810 DEVICES PORTRAIT END */
@@ -11009,6 +11065,66 @@ min-height: 306px;
 	margin-bottom: 32px;
 }
 
+.containt-presiden {
+	width: 100%;
+	min-height: 212px;
+	background: #b9b9b7;
+}
+.presiden-message-photo {
+    width: 100%;
+    min-height: 212px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+.presiden-message-photo img {
+	max-width: 118%;
+	object-fit: contain;
+	left: -12.64%;
+	top: -4.86%;
+	position: relative;
+}
+
+.presiden-message-photo img {
+	max-width: 118%;
+	object-fit: contain;
+	left: -12.64%;
+	top: -4.86%;
+	position: relative;
+}
+.message-presiden {
+    position: relative;
+    top: 0;
+    left: 0%;
+    transform: translate(-0%, -0%);
+}
+.message-text {
+    width: 100%;
+    padding-left: 56px;
+    padding-left: 48px;
+    padding-right: 4px;
+    padding-bottom: 32px;
+    padding-top: 26px;
+}
+.message-inner::before {
+	content: " ";
+	width: 18px;
+	height: 18px;
+	background: url(../images/svg/icon-quote.svg) top center no-repeat;
+	background-size: auto;
+	background-size: 100%;
+	position: absolute;
+	left: -30px;
+	top: 2px;
+}
+
 /* FOOTER 540-809 START */
     .left-col-footer {
         width: 100%;
@@ -11092,6 +11208,14 @@ min-height: 306px;
 
 	.form-contact-us .wrp-submit-cv {
 		padding-bottom: 48px;
+	}
+
+	.message-presiden {
+		position: absolute;
+		top: 50%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+		width: 58%;
 	}
 
 }
@@ -11207,7 +11331,7 @@ min-height: 306px;
     /* DESKTOP NAVBAR 481-539 END */
 
 
-    /* MOBILE NABAR 480*/
+    /* MOBILE NABAR 481*/
 
     .separate-menu {
         width: 100%;
@@ -11626,7 +11750,55 @@ min-height: 306px;
     flex-wrap: wrap;
     /* padding: 56px 0px 64px 0px; */
     padding: 56px 0px 43px 0px;
+}
+.containt-presiden {
+	width: 100%;
+	min-height: 212px;
+	background: #b9b9b7;
+}
+.presiden-message-photo {
+    width: 100%;
+    min-height: 212px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
   }
+
+.presiden-message-photo img {
+	max-width: 118%;
+	object-fit: contain;
+	left: -12.64%;
+	top: -4.86%;
+	position: relative;
+}
+
+.presiden-message-photo img {
+	max-width: 118%;
+	object-fit: contain;
+	left: -12.64%;
+	top: -4.86%;
+	position: relative;
+}
+.message-presiden {
+    position: relative;
+    top: 0;
+    left: 0%;
+    transform: translate(-0%, -0%);
+}
+.message-text {
+    width: 100%;
+    padding-left: 56px;
+    padding-left: 30px;
+    padding-right: 4px;
+    padding-bottom: 30px;
+    padding-top: 24px;
+}
 
 /* SECTION HERO IMAGES MOBILE START */
 .section-hero-mobile{
@@ -12675,7 +12847,7 @@ min-height: 306px;
 
     .message-text {
         width: 100%;
-        padding-left: 56px;
+        padding-left: 50px;
         padding-right: 4px;
         padding-bottom: 30px;
     }
@@ -13427,11 +13599,33 @@ min-height: 306px;
 	z-index: 3;
 }
 .card-services-why .choosed-icon img {
-	max-width: 100%;
+	max-width: 112%;
 	position: relative;
-	top: -4px;
 }
 /* ACCORDION WHY SSI 480 END */
+.containt-presiden {
+	width: 100%;
+	min-height: 212px;
+}
+.presiden-message-photo{
+	width: 100%;
+	min-height: 212px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+.message-presiden {
+	position: relative;
+	top: 0;
+	left: 0%;
+	transform: translate(-0%, -0%);
+}
 
 /* CSS SLIDE COL 1 ROW 1 START */
 
@@ -14348,12 +14542,17 @@ min-height: 306px;
 	padding-left: 8px;
 	padding-right: 8px;
 } */
+	.section-about-image {
+		width: 100%;
+		height: auto;
+		min-height: 196px;
+	}
 
 	.summary-about {
 		max-width: 100%;
 	}
 	.card-head-about{
-		width: 276px;	
+		width: 232px;	
 	}
 	.president-photos {
 		width: 100%;
@@ -14363,10 +14562,33 @@ min-height: 306px;
 
 	.message-text {
 		width: 100%;
-		padding-left: 56px;
+		/* padding-left: 56px; */
+		padding-left: 30px;
 		padding-right: 4px;
 		padding-bottom: 30px;
+		padding-top: 24px;
 	}
+
+	.message-inner::before {
+		content: " ";
+		width: 12px;
+		height: 12px;
+		background: url(../images/svg/icon-quote.svg) top center no-repeat;
+		background-size: auto;
+		background-size: 100%;
+		position: absolute;
+		left: -16px;
+		top: 2px;
+	}
+
+	.presiden-message-photo img {
+		max-width: 118%;
+		object-fit: contain;
+		left: -12.64%;
+		top: -4.86%;
+		position: relative;
+	}
+
 
 	.section-hero-images{
 		display: none;
@@ -14458,7 +14680,7 @@ min-height: 306px;
 		background-position-x: right;
 		background-size: auto;
 		background-size: 74.76%;
-		background-position-x: 124%;
+		background-position-x: 164%;
 	  }
 
 	/* FOOTER 480 END */

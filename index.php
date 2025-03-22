@@ -547,7 +547,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown dropdown-hover">
-                                <a class="nav-link menu-item" href="contact.html">
+                                <a class="nav-link menu-item" href="javascript: void(0)">
                                     <div class="text-parent">
                                         Contact Us
                                     </div>
@@ -1880,10 +1880,10 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="item-nav-footer">
                                             <ul>
-                                                <li><a href="our-services.html">Our Services</a></li>
-                                                <li><a href="#">Our Projects</a></li>
-                                                <li><a href="about-us.html">Our Company</a></li>
-                                                <li><a href="contact.html">Contact Us</a></li>
+                                                <li><a href="javascript: void(0)">Our Services</a></li>
+                                                <li><a href="javascript: void(0)">Our Projects</a></li>
+                                                <li><a href="javascript: void(0)">Our Company</a></li>
+                                                <li><a href="javascript: void(0)">Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
