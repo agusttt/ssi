@@ -2350,7 +2350,7 @@ main .span-high{
 
 .wrp-arrow.swipe-up-nav{
 	/* transition: visibility 0s, opacity 0.5s linear; */
-	animation: fadeIn-fadeOut ease .01s;
+	animation: fadeIn-fadeOut ease .5s;
 	opacity: 0;
 	overflow: hidden;
 }
@@ -6352,7 +6352,7 @@ transition-duration: 0.5s;
 	
 }
 
-#strucutral-design{
+#structural-design{
 	position: absolute;
 	background: transparent none;
 	/* background: #cf0000; */
@@ -6362,7 +6362,7 @@ transition-duration: 0.5s;
 	top: -69px;
 }
 
-#strucutral-assestment-retrofitting{
+#structural-assestment-retrofitting{
 	position: absolute;
 	background: transparent none;
 	/* background: #cf0000; */
@@ -7632,7 +7632,7 @@ transition-duration: 0.5s;
 		}
 	  }
 
-	  #strucutral-assestment-retrofitting {
+	  #structural-assestment-retrofitting {
 		position: absolute;
 		background: transparent none;
 		/* background: #cf0000; */
@@ -8121,7 +8121,7 @@ transition-duration: 0.5s;
 		}
 	  }
 
-	  #strucutral-assestment-retrofitting {
+	  #structural-assestment-retrofitting {
 		position: absolute;
 		background: transparent none;
 		/* background: #cf0000; */
@@ -8510,7 +8510,7 @@ transition-duration: 0.5s;
 		padding: 89px 0px 98px 0px;
 	}
 
-	#strucutral-design {
+	#structural-design {
 	  position: absolute;
 	  background: transparent none;
 	  background: #cf0000;
@@ -8520,7 +8520,7 @@ transition-duration: 0.5s;
 	  top: -135px;
 	}
 
-	#strucutral-assestment-retrofitting {
+	#structural-assestment-retrofitting {
 	    position: absolute;
 	    background: transparent none;
 		/*background: #cf0000;*/
@@ -8795,7 +8795,7 @@ transition-duration: 0.5s;
 	}
 	/* LIST PROJECTS 1536 END */
 
-	#strucutral-design {
+	#structural-design {
 	  position: absolute;
 	  background: transparent none;
 /*	  background: #cf0000;*/
@@ -8815,7 +8815,7 @@ transition-duration: 0.5s;
 	  top: -134px;
 	}
 
-	#strucutral-assestment-retrofitting {
+	#structural-assestment-retrofitting {
 	    position: absolute;
 	    background: transparent none;
 		/*background: #cf0000;*/
@@ -8996,7 +8996,7 @@ transition-duration: 0.5s;
 
 
 
-	#strucutral-design {
+	#structural-design {
 	  position: absolute;
 	  background: transparent none;
 	  /* background: #cf0000; */
@@ -9006,7 +9006,7 @@ transition-duration: 0.5s;
 	  top: -54px;
 	}
 
-	#strucutral-assestment-retrofitting {
+	#structural-assestment-retrofitting {
 	  position: absolute;
 	  background: transparent none;
 	  /* background: #cf0000; */
