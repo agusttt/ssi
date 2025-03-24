@@ -6350,7 +6350,7 @@ transition-duration: 0.5s;
 	
 }
 
-#strucutraal-design{
+#strucutral-design{
 	position: absolute;
 	background: transparent none;
 	/* background: #cf0000; */
@@ -8508,7 +8508,7 @@ transition-duration: 0.5s;
 		padding: 89px 0px 98px 0px;
 	}
 
-	#strucutraal-design {
+	#strucutral-design {
 	  position: absolute;
 	  background: transparent none;
 	  background: #cf0000;
@@ -8793,7 +8793,7 @@ transition-duration: 0.5s;
 	}
 	/* LIST PROJECTS 1536 END */
 
-	#strucutraal-design {
+	#strucutral-design {
 	  position: absolute;
 	  background: transparent none;
 /*	  background: #cf0000;*/
@@ -8991,10 +8991,13 @@ transition-duration: 0.5s;
 		font: normal 600 clamp(1.5rem, 1.2767rem + 0.2791vw, 1.515rem) var(--font-spectral);
 		color: var(--gray-950);
 	}
-	#strucutraal-design {
+
+
+
+	#strucutral-design {
 	  position: absolute;
 	  background: transparent none;
-	  /*background: #cf0000;*/
+	  /* background: #cf0000; */
 	  height: 12px;
 	  width: 100%;
 	  z-index: 1;
@@ -9004,11 +9007,11 @@ transition-duration: 0.5s;
 	#strucutral-assestment-retrofitting {
 	  position: absolute;
 	  background: transparent none;
-	  /*background: #cf0000;*/
+	  /* background: #cf0000; */
 	  height: 12px;
 	  width: 100%;
 	  z-index: 1;
-	  top: -53px;
+	  top: -56px;
 	}
 
 	#value-engineering {
