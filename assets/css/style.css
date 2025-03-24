@@ -3376,7 +3376,9 @@ main .span-high{
 	position: relative;
 	overflow: unset;
 }
-
+.wrp-according-catalog .accordion-body.accordion-body-catalog a{
+	text-decoration: none!important;
+}
 .row-card-people .wrp-card-people::before{
 	content: " ";
 	width: 1px;
@@ -10724,6 +10726,10 @@ min-height: 306px;
     border: 1px solid #fff !important;
     /* padding: 15px 0px; */
     padding: 4px 0px;
+}
+
+.wrp-according-catalog .accordion-body.accordion-body-catalog a{
+	text-decoration: none!important;
 }
 
 #accordionSubcatalog .accordion-item {
