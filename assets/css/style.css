@@ -8994,8 +8994,6 @@ transition-duration: 0.5s;
 		color: var(--gray-950);
 	}
 
-
-
 	#structural-design {
 	  position: absolute;
 	  background: transparent none;
@@ -9069,6 +9067,95 @@ transition-duration: 0.5s;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 	  }
+
+
+	  #care{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -186%;
+		z-index: 2;		
+	}
+	#experienced{
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -289%;
+		z-index: 2;
+	}
+	
+	#innovative{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -303%;
+		z-index: 2;
+	}
+	
+	#reliable{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top:-308%;
+		z-index: 2;
+	}
+	
+	
+	#widenetwork{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -311%;
+		z-index: 2;
+	}
+	
+	#understandingkh{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -289%;
+		z-index: 2;
+	}
+	
+	#optimumstructuraldesign{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -299%;
+		z-index: 2;	
+	}
+	
+	#comprehensivedetailed{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -211%;
+		z-index: 2;		
+	}
+
 
 
 }
