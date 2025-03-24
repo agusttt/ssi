@@ -3501,6 +3501,7 @@ main .span-high{
 	width: 100%;
 	height: auto;
 	padding: 24px 0px 48px 0px;
+	overflow-x: hidden;
 }
 .wrp-people-detail{
 	width: 100%;
@@ -7228,7 +7229,7 @@ transition-duration: 0.5s;
 	background: #385623 url(../images/footer-background-texture_1_1.png) top right no-repeat;
 	/* background-size: 58.76%; */
 	background-size:48.86%;
-	background-position-x: 118%;
+	background-position-x: 102%;
 }
 
 .footer-row-one{
@@ -9351,6 +9352,44 @@ transition-duration: 0.5s;
 	padding-right: 15px;
 }
 
+.card-photo-people {
+	width: 100%;
+	min-height: 176px;
+	max-height: 178px;
+}
+
+.people-name-home h2 {
+	font: normal 600 clamp(1rem, 0.325rem + 1.3333vw, 1.02rem) var(--font-arial);
+}
+
+#modalseePeople .modal-dialog-people {
+	margin-top: 36px;
+	max-width: 92.24%;
+}
+
+#modalseePeople2 .modal-dialog-people {
+	margin-top: 36px;
+	max-width: 92.24%;
+}
+
+#modalseePeople3 .modal-dialog-people {
+	margin-top: 36px;
+	max-width: 92.24%;
+}
+
+#modalseePeople4 .modal-dialog-people {
+	margin-top: 36px;
+	max-width: 92.24%;
+}
+#modalseePeople5 .modal-dialog-people {
+	margin-top: 36px;
+	max-width: 92.24%;
+}
+#modalseePeople6 .modal-dialog-people {
+	margin-top: 36px;
+	max-width: 92.24%;
+}
+
 }
 
 /* 820 DEVICES PORTRAIT START */
@@ -9359,7 +9398,9 @@ transition-duration: 0.5s;
 		padding-left: 0;
 		padding-right: 0;
 	}
-
+	.people-name-home h2 {
+		font: normal 600 clamp(1rem, 0.325rem + 1.3333vw, 1.02rem) var(--font-arial);
+	}
 	.thumb-of-projects a {
 		min-height: 172px;
 	}
@@ -9413,12 +9454,48 @@ transition-duration: 0.5s;
 		padding-right: 15px;
 	}
 
+	.card-photo-people {
+		width: 100%;
+		min-height: 174px;
+		max-height: 176px;
+	}
+
+	#modalseePeople .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	
+	#modalseePeople2 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	
+	#modalseePeople3 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	
+	#modalseePeople4 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	#modalseePeople5 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	#modalseePeople6 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+
 }
 /* 820 DEVICES PORTRAIT END */
 
 /* 810 DEVICES PORTRAIT START */
 @media only screen and (min-device-width: 810px) and (max-device-width: 810px) and (orientation: portrait) {
-	
+	.people-name-home h2 {
+		font: normal 600 clamp(1rem, 0.325rem + 1.3333vw, 1.02rem) var(--font-arial);
+	}
 	.navbar-flex {
 		padding-left: 0;
 		padding-right: 0;
@@ -9485,7 +9562,39 @@ transition-duration: 0.5s;
 		padding-right: 48px;
 		padding-right: 15px;
 	}
+	.card-photo-people {
+		width: 100%;
+		min-height: 172px;
+		max-height: 175px;
+	}
 
+	#modalseePeople .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	
+	#modalseePeople2 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	
+	#modalseePeople3 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	
+	#modalseePeople4 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	#modalseePeople5 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
+	#modalseePeople6 .modal-dialog-people {
+		margin-top: 36px;
+		max-width: 92.24%;
+	}
 
 }
 /* 810 DEVICES PORTRAIT END */
@@ -9926,6 +10035,20 @@ transition-duration: 0.5s;
 
     /* MOBILE NAVBAR 540-809 END */
 
+	.gutter--45.row,
+	.gutter--45.container,
+	.gutter--45.container-fluid,
+	.gutter--45.customized-container {
+	  margin-left: -24px;
+	  margin-right: -24px
+	}
+	
+	.gutter--45>[class^="col-"] {
+	  padding-left: 24px;
+	  padding-right: 24px
+	}
+	
+
     .gutter--m25.row,
     .gutter--m25.container,
     .gutter--m25.container-fluid,
@@ -9968,7 +10091,8 @@ transition-duration: 0.5s;
 
 .row.gutter--p25 .col-sm-6:nth-child(3), .row.gutter--p25 .col-sm-6:nth-child(6), .row.gutter--p25 .col-sm-6:nth-child(9), .row.gutter--p25 .col-sm-6:nth-child(12), .row.gutter--p25 .col-sm-6:nth-child(15), .row.gutter--p25 .col-sm-6:nth-child(18) {
     flex: 0 0 auto;
-    width: 25%;
+    /* width: 25%; */
+	width: 33.33%;
 }
 
 .row.gutter--p25 .col-sm-6:nth-child(6){
@@ -11028,24 +11152,30 @@ min-height: 306px;
 
 #modalseePeople .modal-dialog-people {
     margin-top: 36px;
+	max-width: 404px;
 }
 
 #modalseePeople2 .modal-dialog-people {
     margin-top: 36px;
+	max-width: 404px;
 }
 
 #modalseePeople3 .modal-dialog-people {
     margin-top: 36px;
+	max-width: 404px;
 }
 
 #modalseePeople4 .modal-dialog-people {
     margin-top: 36px;
+	max-width: 404px;
 }
 #modalseePeople5 .modal-dialog-people {
     margin-top: 36px;
+	max-width: 404px;
 }
 #modalseePeople6 .modal-dialog-people {
     margin-top: 36px;
+	max-width: 404px;
 }
 .modal-dialog-people {
     max-width: 100%;
@@ -11151,7 +11281,7 @@ min-height: 306px;
     width: 33.33333333%;
 }
 
-.projects-list .row.gutter--p25 .col-sm-6:nth-child(9), .projects-list .row.gutter--p25 .col-sm-6:nth-child(10){
+.projects-list .row.gutter--p25 .col-sm-6:nth-child(5), .projects-list .row.gutter--p25 .col-sm-6:nth-child(9), .projects-list .row.gutter--p25 .col-sm-6:nth-child(10){
 	flex: 0 0 auto;
     width: 50%;
 }
@@ -11313,7 +11443,7 @@ min-height: 306px;
 		transform: translate(-50%, -50%);
 		width: 58%;
 	}
-
+	
 }
 /* MEDIA 768 DEVICES POTRAIT END */
 
