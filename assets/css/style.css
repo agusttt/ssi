@@ -647,6 +647,8 @@ body.unscrolled {
 
 .music-icon svg {
 	max-width: 100%;
+	width: 20px;
+	height: 20px;
 	margin: 0 auto;
 	fill: var(--gray-950);
 }
