@@ -3505,7 +3505,7 @@ main .span-high{
 	width: 100%;
 	height: auto;
 	padding: 24px 0px 48px 0px;
-	overflow-x: hidden;
+	overflow-x: clip;
 }
 .wrp-people-detail{
 	width: 100%;
@@ -4323,7 +4323,15 @@ main .span-high{
 	color: transparent;
 }
 
+.form-label-group input::-webkit-outer-spin-button,
+.form-label-group input::-webkit-inner-spin-button {
+	-ms-appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance:textfield !important;
+}
+
 .form-label-group input[type="number"] {
+	-ms-appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance:textfield !important;
 }
