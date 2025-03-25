@@ -6382,7 +6382,7 @@ transition-duration: 0.5s;
 	top: -69px;
 }
 
-#structural-assessment-retrofitting{
+#structural-assessment-retrofitting-design{
 	position: absolute;
 	background: transparent none;
 	/* background: #cf0000; */
@@ -7042,7 +7042,29 @@ transition-duration: 0.5s;
 	z-index: 2;
 }
 
+#wide-networking{
+	/* background: #cf0000; */
+	background: transparent none;
+	height: 376px;
+	width: 100%;
+	position: absolute;
+	/* top: -98px; */
+	top: -311%;
+	z-index: 2;
+}
+
 #understandingkh{
+	/* background: #cf0000; */
+	background: transparent none;
+	height: 376px;
+	width: 100%;
+	position: absolute;
+	/* top: -98px; */
+	top: -289%;
+	z-index: 2;
+}
+
+#understanding-know-how{
 	/* background: #cf0000; */
 	background: transparent none;
 	height: 376px;
@@ -7064,7 +7086,29 @@ transition-duration: 0.5s;
 	z-index: 2;	
 }
 
+#optimum-structural-design{
+	/* background: #cf0000; */
+	background: transparent none;
+	height: 376px;
+	width: 100%;
+	position: absolute;
+	/* top: -98px; */
+	top: -299%;
+	z-index: 2;	
+}
+
 #comprehensivedetailed{
+	/* background: #cf0000; */
+	background: transparent none;
+	height: 376px;
+	width: 100%;
+	position: absolute;
+	/* top: -98px; */
+	top: -211%;
+	z-index: 2;		
+}
+
+#comprehensive-detailed-and-constructible-designs{
 	/* background: #cf0000; */
 	background: transparent none;
 	height: 376px;
@@ -7652,7 +7696,7 @@ transition-duration: 0.5s;
 		}
 	  }
 
-	  #structural-assessment-retrofitting {
+	  #structural-assessment-retrofitting-design {
 		position: absolute;
 		background: transparent none;
 		/* background: #cf0000; */
@@ -8141,7 +8185,7 @@ transition-duration: 0.5s;
 		}
 	  }
 
-	  #structural-assessment-retrofitting {
+	  #structural-assessment-retrofitting-design {
 		position: absolute;
 		background: transparent none;
 		/* background: #cf0000; */
@@ -8540,7 +8584,7 @@ transition-duration: 0.5s;
 	  top: -135px;
 	}
 
-	#structural-assessment-retrofitting {
+	#structural-assessment-retrofitting-design {
 	    position: absolute;
 	    background: transparent none;
 		/*background: #cf0000;*/
@@ -8652,6 +8696,18 @@ transition-duration: 0.5s;
 		z-index: 2;
 	}
 
+	#wide-networking {
+		background: #cf0000;
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px;
+		top: -311%; */
+		top: -396%;
+		z-index: 2;
+	}	
+
 	#understandingkh {
 		background: #cf0000;
 		background: transparent none;
@@ -8664,6 +8720,18 @@ transition-duration: 0.5s;
 		z-index: 2;
 	}
 
+	#understanding-know-how {
+		background: #cf0000;
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px;
+		top: -289%; */
+		top: -396%;
+		z-index: 2;
+	}		
+
 	#optimumstructuraldesign {
 		background: #cf0000;
 		background: transparent none;
@@ -8674,6 +8742,17 @@ transition-duration: 0.5s;
 		top: -396%;
 		z-index: 2;
 	}
+
+	#optimum-structural-design {
+		background: #cf0000;
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -396%;
+		z-index: 2;
+	}	
 
 	#comprehensivedetailed {
 		/* background: #cf0000; */
@@ -8686,6 +8765,19 @@ transition-duration: 0.5s;
 		top: -309%;
 		z-index: 2;
 	}
+
+	#comprehensive-detailed-and-constructible-designs {
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px;
+		top: -211%; */
+		top: -309%;
+		z-index: 2;
+	}
+
 
 
 }
@@ -8835,7 +8927,7 @@ transition-duration: 0.5s;
 	  top: -134px;
 	}
 
-	#structural-assessment-retrofitting {
+	#structural-assessment-retrofitting-design {
 	    position: absolute;
 	    background: transparent none;
 		/*background: #cf0000;*/
@@ -9024,14 +9116,14 @@ transition-duration: 0.5s;
 	  top: -54px;
 	}
 
-	#structural-assessment-retrofitting {
+	#structural-assessment-retrofitting-design {
 	  position: absolute;
 	  background: transparent none;
 	  /* background: #cf0000; */
 	  height: 12px;
 	  width: 100%;
 	  z-index: 1;
-	  top: -56px;
+	  top: -64px;
 	}
 
 	#value-engineering {
@@ -9142,6 +9234,18 @@ transition-duration: 0.5s;
 		top: -311%;
 		z-index: 2;
 	}
+
+	#wide-networking{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -311%;
+		z-index: 2;
+	}
+
 	
 	#understandingkh{
 		/* background: #cf0000; */
@@ -9154,6 +9258,18 @@ transition-duration: 0.5s;
 		z-index: 2;
 	}
 	
+	#understanding-know-how{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -289%;
+		z-index: 2;
+	}
+	
+
 	#optimumstructuraldesign{
 		/* background: #cf0000; */
 		background: transparent none;
@@ -9164,6 +9280,17 @@ transition-duration: 0.5s;
 		top: -299%;
 		z-index: 2;	
 	}
+
+	#optimum-structural-design{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -299%;
+		z-index: 2;	
+	}	
 	
 	#comprehensivedetailed{
 		/* background: #cf0000; */
@@ -9176,7 +9303,16 @@ transition-duration: 0.5s;
 		z-index: 2;		
 	}
 
-
+	#comprehensive-detailed-and-constructible-designs{
+		/* background: #cf0000; */
+		background: transparent none;
+		height: 376px;
+		width: 100%;
+		position: absolute;
+		/* top: -98px; */
+		top: -211%;
+		z-index: 2;		
+	}
 
 }
 /* MEDIA 1280 END */
