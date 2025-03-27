@@ -10422,7 +10422,7 @@ transition-duration: 0.5s;
     background: linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255, 136, 0, .46) 100%);
     opacity: .5;
     position: absolute;
-    top: -24%;
+    top: -25.5%;
     -webkit-transform: translateY(-50%) rotate(-45deg);
     transform: rotate(45deg);
     width: 186px;
@@ -10436,6 +10436,7 @@ transition-duration: 0.5s;
 
 .item-list-choosed {
     min-height: 24px;
+	padding:15px 15px;
 }
 
 .card-services-why .choosed-icon {
@@ -10450,6 +10451,17 @@ transition-duration: 0.5s;
     position: relative;
     top: -4px;
 }
+
+.card-services-why {
+	order: 2;
+	width: 50%;
+}
+
+.card-why-ssi {
+    order: 1;
+	width: 50%;
+}
+
 /* ACCORDION WHY SSI 540-809 END */
 
 
@@ -11092,6 +11104,8 @@ min-height: 306px;
     border: 1px solid #fff !important;
     /* padding: 15px 0px; */
     padding: 4px 0px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .wrp-according-catalog .accordion-body.accordion-body-catalog a{
@@ -11505,6 +11519,60 @@ min-height: 306px;
 	left: -30px;
 	top: 2px;
 }
+.w-desk{
+	display: none!important;
+}
+/* ACCORDION WHY SSI 540-809 START */
+#accordionWhy .accordion-item{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#accordionWhy .accordion-button:not(.collapsed){
+	position: relative;
+}
+.wrp-according-catalog #accordionWhy .accordion-button::after {
+    display: none;
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed)::before{
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right,  rgba(76,26,2,1) 0%,rgba(88,32,5,1) 7%,rgba(122,49,13,1) 18%,rgba(130,51,12,1) 27%,rgba(155,64,17,1) 37%,rgba(204,107,53,1) 54%,rgba(223,125,68,1) 77%,rgba(225,135,80,1) 100%)!important;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	z-index: 4;
+	content: " ";
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed){
+	background: var(--white-one);
+	color: var(--bs-accordion-active-color);
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed) .tabulation-title h3 {
+	color: var(--gray-950);
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed) .tabulation-title h3 {
+	transition-timing-function: cubic-bezier(0, 0, 0.4, 1);
+	transition-duration: 600ms;
+	transition: all 0.4s;
+	color: #e18750;
+	background: #541E04;
+	background: linear-gradient(to right, #541E04 0%, #84340C 28%, #943A0C 51%, #DF7C43 63%, #E0834B 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background: #541E04;
+	background: linear-gradient(to top, #541E04 0%, #84340C 16%, #943A0C 40%, #DF7C43 57%, #E0834B 100%);
+	  background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* ACCORDION WHY SSI 540-809 END */
 
 /* FOOTER 540-809 START */
     .left-col-footer {
@@ -12244,7 +12312,13 @@ min-height: 306px;
     margin-top: 18px;
     margin-bottom: 56.64px;
 }
+.card-services-why {
+	order: 1;
+}
 
+.card-why-ssi {
+    order: 2;
+}
 
 /* ACCORDION WHY SSI 481-539 START */
 
@@ -12262,6 +12336,7 @@ min-height: 306px;
     -ms-align-items: center;
     -moz-align-items: center;
     -webkit-align-items: center;
+	width: 100%;
 }
 
 .card-services-why .choosed-icon::before {
@@ -12289,6 +12364,7 @@ min-height: 306px;
 
 .item-list-choosed {
     min-height: 24px;
+	padding: 15px 15px;
 }
 
 .card-services-why .choosed-icon {
@@ -12968,6 +13044,8 @@ min-height: 306px;
     border: 1px solid #fff !important;
     /* padding: 15px 0px; */
     padding: 4px 0px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #accordionSubcatalog .accordion-item {
@@ -13082,6 +13160,58 @@ min-height: 306px;
 }
 
 /* ACCORDION SERVICES HOME END */
+
+/* ACCORDION WHY SSI 481-539 START */
+#accordionWhy .accordion-item{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#accordionWhy .accordion-button:not(.collapsed){
+	position: relative;
+}
+.wrp-according-catalog #accordionWhy .accordion-button::after {
+    display: none;
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed)::before{
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right,  rgba(76,26,2,1) 0%,rgba(88,32,5,1) 7%,rgba(122,49,13,1) 18%,rgba(130,51,12,1) 27%,rgba(155,64,17,1) 37%,rgba(204,107,53,1) 54%,rgba(223,125,68,1) 77%,rgba(225,135,80,1) 100%)!important;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	z-index: 4;
+	content: " ";
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed){
+	background: var(--white-one);
+	color: var(--bs-accordion-active-color);
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed) .tabulation-title h3 {
+	color: var(--gray-950);
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed) .tabulation-title h3 {
+	transition-timing-function: cubic-bezier(0, 0, 0.4, 1);
+	transition-duration: 600ms;
+	transition: all 0.4s;
+	color: #e18750;
+	background: #541E04;
+	background: linear-gradient(to right, #541E04 0%, #84340C 28%, #943A0C 51%, #DF7C43 63%, #E0834B 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background: #541E04;
+	background: linear-gradient(to top, #541E04 0%, #84340C 16%, #943A0C 40%, #DF7C43 57%, #E0834B 100%);
+	  background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* ACCORDION WHY SSI 481-539 END */
 
 /* WHY CHOOSE US 481-539 START */
 .left-title-section{
@@ -13355,6 +13485,9 @@ min-height: 306px;
 
 /* MEDIA 480 START */
 @media screen and (max-width : 480px) {
+	body{
+		overflow-x: clip;
+	}
 	.centered-container {
 		max-width: 100%;
 	}
@@ -13716,7 +13849,9 @@ min-height: 306px;
 	}
 
 	.header {
-		overflow: hidden
+		overflow: hidden;
+		position: sticky;
+		top: 0px;
 	}
 
 	.nav-header,
@@ -13995,6 +14130,7 @@ min-height: 306px;
 
 .item-list-choosed {
 	min-height: 24px;
+	padding: 15px 15px;
 }
 
 .card-services-why .choosed-icon {
@@ -14833,6 +14969,58 @@ min-height: 306px;
 }
 
 /* ACCORDION SERVICES HOME END */
+
+/* ACCORDION WHY SSI 480 START */
+#accordionWhy .accordion-item{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#accordionWhy .accordion-button:not(.collapsed){
+	position: relative;
+}
+.wrp-according-catalog #accordionWhy .accordion-button::after {
+    display: none;
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed)::before{
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right,  rgba(76,26,2,1) 0%,rgba(88,32,5,1) 7%,rgba(122,49,13,1) 18%,rgba(130,51,12,1) 27%,rgba(155,64,17,1) 37%,rgba(204,107,53,1) 54%,rgba(223,125,68,1) 77%,rgba(225,135,80,1) 100%)!important;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	z-index: 4;
+	content: " ";
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed){
+	background: var(--white-one);
+	color: var(--bs-accordion-active-color);
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed) .tabulation-title h3 {
+	color: var(--gray-950);
+}
+.wrp-according-catalog #accordionWhy .accordion-button:not(.collapsed) .tabulation-title h3 {
+	transition-timing-function: cubic-bezier(0, 0, 0.4, 1);
+	transition-duration: 600ms;
+	transition: all 0.4s;
+	color: #e18750;
+	background: #541E04;
+	background: linear-gradient(to right, #541E04 0%, #84340C 28%, #943A0C 51%, #DF7C43 63%, #E0834B 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background: #541E04;
+	background: linear-gradient(to top, #541E04 0%, #84340C 16%, #943A0C 40%, #DF7C43 57%, #E0834B 100%);
+	  background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* ACCORDION WHY SSI 480 END */
 
 /* WHY CHOOSE US 480 START */
 .left-title-section{
