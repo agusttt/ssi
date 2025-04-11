@@ -2554,7 +2554,7 @@ main .span-high{
 	-ms-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg");
 	-moz-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg");
 	-webkit-mask-image: url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg");
-	mask-image: -webkit-image-set(url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg") 1x, url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg") 2x);
+	/* mask-image: -webkit-image-set(url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg") 1x, url("../images/logo/LOGO-SURADJIN-SUTJIPTO-INC-TEXT.svg") 2x); */
 	text-indent: -9999em;
 	overflow: hidden;
 	_zoom: 1;
@@ -2599,7 +2599,7 @@ main .span-high{
 	-ms-mask-image: url("../images/logo/LOGO-SHAPE.svg");
 	-moz-mask-image: url("../images/logo/LOGO-SHAPE.svg");
 	-webkit-mask-image: url("../images/logo/LOGO-SHAPE.svg");
-	mask-image: -webkit-image-set(url("../images/logo/LOGO-SHAPE.svg") 1x, url("../images/logo/LOGO-SHAPE.svg") 2x);
+	/* mask-image: -webkit-image-set(url("../images/logo/LOGO-SHAPE.svg") 1x, url("../images/logo/LOGO-SHAPE.svg") 2x); */
 	text-indent: -9999em;
 	overflow: hidden;
 	_zoom: 1;
