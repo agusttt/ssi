@@ -1,8 +1,8 @@
 	.wslider {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	min-height: 219px;
-	max-height: 219px !important;	
+	/* max-height: 219px !important;	 */
 	background: #ddd;
 	}
 	
@@ -10,7 +10,8 @@
 	position: relative;
 	width: 100%;
 	min-height: 219px;
-	max-height: 219px !important;
+	height: 100%;
+	/* max-height: 219px !important; */
 	overflow: hidden !important;
 	overflow: hidden;
 	}
@@ -194,16 +195,17 @@
 
 .hcvron {
     width: 100%;
-    height: auto;
+    height: 100%;
 	min-height: 269px;
-	max-height: 269px !important;
+	/* max-height: 269px !important; */
 }
 
 .slidecvron {
     position: relative;
     width: 100%;
 	min-height: 269px;
-	max-height: 269px !important;
+	height: 100%;
+	/* max-height: 269px !important; */
     overflow: hidden !important;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -238,14 +240,16 @@
     width: 100%;
     height: auto;
 	min-height: 146px;
-	max-height: 146px !important;
+	height: 100%;
+	/* max-height: 146px !important; */
 }
 
 .slidecfrtw {
     position: relative;
     width: 100%;
 	min-height: 146px;
-	max-height: 146px !important;
+	height: 100%;
+	/* max-height: 146px !important; */
     overflow: hidden !important;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -278,16 +282,17 @@
 
 .hcfrth {
     width: 100%;
-    height: auto;
+    height: 100%;
 	min-height: 152px;
-	max-height: 152px !important;
+	/* max-height: 152px !important; */
 }
 
 .slidecfrth {
     position: relative;
     width: 100%;
 	min-height: 152px;
-	max-height: 152px !important;
+	height: 100%;
+	/* max-height: 152px !important; */
     overflow: hidden !important;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -322,7 +327,8 @@
     width: 100%;
     height: auto;
 	min-height: 269px;
-	max-height: 269px !important;
+	height: 100%;
+	/* max-height: 269px !important; */
     background: #ddd;
 }
 
@@ -330,7 +336,8 @@
     position: relative;
     width: 100%;
 	min-height: 269px;
-	max-height: 269px !important;
+	height: 100%;
+	/* max-height: 269px !important; */
     overflow: hidden !important;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -364,15 +371,17 @@
 .hcirtw {
     width: 100%;
     height: auto;
+	height: 100%;
 	min-height: 240px;
-	max-height: 240px !important;
+	/* max-height: 240px !important; */
 }
 
 .slidecirtw {
     position: relative;
     width: 100%;
 	min-height: 240px;
-	max-height: 240px !important;
+	height: 100%;
+	/* max-height: 240px !important; */
     overflow: hidden !important;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -407,7 +416,8 @@
     width: 100%;
     height: auto;
 	min-height: 269px;
-	max-height: 269px !important;
+	height: 100%;
+	/* max-height: 269px !important; */
     background: #ddd;
 }
 
@@ -415,7 +425,8 @@
     position: relative;
     width: 100%;
 	min-height: 269px;
-	max-height: 269px !important;
+	height: 100%;
+	/* max-height: 269px !important; */
     overflow: hidden !important;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -450,9 +461,9 @@
 
 .hcortw {
     width: 100%;
-    height: auto;
+    height: 100%;
 	min-height: 146px;
-	max-height: 146px !important;
+	/* max-height: 146px !important; */
     background: #ddd;
 }
 
@@ -460,7 +471,8 @@
     position: relative;
     width: 100%;
 	min-height: 146px;
-	max-height: 146px !important;
+	height: 100%;
+	/* max-height: 146px !important; */
     overflow: hidden !important;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -496,7 +508,7 @@
     width: 100%;
     height: auto;
 	min-height: 152px;
-	max-height: 152px !important;
+	/* max-height: 152px !important; */
     background: #ddd;
 }
 
@@ -504,7 +516,7 @@
     position: relative;
     width: 100%;
 	min-height: 152px;
-	max-height: 152px !important;
+	/* max-height: 152px !important; */
     overflow: hidden !important;
     overflow: hidden;
     background-repeat: no-repeat;
